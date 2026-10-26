@@ -1,0 +1,34 @@
+{
+  "male": [
+    "{PERSON} is {BLANK}.",
+    "{PERSON} is happy in their {BLANK}.",
+    "{PERSON} is unhappy in their {BLANK}.",
+    "{PERSON} likes {BLANK}.",
+    "{PERSON} likes to {BLANK}.",
+    "{PERSON} often likes to {BLANK}.",
+    "{PERSON} always likes to {BLANK}.",
+    "{PERSON} never likes to {BLANK}.",
+    "{PERSON} is interested in {BLANK}.",
+    "{PERSON} took a course in {BLANK}.",
+    "{PERSON} studied {BLANK} at college.",
+    "{BLANK} was {PERSON}'s major at college.",
+    "{PERSON}'s best subject at school was {BLANK}.",
+    "{BLANK} was {PERSON}'s best subject at school."
+  ],
+  "female": [
+    "{PERSON} is {BLANK}.",
+    "{PERSON} is happy in their {BLANK}.",
+    "{PERSON} is unhappy in their {BLANK}.",
+    "{PERSON} likes {BLANK}.",
+    "{PERSON} likes to {BLANK}.",
+    "{PERSON} often likes to {BLANK}.",
+    "{PERSON} always likes to {BLANK}.",
+    "{PERSON} never likes to {BLANK}.",
+    "{PERSON} is interested in {BLANK}.",
+    "{PERSON} took a course in {BLANK}.",
+    "{PERSON} studied {BLANK} at college.",
+    "{BLANK} was {PERSON}'s major at college.",
+    "{PERSON}'s best subject at school was {BLANK}.",
+    "{BLANK} was {PERSON}'s best subject at school."
+  ]
+}

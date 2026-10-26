@@ -1,0 +1,10 @@
+# Authors pin torch==1.13.1 / transformers==4.22.1 (old). Try recent versions first.
+torch
+transformers
+scipy
+numpy
+pandas
+tqdm
+datasets
+accelerate
+matplotlib
