@@ -120,8 +120,3 @@ Notes:
 - Hindi templates and all Urdu data are our own.
 - Library versions much newer than the authors' (torch 2.15, transformers 5.22); English score still matches (0.773 vs 0.78).
 
-#### Open items
-- Finish Urdu translation → hand-check 100 pairs → training file for Laiba.
-- Second-speaker review of Urdu templates/names; Devanagari reader for Hindi templates; fill in `data/names/names_sources.md`.
-- Control with seeds 1-4 (Abeeha/Eshal).
-- mBERT and IndicBERT runs (Eshal).
