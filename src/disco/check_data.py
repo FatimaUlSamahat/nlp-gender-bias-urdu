@@ -5,7 +5,7 @@ Prints counts and every male/female template pair so you can eyeball them.
 """
 import argparse
 from pathlib import Path
-from src.disco.data_io import load_names, load_temps, validate
+from src.disco.data_io import load_names, load_templates, validate
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--lang",required=True)

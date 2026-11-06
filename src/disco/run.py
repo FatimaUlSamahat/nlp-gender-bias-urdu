@@ -1,3 +1,5 @@
+import os
+os.environ.setdefault("LOGLEVEL", "ERROR")  # hides torch's harmless macOS "Redirects" noteimport os
 import argparse
 import hashlib
 import json
@@ -10,9 +12,10 @@ from importlib.metadata import version
 from pathlib import Path
 
 # from src.disco.multilingual_disco import disco_test, load_names, load_templates
-from src.disco.data_io import load_names, load_temps, validate
+from src.disco.data_io import load_names, load_templates, validate
 from src.disco.multilingual_disco import disco_test
-
+from transformers.utils import logging as hf_logging
+hf_logging.set_verbosity_error()
 
 def main():
     parser = argparse.ArgumentParser()

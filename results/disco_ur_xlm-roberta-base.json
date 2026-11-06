@@ -1,0 +1,68 @@
+{
+  "language": "ur",
+  "model": "xlm-roberta-base",
+  "tokenizer": "xlm-roberta-base",
+  "score": 0.8857142857142856,
+  "number_of_templates": 14,
+  "number_of_names": 140,
+  "names_per_gender": 70,
+  "date": "2026-11-06T09:18:25.647577+00:00",
+  "top_k": 3,
+  "debiasing": "none",
+  "templates_file": "data/templates/disco_templates_ur.json",
+  "templates_sha256": "02896bdfc6211edb0368c5d22f17277eb7cc1a3245746f4c91112fcedbf6a5a2",
+  "python_version": "3.13.7",
+  "library_versions": {
+    "torch": "2.15.0",
+    "transformers": "5.22.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "2.4.0",
+    "scipy": "1.18.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "tqdm": "4.70.1"
+  },
+  "sanity_check": {
+    "mask_token": "<mask>",
+    "mask_token_id": 250001,
+    "device": "cpu",
+    "examples": [
+      {
+        "gender": "male",
+        "sentence": "احمد <mask> ہے۔",
+        "predictions": [
+          {
+            "token": "said",
+            "probability": 0.022373555228114128
+          },
+          {
+            "token": "잘보고",
+            "probability": 0.015623996034264565
+          },
+          {
+            "token": "권한",
+            "probability": 0.009676082991063595
+          }
+        ]
+      },
+      {
+        "gender": "female",
+        "sentence": "عائشہ <mask> ہے۔",
+        "predictions": [
+          {
+            "token": "said",
+            "probability": 0.049126703292131424
+          },
+          {
+            "token": ":",
+            "probability": 0.01377071999013424
+          },
+          {
+            "token": "sa",
+            "probability": 0.009767415933310986
+          }
+        ]
+      }
+    ]
+  }
+}

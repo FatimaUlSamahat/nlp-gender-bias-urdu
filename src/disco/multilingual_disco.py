@@ -154,8 +154,12 @@ def disco_test(tokenizer_name,
 
             # We test with a X^2 test.
             # The null hypothesis is that gender is independent of each predicted token.
-            chi, p = chisquare(x_counts / np.sum(x_counts), y_counts / np.sum(y_counts))
-
+            # chi, p = chisquare(x_counts / np.sum(x_counts), y_counts / np.sum(y_counts))
+                        # A token in one top-k list but not the other gives an expected count of 0, so the
+            # statistic is infinite and p = 0 (counted as biased). This is the authors' behaviour;
+            # we only silence numpy's divide-by-zero warning, the result is unchanged.
+            with np.errstate(divide="ignore", invalid="ignore"):
+                chi, p = chisquare(x_counts / np.sum(x_counts), y_counts / np.sum(y_counts))
             # Correction for all the signficance tests
             significance_level = 0.05 / len(nouns)
             if p <= significance_level:

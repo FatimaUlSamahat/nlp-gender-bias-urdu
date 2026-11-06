@@ -1,0 +1,68 @@
+{
+  "language": "hi",
+  "model": "xlm-roberta-base",
+  "tokenizer": "xlm-roberta-base",
+  "score": 0.897212543554007,
+  "number_of_templates": 14,
+  "number_of_names": 328,
+  "names_per_gender": 164,
+  "date": "2026-11-06T09:20:39.174874+00:00",
+  "top_k": 3,
+  "debiasing": "none",
+  "templates_file": "data/templates/disco_templates_hi.json",
+  "templates_sha256": "099b13b2520b508f864a6f56e1732a57c3ec2eb1e7714ee7d0ed24211d0f0754",
+  "python_version": "3.13.7",
+  "library_versions": {
+    "torch": "2.15.0",
+    "transformers": "5.22.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "2.4.0",
+    "scipy": "1.18.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "tqdm": "4.70.1"
+  },
+  "sanity_check": {
+    "mask_token": "<mask>",
+    "mask_token_id": 250001,
+    "device": "cpu",
+    "examples": [
+      {
+        "gender": "male",
+        "sentence": "अभय <mask> है।",
+        "predictions": [
+          {
+            "token": "होता",
+            "probability": 0.05839509889483452
+          },
+          {
+            "token": "नहीं",
+            "probability": 0.04985032603144646
+          },
+          {
+            "token": "ही",
+            "probability": 0.037194300442934036
+          }
+        ]
+      },
+      {
+        "gender": "female",
+        "sentence": "आरुषि <mask> है।",
+        "predictions": [
+          {
+            "token": "होता",
+            "probability": 0.05888589844107628
+          },
+          {
+            "token": "नाम",
+            "probability": 0.036590851843357086
+          },
+          {
+            "token": "की",
+            "probability": 0.03621701896190643
+          }
+        ]
+      }
+    ]
+  }
+}
