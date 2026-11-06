@@ -73,9 +73,16 @@ def disco_test(tokenizer_name,
     tokenizer=tokenizer,
     device=model.device,
 )
-    nouns = load_names(tgt_lang)
-    templates = load_templates(templates_file, kwargs.get("debug", False))
-
+    # nouns = load_names(tgt_lang)
+    # templates = load_templates(templates_file, kwargs.get("debug", False))
+        # Optional overrides, used by the same-gender control (control.py).
+    # When they are not given, this behaves exactly as before.
+    nouns = kwargs.get("nouns")
+    if nouns is None:
+        nouns = load_names(tgt_lang)
+    templates = kwargs.get("templates")
+    if templates is None:
+        templates = load_templates(templates_file, kwargs.get("debug", False))
     sanity = kwargs.get("sanity")
     if sanity is not None:
         sanity["mask_token"] = tokenizer.mask_token
