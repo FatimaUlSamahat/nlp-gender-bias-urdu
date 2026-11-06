@@ -6,7 +6,7 @@
          python -m src.cda.check_sheet score --lang ur
 
 Columns to fill in the CSV (write y or n):
-  gender_flipped  : does ur_cf refer to the opposite gender from ur (verbs, nouns like بیٹا/بیٹی)?
+    gender_flipped  : y = flipped correctly, n = should have flipped but didn't, na = Urdu sentence can't show gender
   translation_ok  : are both Urdu sentences understandable translations of the English?
 """
 import csv
@@ -47,15 +47,14 @@ def score(lang):
     path = Path(f"data/cda/check_{lang}.csv")
     with open(path, encoding="utf-8-sig", newline="") as f:
         rows = list(csv.DictReader(f))
-    for col in ("gender_flipped", "translation_ok"):
-        marks = [r[col].strip().lower() for r in rows]
-        filled = [m for m in marks if m in ("y", "n")]
-        yes = filled.count("y")
-        print(f"{col}: {yes}/{len(filled)} yes ({100 * yes / max(len(filled), 1):.0f}%)"
-              f"{'' if len(filled) == len(rows) else f'  [{len(rows) - len(filled)} rows not marked]'}")
-    both = sum(r["gender_flipped"].strip().lower() == "y" and r["translation_ok"].strip().lower() == "y" for r in rows)
-    print(f"usable pairs (both y): {both}/{len(rows)}")
-
+    g = [r["gender_flipped"].strip().lower() for r in rows]
+    y, n, na = g.count("y"), g.count("n"), g.count("na")
+    print(f"gender_flipped: {y} y, {n} n, {na} na (gender not visible in Urdu), "
+          f"{len(rows) - y - n - na} not marked")
+    print(f"  error rate where gender should be visible: {n}/{y + n} ({100 * n / max(y + n, 1):.0f}%)")
+    t = [r["translation_ok"].strip().lower() for r in rows]
+    print(f"translation_ok: {t.count('y')}/{t.count('y') + t.count('n')} yes "
+          f"({100 * t.count('y') / max(t.count('y') + t.count('n'), 1):.0f}%)")
 
 def main():
     ap = ArgumentParser()

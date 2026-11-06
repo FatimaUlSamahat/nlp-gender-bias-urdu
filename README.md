@@ -91,16 +91,26 @@ Score male-vs-male and female-vs-female with the same test. Gender effect = MF �
 - `run.py`: `--tag` option; harmless warnings silenced (scores unchanged, checked).
 - `multilingual_disco.py`: authors' unused main() removed; optional names/templates override for the control. Original kept unmodified in `third_party/`.
 
-#### Urdu CDA data (in progress, `src/cda/`)
+#### Urdu CDA data (`src/cda/`)
 Following the paper: English Wikipedia sentences → gender swap in English → machine-translate both into Urdu.
+
 1. `data/cda/gender_pairs.tsv`: 75 male/female word pairs (paper: 193 from Lauscher et al. 2021). "host/hostess" removed (verb use).
-2. `collect_sentences.py`: 10,000 English Wikipedia sentences, 8-40 words, with a Pakistan/South Asia keyword and a gendered word; shuffled reading order. Filters for "mother tongue", list entries, too-general keywords (hockey, cricket, mosque, sufi, ravi…).
+2. `collect_sentences.py`: 10,000 English Wikipedia sentences, 8-40 words, with a Pakistan/South Asia keyword and a gendered word; shuffled reading order. Filters for "mother tongue", list entries, and too-general keywords (hockey, cricket, mosque, sufi, ravi…).
 3. `swap.py`: two-way swap of words + Pakistani name pairs matched by edit distance (paper's method); "her" → his/him decided by the next word. 9,972 pairs (28 sentences had nothing to swap). A sample of 10 was all correct.
-4. `translate.py`: NLLB-200 distilled 600M, English → Urdu, ~2.2-2.5 pairs/s on Apple MPS. Running.
-5. `check_sheet.py`: automatic checks + hand-check of 100 random pairs. To do.
-- First 3 translated pairs: 2/3 flipped gender correctly; in 1 the translator kept the masculine verb (رہا).
-- Most original sentences are about men (Wikipedia skew), which CDA balances.
-- Names not in our list stay unchanged after swapping (e.g. a male name with "her"), as in the paper's method.
+4. `translate.py`: NLLB-200 distilled 600M, English → Urdu, ~2.2-2.5 pairs/s on Apple MPS (~70 min). Done: `data/cda/pairs_ur.jsonl` (9,972 pairs; fields `en`, `en_cf`, `ur`, `ur_cf`).
+5. `check_sheet.py`: quality checks.
+   - Automatic (all 9,972 pairs): 2,128 (21.3%) have identical Urdu original and swapped; 0 empty; 9 mostly Latin letters (translation failed, drop them).
+   - Hand-check: 100 random pairs (seed 0), every label reviewed and confirmed by a native Urdu speaker (`data/cda/check_ur.csv`):
+     - gender flipped correctly: 55; wrong: 9; not visible in Urdu: 36 → **error rate where gender is visible: 9/64 (14%)**
+     - translation acceptable: **85/100**
+   - Of the 19 identical pairs in the sample, 17 are genuinely gender-neutral in Urdu (e.g. انہوں نے … خدمات انجام دیں) and only 2 are errors, so most of the 21% identical pairs are not translation errors.
+   - Gender errors: verb left masculine for a woman (ریٹائر ہوئے, مشہور ہوئے, رکھتا تھا); gender put on the wrong person (the Returning Officer instead of the candidate; the student instead of the teacher).
+   - Translation errors: wrong word choice (scarves → شیلف "shelf", daily soaps → صابن "soap"), NLLB artefact "XNUMX" in numbers, dropped content, words left in English, a party name mistranslated.
+
+Notes:
+- Most original sentences are about men (Wikipedia skew); CDA balances this.
+- English swap issues: proper names broken (King Fahd → Queen Fahd, Duke → Duchess University, Conference on Women → Men, Muslim Brotherhood → Sisterhood); real people renamed (Mohammed bin Salman → Salma, Shahid Khan → Shazia Khan); surnames in our name list get swapped (Hussain); names not in our list stay unchanged, so some swapped sentences pair a male name with "she".
+- Hindi CDA data not made (run `python -m src.cda.translate --lang hi` if needed).
 
 #### Deviations from the paper (to state in the report)
 - Translator: NLLB instead of Bing.
