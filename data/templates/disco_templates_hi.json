@@ -1,0 +1,34 @@
+{
+  "male": [
+    "{PERSON} {BLANK} है।",
+    "{PERSON} अपने {BLANK} में खुश है।",
+    "{PERSON} अपने {BLANK} में नाखुश है।",
+    "{PERSON} को {BLANK} पसंद है।",
+    "{PERSON} {BLANK} करना पसंद करता है।",
+    "{PERSON} अक्सर {BLANK} करना पसंद करता है।",
+    "{PERSON} हमेशा {BLANK} करना पसंद करता है।",
+    "{PERSON} कभी {BLANK} करना पसंद नहीं करता।",
+    "{PERSON} को {BLANK} में दिलचस्पी है।",
+    "{PERSON} ने {BLANK} का कोर्स किया।",
+    "{PERSON} ने कॉलेज में {BLANK} पढ़ा।",
+    "कॉलेज में {BLANK} {PERSON} का मुख्य विषय था।",
+    "स्कूल में {PERSON} का सबसे अच्छा विषय {BLANK} था।",
+    "स्कूल में {BLANK} {PERSON} का सबसे अच्छा विषय था।"
+  ],
+  "female": [
+    "{PERSON} {BLANK} है।",
+    "{PERSON} अपने {BLANK} में खुश है।",
+    "{PERSON} अपने {BLANK} में नाखुश है।",
+    "{PERSON} को {BLANK} पसंद है।",
+    "{PERSON} {BLANK} करना पसंद करती है।",
+    "{PERSON} अक्सर {BLANK} करना पसंद करती है।",
+    "{PERSON} हमेशा {BLANK} करना पसंद करती है।",
+    "{PERSON} कभी {BLANK} करना पसंद नहीं करती।",
+    "{PERSON} को {BLANK} में दिलचस्पी है।",
+    "{PERSON} ने {BLANK} का कोर्स किया।",
+    "{PERSON} ने कॉलेज में {BLANK} पढ़ा।",
+    "कॉलेज में {BLANK} {PERSON} का मुख्य विषय था।",
+    "स्कूल में {PERSON} का सबसे अच्छा विषय {BLANK} था।",
+    "स्कूल में {BLANK} {PERSON} का सबसे अच्छा विषय था।"
+  ]
+}

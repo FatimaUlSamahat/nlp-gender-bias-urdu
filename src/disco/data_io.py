@@ -44,3 +44,4 @@ def validate(temps,nms):
             assert t.count("{BLANK}")==1,f"need exactly one {{BLANK}}:{t}"
     for col in ("male","female"):
         assert nms[col].map(lambda x: isinstance(x,str) and x.strip()==x and x!="").all(),f"blank or padded names in {col}"
+load_templates = load_temps  # run.py and multilingual_disco.py use this name
