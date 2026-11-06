@@ -1,3 +1,13 @@
+"""Multilingual DisCo scoring.
+
+Adapted from the authors' code: https://github.com/microsoft/MultilingualBiasEvaluation
+(MIT License, Copyright (c) Microsoft Corporation). Original is kept unmodified in
+third_party/MultilingualBiasEvaluation/. Our changes:
+  - imports adapted to this repo layout; sanity-check output added;
+  - load_names/load_templates moved to src/disco/data_io.py (names can come from
+    data/names/<lang>_names.json, needed for Urdu);
+  - the authors' unused command-line main() removed (use src/disco/run.py).
+"""
 import os
 import argparse
 import json
@@ -15,30 +25,31 @@ from scipy.stats import chi2_contingency, chisquare
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
+from src.disco.data_io import load_names, load_templates  # noqa: F401 (re-exported for run.py)
 
-from src.disco.names import names_dict
-
-
-CORRECTED_LANGS = ["hi", "pa", "bn", "ta", "gu", "mr"]
-
-def load_names(tgt_lang):
-    "Load gendered names from Lauscher et al. (2021) used by DisCo."
-    male_names = names_dict[tgt_lang]['male']
-    female_names = names_dict[tgt_lang]['female']
-    final_df = pd.DataFrame({
-        "male": male_names,
-        "female": female_names
-        })
-    return final_df
+# from src.disco.names import names_dict
 
 
-def load_templates(templates_file, debug=False):
-    "Load templates from Zhao et al. (2018) used by DisCo."
-    with open(templates_file, "r", encoding="utf8") as f:
-        templates = json.load(f)
-    if debug:
-        templates = templates[:2]
-    return templates
+# CORRECTED_LANGS = ["hi", "pa", "bn", "ta", "gu", "mr"]
+
+# def load_names(tgt_lang):
+#     "Load gendered names from Lauscher et al. (2021) used by DisCo."
+#     male_names = names_dict[tgt_lang]['male']
+#     female_names = names_dict[tgt_lang]['female']
+#     final_df = pd.DataFrame({
+#         "male": male_names,
+#         "female": female_names
+#         })
+#     return final_df
+
+
+# def load_templates(templates_file, debug=False):
+#     "Load templates from Zhao et al. (2018) used by DisCo."
+#     with open(templates_file, "r", encoding="utf8") as f:
+#         templates = json.load(f)
+#     if debug:
+#         templates = templates[:2]
+#     return templates
 
 
 def disco_test(tokenizer_name,
@@ -158,68 +169,68 @@ def disco_test(tokenizer_name,
     return np.mean(results)
 
 
-def get_disco_results(model_type, tokenizer_type, tgt_lang, templates_dir):
+# def get_disco_results(model_type, tokenizer_type, tgt_lang, templates_dir):
     
-    templates_file = os.path.join(templates_dir, f"disco_templates_{tgt_lang}.json")
+#     templates_file = os.path.join(templates_dir, f"disco_templates_{tgt_lang}.json")
 
-    # names_file = os.path.join("data/names/firstnames", f"{tgt_lang}_names.csv")
-    # names_file = os.path.join("data/nouns", f"{tgt_lang}_nouns.csv")
+#     # names_file = os.path.join("data/names/firstnames", f"{tgt_lang}_names.csv")
+#     # names_file = os.path.join("data/nouns", f"{tgt_lang}_nouns.csv")
     
-    results = disco_test(tokenizer_type,
-               model_type,
-               templates_file,
-               tgt_lang,
-               top_k=3)
+#     results = disco_test(tokenizer_type,
+#                model_type,
+#                templates_file,
+#                tgt_lang,
+#                top_k=3)
     
-    return results
+#     return results
     
-def main():
+# def main():
     
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--tgt_lang", "--lang", default="en")
-    parser.add_argument("--run_all", action="store_true")
-    parser.add_argument("-m", "--model_name_or_path", "--model", default="xlm-roberta-base")
-    parser.add_argument("--tokenizer", default=None)
-    parser.add_argument("--templates_dir", default="data/templates")
-    parser.add_argument("--model_type", default="mbert")
-    parser.add_argument("--templates_type", choices = ["corrected", "translated"], default = "corrected")
+#     parser = argparse.ArgumentParser()
+#     parser.add_argument("-t", "--tgt_lang", "--lang", default="en")
+#     parser.add_argument("--run_all", action="store_true")
+#     parser.add_argument("-m", "--model_name_or_path", "--model", default="xlm-roberta-base")
+#     parser.add_argument("--tokenizer", default=None)
+#     parser.add_argument("--templates_dir", default="data/templates")
+#     parser.add_argument("--model_type", default="mbert")
+#     parser.add_argument("--templates_type", choices = ["corrected", "translated"], default = "corrected")
 
-    args = parser.parse_args()
-    args.tokenizer = args.tokenizer or args.model_name_or_path
+#     args = parser.parse_args()
+#     args.tokenizer = args.tokenizer or args.model_name_or_path
     
    
-    templates_dir = args.templates_dir
-    tgt_langs = CORRECTED_LANGS
+#     templates_dir = args.templates_dir
+#     tgt_langs = CORRECTED_LANGS
     
     
-    if not args.run_all:
-        results = get_disco_results(args.model_name_or_path,
-                                    args.tokenizer,
-                                    args.tgt_lang,
-                                    templates_dir
-                                    )
-        print(results)
-    else:
-        final_results = {}
-        for lang in tqdm(tgt_langs):
-            final_results[lang] = {}
-            final_results[lang]["no_debiasing"] = get_disco_results(
-                                    args.model_name_or_path,
-                                    args.tokenizer,
-                                    lang,
-                                    templates_dir
-                                    )
+#     if not args.run_all:
+#         results = get_disco_results(args.model_name_or_path,
+#                                     args.tokenizer,
+#                                     args.tgt_lang,
+#                                     templates_dir
+#                                     )
+#         print(results)
+#     else:
+#         final_results = {}
+#         for lang in tqdm(tgt_langs):
+#             final_results[lang] = {}
+#             final_results[lang]["no_debiasing"] = get_disco_results(
+#                                     args.model_name_or_path,
+#                                     args.tokenizer,
+#                                     lang,
+#                                     templates_dir
+#                                     )
             
-        out_dir = os.path.join("results", "multilingual_disco", args.templates_type)
-        if not os.path.exists(out_dir):
-            os.makedirs(out_dir)
-        filename = f"{args.model_type}.json"
+#         out_dir = os.path.join("results", "multilingual_disco", args.templates_type)
+#         if not os.path.exists(out_dir):
+#             os.makedirs(out_dir)
+#         filename = f"{args.model_type}.json"
         
-        with open(os.path.join(out_dir, filename), "w") as f:
-            json.dump(final_results, f, indent = 4)
+#         with open(os.path.join(out_dir, filename), "w") as f:
+#             json.dump(final_results, f, indent = 4)
             
 
             
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

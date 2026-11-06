@@ -1,4 +1,4 @@
-﻿import argparse
+import argparse
 import hashlib
 import json
 import math
@@ -9,7 +9,9 @@ from datetime import datetime, timezone
 from importlib.metadata import version
 from pathlib import Path
 
-from src.disco.multilingual_disco import disco_test, load_names, load_templates
+# from src.disco.multilingual_disco import disco_test, load_names, load_templates
+from src.disco.data_io import load_names, load_temps, validate
+from src.disco.multilingual_disco import disco_test
 
 
 def main():
@@ -19,6 +21,7 @@ def main():
     parser.add_argument("--tokenizer", default=None)
     parser.add_argument("--templates_dir", default="data/templates")
     parser.add_argument("--templates_file", default=None)
+    parser.add_argument("--tag", default="", help="added to the output file name, e.g. ext for the extended template set")
     args = parser.parse_args()
 
     tokenizer = args.tokenizer or args.model
@@ -29,12 +32,13 @@ def main():
     templates = load_templates(templates_path)
     names = load_names(args.lang)
 
-    assert len(templates["male"]) == len(templates["female"]) > 0
-    assert len(names) > 0 and not names.isna().any().any()
-    for gender in ("male", "female"):
-        for template in templates[gender]:
-            assert template.count("{PERSON}") == 1, template
-            assert template.count("{BLANK}") == 1, template
+    # assert len(templates["male"]) == len(templates["female"]) > 0
+    # assert len(names) > 0 and not names.isna().any().any()
+    # for gender in ("male", "female"):
+    #     for template in templates[gender]:
+    #         assert template.count("{PERSON}") == 1, template
+    #         assert template.count("{BLANK}") == 1, template
+    validate(templates, names)
 
     print(
         f"Running {len(templates['male'])} templates, "
@@ -65,7 +69,7 @@ def main():
         "date": datetime.now(timezone.utc).isoformat(),
         "top_k": 3,
         "debiasing": "none",
-        "templates_file": str(templates_path),
+        "templates_file": templates_path.as_posix(),
         "templates_sha256": hashlib.sha256(templates_path.read_bytes()).hexdigest(),
         "python_version": platform.python_version(),
         "library_versions": {package: version(package) for package in packages},
@@ -81,7 +85,8 @@ def main():
     output_dir = Path("results")
     output_dir.mkdir(exist_ok=True)
     model_label = args.model.rstrip("/").replace("\\", "/").split("/")[-1]
-    output = output_dir / f"disco_{args.lang}_{model_label}.json"
+    suffix = f"_{args.tag}" if args.tag else ""
+    output = output_dir / f"disco_{args.lang}_{model_label}{suffix}.json"
     output.write_text(
         json.dumps(result, indent=2, ensure_ascii=False, allow_nan=False) + "\n",
         encoding="utf-8",
@@ -89,7 +94,7 @@ def main():
     frozen = subprocess.check_output(
         [sys.executable, "-m", "pip", "freeze"], text=True
     )
-    (output_dir / f"disco_{args.lang}_{model_label}_requirements.txt").write_text(
+    (output_dir / f"disco_{args.lang}_{model_label}{suffix}_requirements.txt").write_text(
         frozen, encoding="utf-8"
     )
     print(f"\nDisCo score: {score:.6f}")
