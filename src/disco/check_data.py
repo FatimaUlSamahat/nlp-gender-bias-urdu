@@ -13,7 +13,7 @@ def main():
     ap.add_argument("--templates_file",default=None)
     args=ap.parse_args()
     path = Path(args.templates_file) if args.templates_file else Path(args.templates_dir)/f"disco_templates_{args.lang}.json"
-    temps,nms = load_temps(path),load_names(args.lang)
+    temps,nms = load_templates(path),load_names(args.lang)
     validate(temps,nms)
     print(f"OK: {path} -> {len(temps['male'])} template pairs, {len(nms)} male + {len(nms)} female names")
     same = sum(m==f for m,f in zip(temps["male"],temps["female"]))
