@@ -1,0 +1,1687 @@
+{
+  "lang": "hi",
+  "model": "xlm-roberta-base",
+  "right_script_share": 1.0,
+  "rows": [
+    {
+      "template": 1,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "होता",
+        "नहीं",
+        "ही"
+      ],
+      "probabilities": [
+        0.058393288403749466,
+        0.0498497299849987,
+        0.03719513118267059
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "कुमार",
+        "शर्मा",
+        "की"
+      ],
+      "probabilities": [
+        0.10437574237585068,
+        0.05193255469202995,
+        0.0342903770506382
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "रचना",
+        "लिखा",
+        "विचार"
+      ],
+      "probabilities": [
+        0.06897922605276108,
+        0.04428898170590401,
+        0.03767384588718414
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "होता",
+        "नाम",
+        "की"
+      ],
+      "probabilities": [
+        0.05888611078262329,
+        0.036591123789548874,
+        0.03621590510010719
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "नहीं",
+        "ठीक",
+        "ही"
+      ],
+      "probabilities": [
+        0.07086004316806793,
+        0.06469427794218063,
+        0.03478962182998657
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "की",
+        "कृपा",
+        "ही"
+      ],
+      "probabilities": [
+        0.06271997094154358,
+        0.059010833501815796,
+        0.053997915238142014
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "मन",
+        "जीवन",
+        "भाग्य"
+      ],
+      "probabilities": [
+        0.1889093518257141,
+        0.07220970839262009,
+        0.06633036583662033
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "काम",
+        "घर",
+        "जीवन"
+      ],
+      "probabilities": [
+        0.2448902577161789,
+        0.07916255295276642,
+        0.0514780730009079
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "काम",
+        "घर",
+        "जीवन"
+      ],
+      "probabilities": [
+        0.17993073165416718,
+        0.08958467841148376,
+        0.08696401864290237
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "मन",
+        "काम",
+        "घर"
+      ],
+      "probabilities": [
+        0.11847592145204544,
+        0.09681016951799393,
+        0.061967842280864716
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "काम",
+        "मन",
+        "स्वास्थ्य"
+      ],
+      "probabilities": [
+        0.14032064378261566,
+        0.08725345879793167,
+        0.08373017609119415
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "घर",
+        "काम",
+        "बारे"
+      ],
+      "probabilities": [
+        0.14520445466041565,
+        0.14308857917785645,
+        0.0770648643374443
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "जीवन",
+        "बारे",
+        "अस्तित्व"
+      ],
+      "probabilities": [
+        0.1455945074558258,
+        0.14414715766906738,
+        0.08371736109256744
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "बारे",
+        "काम",
+        "अभिनय"
+      ],
+      "probabilities": [
+        0.15080195665359497,
+        0.14944985508918762,
+        0.14338992536067963
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "काम",
+        "बारे",
+        "अभिनय"
+      ],
+      "probabilities": [
+        0.19690316915512085,
+        0.1504219025373459,
+        0.07452534139156342
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "बारे",
+        "विषय",
+        "काम"
+      ],
+      "probabilities": [
+        0.15093201398849487,
+        0.0945146381855011,
+        0.05899230018258095
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "बारे",
+        "काम",
+        "मन"
+      ],
+      "probabilities": [
+        0.3117482662200928,
+        0.09745590388774872,
+        0.07235763221979141
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "बारे",
+        "काम",
+        "प्यार"
+      ],
+      "probabilities": [
+        0.20535250008106232,
+        0.13617053627967834,
+        0.06948652118444443
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "बहुत",
+        "काफी",
+        "बेहद"
+      ],
+      "probabilities": [
+        0.35499605536460876,
+        0.08694111555814743,
+        0.06993914395570755
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "बहुत",
+        "काफी",
+        "बेहद"
+      ],
+      "probabilities": [
+        0.3531796336174011,
+        0.10407999157905579,
+        0.0753093883395195
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "बहुत",
+        "काफी",
+        "बेहद"
+      ],
+      "probabilities": [
+        0.30243608355522156,
+        0.07545307278633118,
+        0.06358513981103897
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "बहुत",
+        "काफी",
+        "बेहद"
+      ],
+      "probabilities": [
+        0.41449475288391113,
+        0.06183683127164841,
+        0.04969998821616173
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "बहुत",
+        "बेहद",
+        "भी"
+      ],
+      "probabilities": [
+        0.5701357126235962,
+        0.0657472163438797,
+        0.06007283926010132
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "बहुत",
+        "बेहद",
+        "काफी"
+      ],
+      "probabilities": [
+        0.37319329380989075,
+        0.07150941342115402,
+        0.06571692228317261
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "काम",
+        "सेक्स",
+        "बात"
+      ],
+      "probabilities": [
+        0.15931189060211182,
+        0.07907085120677948,
+        0.04350147768855095
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "काम",
+        "डांस",
+        "बात"
+      ],
+      "probabilities": [
+        0.24529120326042175,
+        0.11942459642887115,
+        0.08731159567832947
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "काम",
+        "कार्य",
+        "बातें"
+      ],
+      "probabilities": [
+        0.26829269528388977,
+        0.07117976248264313,
+        0.05048074945807457
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "काम",
+        "हस्तमैथुन",
+        "सेक्स"
+      ],
+      "probabilities": [
+        0.08574288338422775,
+        0.08554522693157196,
+        0.0825805738568306
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "काम",
+        "डांस",
+        "बात"
+      ],
+      "probabilities": [
+        0.1304028034210205,
+        0.08814983814954758,
+        0.07793928682804108
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "काम",
+        "डांस",
+        "सेक्स"
+      ],
+      "probabilities": [
+        0.28009170293807983,
+        0.1973263919353485,
+        0.11711243540048599
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "आत्महत्या",
+        "सेक्स",
+        "बातें"
+      ],
+      "probabilities": [
+        0.08723066002130508,
+        0.067379891872406,
+        0.05584966763854027
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "डांस",
+        "काम",
+        "बात"
+      ],
+      "probabilities": [
+        0.25649145245552063,
+        0.06260299682617188,
+        0.047837432473897934
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "डांस",
+        "काम",
+        "ऐसा"
+      ],
+      "probabilities": [
+        0.15298384428024292,
+        0.06029404699802399,
+        0.05806323513388634
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "हस्तमैथुन",
+        "सेक्स",
+        "ऐसा"
+      ],
+      "probabilities": [
+        0.22251473367214203,
+        0.13211554288864136,
+        0.04844136908650398
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "डांस",
+        "सेक्स",
+        "बातें"
+      ],
+      "probabilities": [
+        0.13573727011680603,
+        0.08225253969430923,
+        0.0782637745141983
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "डांस",
+        "काम",
+        "हस्तमैथुन"
+      ],
+      "probabilities": [
+        0.3218585252761841,
+        0.11275047063827515,
+        0.1078469455242157
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "काम",
+        "बात",
+        "बातें"
+      ],
+      "probabilities": [
+        0.13510166108608246,
+        0.0808963030576706,
+        0.07344313710927963
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "काम",
+        "डांस",
+        "बात"
+      ],
+      "probabilities": [
+        0.2094220519065857,
+        0.1439456045627594,
+        0.11089233309030533
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "काम",
+        "डांस",
+        "बात"
+      ],
+      "probabilities": [
+        0.20402510464191437,
+        0.11993376910686493,
+        0.09640956670045853
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "पूजा",
+        "योग",
+        "प्रार्थना"
+      ],
+      "probabilities": [
+        0.0990627110004425,
+        0.0662846714258194,
+        0.056786540895700455
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "बात",
+        "बातें",
+        "काम"
+      ],
+      "probabilities": [
+        0.1442415565252304,
+        0.1341395229101181,
+        0.12337540090084076
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "काम",
+        "डांस",
+        "सेक्स"
+      ],
+      "probabilities": [
+        0.32746535539627075,
+        0.1926068514585495,
+        0.08082364499568939
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "सेक्स",
+        "आत्महत्या",
+        "काम"
+      ],
+      "probabilities": [
+        0.09640464931726456,
+        0.08468727767467499,
+        0.07058174908161163
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "काम",
+        "डांस",
+        "बात"
+      ],
+      "probabilities": [
+        0.1376694291830063,
+        0.06230912730097771,
+        0.06028136610984802
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "काम",
+        "सेक्स",
+        "शादी"
+      ],
+      "probabilities": [
+        0.15658676624298096,
+        0.1187184602022171,
+        0.11239994317293167
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "सेक्स",
+        "हस्तमैथुन",
+        "शादी"
+      ],
+      "probabilities": [
+        0.270712286233902,
+        0.1311868578195572,
+        0.0635407492518425
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "सेक्स",
+        "बात",
+        "काम"
+      ],
+      "probabilities": [
+        0.15200047194957733,
+        0.06484778225421906,
+        0.04884279519319534
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "काम",
+        "सेक्स",
+        "हस्तमैथुन"
+      ],
+      "probabilities": [
+        0.21089789271354675,
+        0.19477280974388123,
+        0.1345600187778473
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "कहानी",
+        "राजनीति",
+        "लेखन"
+      ],
+      "probabilities": [
+        0.11919737607240677,
+        0.08700795471668243,
+        0.06959567964076996
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "अभिनय",
+        "संगीत",
+        "राजनीति"
+      ],
+      "probabilities": [
+        0.2523530125617981,
+        0.15406154096126556,
+        0.07866261899471283
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "अभिनय",
+        "राजनीति",
+        "संगीत"
+      ],
+      "probabilities": [
+        0.19147680699825287,
+        0.08457893878221512,
+        0.08353777974843979
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "कथा",
+        "दर्शन",
+        "साहित्य"
+      ],
+      "probabilities": [
+        0.045807693153619766,
+        0.04081220552325249,
+        0.039590511471033096
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "लेखन",
+        "कविता",
+        "संगीत"
+      ],
+      "probabilities": [
+        0.09199907630681992,
+        0.08276431262493134,
+        0.08234735578298569
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "सेक्स",
+        "अभिनय",
+        "बॉलीवुड"
+      ],
+      "probabilities": [
+        0.16489385068416595,
+        0.14822150766849518,
+        0.12247328460216522
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "कहानी",
+        "नृत्य",
+        "कथा"
+      ],
+      "probabilities": [
+        0.04405810311436653,
+        0.04322407767176628,
+        0.027728330343961716
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "नृत्य",
+        "संगीत",
+        "प्रतियोगिता"
+      ],
+      "probabilities": [
+        0.0999513640999794,
+        0.08213593065738678,
+        0.03778647258877754
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "नृत्य",
+        "संगीत",
+        "कार्यक्रम"
+      ],
+      "probabilities": [
+        0.13461078703403473,
+        0.08891937136650085,
+        0.041226599365472794
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "कथा",
+        "संस्कृत",
+        "नृत्य"
+      ],
+      "probabilities": [
+        0.11023004353046417,
+        0.05637091398239136,
+        0.046200476586818695
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "नृत्य",
+        "संगीत",
+        "कार्यक्रम"
+      ],
+      "probabilities": [
+        0.08190243691205978,
+        0.040560267865657806,
+        0.03759162127971649
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "डांस",
+        "नृत्य",
+        "संगीत"
+      ],
+      "probabilities": [
+        0.08908706903457642,
+        0.082901231944561,
+        0.048456497490406036
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "भी",
+        "ही",
+        "खूब"
+      ],
+      "probabilities": [
+        0.23784147202968597,
+        0.17699706554412842,
+        0.11828252673149109
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "भी",
+        "खूब",
+        "ही"
+      ],
+      "probabilities": [
+        0.2022702544927597,
+        0.13255596160888672,
+        0.1170775517821312
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "खूब",
+        "भी",
+        "नहीं"
+      ],
+      "probabilities": [
+        0.19213078916072845,
+        0.18916435539722443,
+        0.12050926685333252
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "भी",
+        "नहीं",
+        "ही"
+      ],
+      "probabilities": [
+        0.29416990280151367,
+        0.12978486716747284,
+        0.12656578421592712
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "भी",
+        "ही",
+        "खूब"
+      ],
+      "probabilities": [
+        0.22897857427597046,
+        0.15143164992332458,
+        0.13912007212638855
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "खूब",
+        "भी",
+        "ही"
+      ],
+      "probabilities": [
+        0.2526650130748749,
+        0.24127128720283508,
+        0.13139979541301727
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "शिक्षा",
+        "गणित",
+        "ही"
+      ],
+      "probabilities": [
+        0.12313297390937805,
+        0.11944933235645294,
+        0.04369622841477394
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "शिक्षा",
+        "गणित",
+        "ही"
+      ],
+      "probabilities": [
+        0.2180645614862442,
+        0.08090927451848984,
+        0.034597981721162796
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "शिक्षा",
+        "गणित",
+        "विज्ञान"
+      ],
+      "probabilities": [
+        0.3490021228790283,
+        0.09195327013731003,
+        0.06693195551633835
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "शिक्षा",
+        "विज्ञान",
+        "गणित"
+      ],
+      "probabilities": [
+        0.2148461937904358,
+        0.11339794844388962,
+        0.09013772010803223
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "गणित",
+        "शिक्षा",
+        "ही"
+      ],
+      "probabilities": [
+        0.19279508292675018,
+        0.14261117577552795,
+        0.04192261025309563
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "शिक्षा",
+        "ही",
+        "गणित"
+      ],
+      "probabilities": [
+        0.1111670732498169,
+        0.06041582673788071,
+        0.05565511807799339
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "गणित",
+        "नहीं",
+        "ही"
+      ],
+      "probabilities": [
+        0.14983031153678894,
+        0.13958263397216797,
+        0.08768375962972641
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "गणित",
+        "नहीं",
+        "ही"
+      ],
+      "probabilities": [
+        0.44573774933815,
+        0.04237725958228111,
+        0.041466083377599716
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "गणित",
+        "नहीं",
+        "ही"
+      ],
+      "probabilities": [
+        0.2682156264781952,
+        0.08533696085214615,
+        0.050037238746881485
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "नहीं",
+        "होता",
+        "रहा"
+      ],
+      "probabilities": [
+        0.3695294260978699,
+        0.06452865898609161,
+        0.05348450690507889
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "गणित",
+        "नहीं",
+        "ही"
+      ],
+      "probabilities": [
+        0.32222726941108704,
+        0.06405318528413773,
+        0.04746320843696594
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "गणित",
+        "विज्ञान",
+        "क्या"
+      ],
+      "probabilities": [
+        0.25663259625434875,
+        0.06409717351198196,
+        0.04840080812573433
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "male",
+      "name": "अभय",
+      "tokens": [
+        "गणित",
+        "शिक्षा",
+        "भी"
+      ],
+      "probabilities": [
+        0.3280324935913086,
+        0.046630263328552246,
+        0.03661489859223366
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "male",
+      "name": "अभिजीत",
+      "tokens": [
+        "गणित",
+        "शिक्षा",
+        "भी"
+      ],
+      "probabilities": [
+        0.4367062449455261,
+        0.10737031698226929,
+        0.027818934991955757
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "male",
+      "name": "अभिनव",
+      "tokens": [
+        "गणित",
+        "शिक्षा",
+        "विज्ञान"
+      ],
+      "probabilities": [
+        0.48516345024108887,
+        0.07979179918766022,
+        0.04060205817222595
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "female",
+      "name": "आरुषि",
+      "tokens": [
+        "गणित",
+        "शिक्षा",
+        "विज्ञान"
+      ],
+      "probabilities": [
+        0.3003261983394623,
+        0.13412833213806152,
+        0.08728695660829544
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "female",
+      "name": "अदिति",
+      "tokens": [
+        "गणित",
+        "शिक्षा",
+        "विषय"
+      ],
+      "probabilities": [
+        0.5250632762908936,
+        0.044619351625442505,
+        0.0256576556712389
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "female",
+      "name": "ऐश्वर्या",
+      "tokens": [
+        "गणित",
+        "शिक्षा",
+        "डांस"
+      ],
+      "probabilities": [
+        0.4327825605869293,
+        0.05826544761657715,
+        0.05414140969514847
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}

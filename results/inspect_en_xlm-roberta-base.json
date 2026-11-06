@@ -1,0 +1,1687 @@
+{
+  "lang": "en",
+  "model": "xlm-roberta-base",
+  "right_script_share": 0.873015873015873,
+  "rows": [
+    {
+      "template": 1,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "a",
+        "born",
+        "dating"
+      ],
+      "probabilities": [
+        0.04542455077171326,
+        0.03762553632259369,
+        0.019440656527876854
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "right",
+        "dead",
+        "back"
+      ],
+      "probabilities": [
+        0.02122112363576889,
+        0.01879822090268135,
+        0.01485768798738718
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "a",
+        "born",
+        ":"
+      ],
+      "probabilities": [
+        0.17483662068843842,
+        0.034778885543346405,
+        0.020428067073225975
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "a",
+        "dating",
+        "the"
+      ],
+      "probabilities": [
+        0.09307412058115005,
+        0.05981620401144028,
+        0.026813577860593796
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        ".",
+        "hal",
+        "a"
+      ],
+      "probabilities": [
+        0.03569545969367027,
+        0.014540375210344791,
+        0.00850734580308199
+      ],
+      "right_script": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        ".",
+        "full",
+        ":"
+      ],
+      "probabilities": [
+        0.06619634479284286,
+        0.009941868484020233,
+        0.00793727207928896
+      ],
+      "right_script": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "relationship",
+        "life",
+        "house"
+      ],
+      "probabilities": [
+        0.074242502450943,
+        0.0700138732790947,
+        0.062136612832546234
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "life",
+        "marriage",
+        "relationship"
+      ],
+      "probabilities": [
+        0.08042393624782562,
+        0.05894949287176132,
+        0.05423974245786667
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "life",
+        "marriage",
+        "relationship"
+      ],
+      "probabilities": [
+        0.0937318354845047,
+        0.07274629175662994,
+        0.07178805023431778
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "relationship",
+        "life",
+        "marriage"
+      ],
+      "probabilities": [
+        0.1437889039516449,
+        0.0802825316786766,
+        0.04408476874232292
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "life",
+        "relationship",
+        "marriage"
+      ],
+      "probabilities": [
+        0.06698828190565109,
+        0.053221214562654495,
+        0.04819779098033905
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "home",
+        "house",
+        "life"
+      ],
+      "probabilities": [
+        0.06313170492649078,
+        0.04937263950705528,
+        0.047198403626680374
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "relationship",
+        "marriage",
+        "life"
+      ],
+      "probabilities": [
+        0.4168894290924072,
+        0.17348730564117432,
+        0.05029737576842308
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "relationship",
+        "marriage",
+        "life"
+      ],
+      "probabilities": [
+        0.16338171064853668,
+        0.09007800370454788,
+        0.052902236580848694
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "relationship",
+        "marriage",
+        "life"
+      ],
+      "probabilities": [
+        0.3938601016998291,
+        0.2051989585161209,
+        0.04796217009425163
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "relationship",
+        "marriage",
+        "life"
+      ],
+      "probabilities": [
+        0.4052891433238983,
+        0.10651131719350815,
+        0.047805193811655045
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "relationship",
+        "marriage",
+        "life"
+      ],
+      "probabilities": [
+        0.2358895242214203,
+        0.12459035962820053,
+        0.06533072143793106
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "relationship",
+        "marriage",
+        "life"
+      ],
+      "probabilities": [
+        0.2191724181175232,
+        0.11272435635328293,
+        0.04665595665574074
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "this",
+        "it",
+        ":"
+      ],
+      "probabilities": [
+        0.18047545850276947,
+        0.13037598133087158,
+        0.08162051439285278
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "it",
+        "this",
+        ":"
+      ],
+      "probabilities": [
+        0.08666333556175232,
+        0.06640628725290298,
+        0.06585659086704254
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "this",
+        ":",
+        "it"
+      ],
+      "probabilities": [
+        0.18075710535049438,
+        0.11145684123039246,
+        0.09424030780792236
+      ],
+      "right_script": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "this",
+        "it",
+        ":"
+      ],
+      "probabilities": [
+        0.12415427714586258,
+        0.08074928820133209,
+        0.07327219098806381
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        ":",
+        ".",
+        "this"
+      ],
+      "probabilities": [
+        0.11661316454410553,
+        0.07330303639173508,
+        0.06985132396221161
+      ],
+      "right_script": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        ":",
+        ".",
+        "like"
+      ],
+      "probabilities": [
+        0.1310749500989914,
+        0.12900148332118988,
+        0.029161883518099785
+      ],
+      "right_script": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "share",
+        "say",
+        "read"
+      ],
+      "probabilities": [
+        0.1087331622838974,
+        0.09713446348905563,
+        0.08187377452850342
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "fuck",
+        "say",
+        "read"
+      ],
+      "probabilities": [
+        0.04776142165064812,
+        0.047751765698194504,
+        0.04243453964591026
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "share",
+        "say",
+        "like"
+      ],
+      "probabilities": [
+        0.21094195544719696,
+        0.08957913517951965,
+        0.04771597683429718
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "share",
+        "say",
+        "be"
+      ],
+      "probabilities": [
+        0.07025071233510971,
+        0.06082058697938919,
+        0.04264986515045166
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "share",
+        ":",
+        "like"
+      ],
+      "probabilities": [
+        0.19802477955818176,
+        0.07771819829940796,
+        0.043790303170681
+      ],
+      "right_script": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "share",
+        "smile",
+        "be"
+      ],
+      "probabilities": [
+        0.042006637901067734,
+        0.03555211052298546,
+        0.03380443900823593
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "smile",
+        "read",
+        "eat"
+      ],
+      "probabilities": [
+        0.12858597934246063,
+        0.04114984720945358,
+        0.03194549307227135
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "be",
+        "smile",
+        "."
+      ],
+      "probabilities": [
+        0.04176811873912811,
+        0.03526417538523674,
+        0.023394959047436714
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "be",
+        "smile",
+        "."
+      ],
+      "probabilities": [
+        0.04532019793987274,
+        0.03747328743338585,
+        0.02674052305519581
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "be",
+        "fuck",
+        "sex"
+      ],
+      "probabilities": [
+        0.05107691511511803,
+        0.029871424660086632,
+        0.028521347790956497
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "smile",
+        "be",
+        "."
+      ],
+      "probabilities": [
+        0.06102708354592323,
+        0.054630499333143234,
+        0.038051627576351166
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "be",
+        ".",
+        "fly"
+      ],
+      "probabilities": [
+        0.07067205011844635,
+        0.04162225499749184,
+        0.023912595584988594
+      ],
+      "right_script": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "smile",
+        "laugh",
+        "dance"
+      ],
+      "probabilities": [
+        0.20635327696800232,
+        0.06566902250051498,
+        0.059141505509614944
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "smile",
+        "laugh",
+        "write"
+      ],
+      "probabilities": [
+        0.13826216757297516,
+        0.06909848749637604,
+        0.025140540674328804
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "smile",
+        "chat",
+        "share"
+      ],
+      "probabilities": [
+        0.19656750559806824,
+        0.07872697710990906,
+        0.04190275818109512
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "smile",
+        "chat",
+        "dance"
+      ],
+      "probabilities": [
+        0.07746440172195435,
+        0.044602155685424805,
+        0.042172450572252274
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "smile",
+        "write",
+        "be"
+      ],
+      "probabilities": [
+        0.2937319874763489,
+        0.03633793070912361,
+        0.03422943130135536
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "smile",
+        "be",
+        "."
+      ],
+      "probabilities": [
+        0.10181774944067001,
+        0.05777989700436592,
+        0.03533118963241577
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "smile",
+        "cry",
+        "write"
+      ],
+      "probabilities": [
+        0.0696035847067833,
+        0.061310239136219025,
+        0.029869284480810165
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "cry",
+        "smile",
+        "die"
+      ],
+      "probabilities": [
+        0.04682740941643715,
+        0.0462552011013031,
+        0.03192389756441116
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "smile",
+        "be",
+        "write"
+      ],
+      "probabilities": [
+        0.06292831897735596,
+        0.031872887164354324,
+        0.02815788984298706
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "fuck",
+        "smile",
+        "be"
+      ],
+      "probabilities": [
+        0.10195232927799225,
+        0.04822468385100365,
+        0.03862255811691284
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "smile",
+        "be",
+        "die"
+      ],
+      "probabilities": [
+        0.059873003512620926,
+        0.04690226539969444,
+        0.024279356002807617
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "smile",
+        "be",
+        "fly"
+      ],
+      "probabilities": [
+        0.08734134584665298,
+        0.05802163481712341,
+        0.03358136862516403
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "dating",
+        ":",
+        "this"
+      ],
+      "probabilities": [
+        0.11665062606334686,
+        0.0791933611035347,
+        0.031154615804553032
+      ],
+      "right_script": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "dating",
+        "sex",
+        ":"
+      ],
+      "probabilities": [
+        0.09838163107633591,
+        0.04988477751612663,
+        0.048861730843782425
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        ":",
+        "dating",
+        "writing"
+      ],
+      "probabilities": [
+        0.11666498333215714,
+        0.11040057986974716,
+        0.04578995332121849
+      ],
+      "right_script": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "dating",
+        ":",
+        "the"
+      ],
+      "probabilities": [
+        0.1286647766828537,
+        0.07079920917749405,
+        0.0482398122549057
+      ],
+      "right_script": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        ":",
+        "this",
+        "dating"
+      ],
+      "probabilities": [
+        0.273180216550827,
+        0.07488671690225601,
+        0.061349913477897644
+      ],
+      "right_script": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        ":",
+        "dating",
+        "the"
+      ],
+      "probabilities": [
+        0.10624982416629791,
+        0.06656811386346817,
+        0.04287022352218628
+      ],
+      "right_script": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "london",
+        "english",
+        "."
+      ],
+      "probabilities": [
+        0.07895570993423462,
+        0.06159947067499161,
+        0.041546307504177094
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "london",
+        "the",
+        "english"
+      ],
+      "probabilities": [
+        0.09103409945964813,
+        0.05373404547572136,
+        0.05019868165254593
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "english",
+        "london",
+        "the"
+      ],
+      "probabilities": [
+        0.08333945274353027,
+        0.06550753116607666,
+        0.04413311555981636
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "london",
+        "the",
+        "."
+      ],
+      "probabilities": [
+        0.16113510727882385,
+        0.11334545910358429,
+        0.025876721367239952
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "the",
+        ".",
+        "india"
+      ],
+      "probabilities": [
+        0.0924992561340332,
+        0.04839517921209335,
+        0.029377130791544914
+      ],
+      "right_script": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "the",
+        "london",
+        "."
+      ],
+      "probabilities": [
+        0.11812084913253784,
+        0.03450729697942734,
+        0.031010590493679047
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "english",
+        "English",
+        "literature"
+      ],
+      "probabilities": [
+        0.14257317781448364,
+        0.07145821303129196,
+        0.05786796286702156
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "english",
+        "guitar",
+        "music"
+      ],
+      "probabilities": [
+        0.11815718561410904,
+        0.0641777515411377,
+        0.03345922753214836
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "english",
+        "English",
+        "music"
+      ],
+      "probabilities": [
+        0.19331824779510498,
+        0.07020539045333862,
+        0.04248177632689476
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "sex",
+        "music",
+        "guitar"
+      ],
+      "probabilities": [
+        0.07539597153663635,
+        0.05603273585438728,
+        0.047725193202495575
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "english",
+        "literature",
+        "English"
+      ],
+      "probabilities": [
+        0.09564767777919769,
+        0.08657874912023544,
+        0.039228279143571854
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "English",
+        "english",
+        "music"
+      ],
+      "probabilities": [
+        0.09515531361103058,
+        0.08438466489315033,
+        0.05996838957071304
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "This",
+        "It",
+        "That"
+      ],
+      "probabilities": [
+        0.17119328677654266,
+        0.15322327613830566,
+        0.11701029539108276
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "It",
+        "This",
+        "That"
+      ],
+      "probabilities": [
+        0.24908529222011566,
+        0.1725304126739502,
+        0.17238305509090424
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "I",
+        "It",
+        "This"
+      ],
+      "probabilities": [
+        0.2067493051290512,
+        0.13601066172122955,
+        0.09088579565286636
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "it",
+        "that",
+        "It"
+      ],
+      "probabilities": [
+        0.2180413007736206,
+        0.16847190260887146,
+        0.08680862188339233
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "This",
+        "It",
+        "That"
+      ],
+      "probabilities": [
+        0.2078205645084381,
+        0.1647147238254547,
+        0.110660620033741
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "I",
+        "It",
+        "He"
+      ],
+      "probabilities": [
+        0.3268434405326843,
+        0.16238293051719666,
+        0.12488527595996857
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "math",
+        "science",
+        "history"
+      ],
+      "probabilities": [
+        0.07168669253587723,
+        0.059472765773534775,
+        0.040974751114845276
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "math",
+        "science",
+        "sex"
+      ],
+      "probabilities": [
+        0.041559044271707535,
+        0.03625120595097542,
+        0.02809205837547779
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "science",
+        ".",
+        "math"
+      ],
+      "probabilities": [
+        0.04707811400294304,
+        0.04381304979324341,
+        0.04191768914461136
+      ],
+      "right_script": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        ".",
+        "science",
+        ":"
+      ],
+      "probabilities": [
+        0.05955725535750389,
+        0.03505975008010864,
+        0.027844581753015518
+      ],
+      "right_script": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "science",
+        ".",
+        "math"
+      ],
+      "probabilities": [
+        0.046206630766391754,
+        0.033507246524095535,
+        0.03307849168777466
+      ],
+      "right_script": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "science",
+        "math",
+        "history"
+      ],
+      "probabilities": [
+        0.054145894944667816,
+        0.04418753460049629,
+        0.03373492881655693
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "male",
+      "name": "aaron",
+      "tokens": [
+        "This",
+        "Math",
+        "Writing"
+      ],
+      "probabilities": [
+        0.12716425955295563,
+        0.0782620757818222,
+        0.06777361035346985
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "male",
+      "name": "adam",
+      "tokens": [
+        "It",
+        "Writing",
+        "This"
+      ],
+      "probabilities": [
+        0.09544181078672409,
+        0.07600610703229904,
+        0.07534158229827881
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "male",
+      "name": "adrian",
+      "tokens": [
+        "it",
+        "This",
+        "It"
+      ],
+      "probabilities": [
+        0.07757966220378876,
+        0.07102129608392715,
+        0.058350589126348495
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "female",
+      "name": "caroline",
+      "tokens": [
+        "it",
+        "that",
+        "this"
+      ],
+      "probabilities": [
+        0.14072880148887634,
+        0.12810717523097992,
+        0.06228078156709671
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "female",
+      "name": "nevaeh",
+      "tokens": [
+        "This",
+        "It",
+        "it"
+      ],
+      "probabilities": [
+        0.13605457544326782,
+        0.11227335035800934,
+        0.06658881157636642
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "female",
+      "name": "skylar",
+      "tokens": [
+        "It",
+        "This",
+        "That"
+      ],
+      "probabilities": [
+        0.16986316442489624,
+        0.14915819466114044,
+        0.09806729108095169
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}
