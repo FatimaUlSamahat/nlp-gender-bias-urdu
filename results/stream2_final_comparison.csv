@@ -1,0 +1,9 @@
+model,language,disco_score,historical_mean_gender_effect,control_seeds,note
+Baseline XLM-R,en,0.773,-0.006056,5,Baseline evaluation and controls
+Baseline XLM-R,ur,0.877,0.052245,5,Baseline evaluation and controls
+CDA-English,en,0.613354,-0.014441,5,Historical controls; CDA scores from retrained checkpoints
+CDA-English,ur,0.833673,0.034898,5,Historical controls; CDA scores from retrained checkpoints
+CDA-Urdu,en,0.733696,0.002329,5,Historical controls; CDA scores from retrained checkpoints
+CDA-Urdu,ur,0.553061,0.054694,5,Historical controls; CDA scores from retrained checkpoints
+CDA-Combined,en,0.61413,0.005124,5,Historical controls; CDA scores from retrained checkpoints
+CDA-Combined,ur,0.613265,0.043265,5,Historical controls; CDA scores from retrained checkpoints
