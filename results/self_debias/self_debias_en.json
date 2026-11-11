@@ -1,0 +1,98 @@
+{
+  "language": "en",
+  "model": "xlm-roberta-base",
+  "method": "Self-Debiasing-inspired adaptation",
+  "decay": 50.0,
+  "epsilon": 0.01,
+  "top_k": 3,
+  "names": 92,
+  "templates": 14,
+  "score": 0.7950310559006211,
+  "runtime_seconds": 72.6,
+  "per_template": [
+    {
+      "template_index": 0,
+      "rejected": 178,
+      "valid": 184,
+      "rate": 0.967391304347826
+    },
+    {
+      "template_index": 1,
+      "rejected": 164,
+      "valid": 184,
+      "rate": 0.8913043478260869
+    },
+    {
+      "template_index": 2,
+      "rejected": 22,
+      "valid": 184,
+      "rate": 0.11956521739130435
+    },
+    {
+      "template_index": 3,
+      "rejected": 144,
+      "valid": 184,
+      "rate": 0.782608695652174
+    },
+    {
+      "template_index": 4,
+      "rejected": 156,
+      "valid": 184,
+      "rate": 0.8478260869565217
+    },
+    {
+      "template_index": 5,
+      "rejected": 178,
+      "valid": 184,
+      "rate": 0.967391304347826
+    },
+    {
+      "template_index": 6,
+      "rejected": 172,
+      "valid": 184,
+      "rate": 0.9347826086956522
+    },
+    {
+      "template_index": 7,
+      "rejected": 160,
+      "valid": 184,
+      "rate": 0.8695652173913043
+    },
+    {
+      "template_index": 8,
+      "rejected": 126,
+      "valid": 184,
+      "rate": 0.6847826086956522
+    },
+    {
+      "template_index": 9,
+      "rejected": 136,
+      "valid": 184,
+      "rate": 0.7391304347826086
+    },
+    {
+      "template_index": 10,
+      "rejected": 174,
+      "valid": 184,
+      "rate": 0.9456521739130435
+    },
+    {
+      "template_index": 11,
+      "rejected": 168,
+      "valid": 184,
+      "rate": 0.9130434782608695
+    },
+    {
+      "template_index": 12,
+      "rejected": 124,
+      "valid": 184,
+      "rate": 0.6739130434782609
+    },
+    {
+      "template_index": 13,
+      "rejected": 146,
+      "valid": 184,
+      "rate": 0.7934782608695652
+    }
+  ]
+}
