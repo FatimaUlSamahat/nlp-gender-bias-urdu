@@ -2,7 +2,7 @@
 
 ## Methods
 - Base model: XLM-RoBERTa-base
-- CDA variants: English, Urdu, and combined English+Urdu
+- CDA variants: English, Urdu, English+Urdu, Hindi, and Hindi+Urdu
 - Evaluation: DisCo on English and Urdu templates
 - Same-gender controls: MF, MM, FF across five seeds
 - Self-Debiasing: experimental inference-time adaptation
@@ -14,15 +14,14 @@
 - results/self_debias/: saved Self-Debiasing results
 
 ## Important limitations
-- Historical CDA controls were generated using earlier checkpoints.
-  They must not be treated as matched controls for the retrained models.
+- Historical CDA controls came from earlier checkpoints and remain archived separately. Fresh matched controls were subsequently run on the final CDA checkpoints for English and Urdu, seeds 0–4.
 - The Self-Debiasing controls used a different name-pairing procedure
   and are not directly comparable to the CDA control effects.
 - Trained CDA model weights are not included in this package.
 - Lower raw DisCo scores alone do not establish reduced gender bias.
 ## CDA Training Configuration
 
-All CDA models were fine-tuned from `xlm-roberta-base` using masked language modeling (MLM).
+The English, Urdu, and English+Urdu CDA models were fine-tuned from xlm-roberta-base using masked language modeling (MLM). The following hyperparameters are confirmed for these three models; Hindi training configurations require separate verification.
 
 | Parameter | Value |
 |---|---|
@@ -56,3 +55,58 @@ Training was configured for 500 optimizer steps per model rather than a fixed nu
 The CDA training notebook is available at `notebooks/stream2_cda_training_recovered.ipynb`.
 
 The notebook documents the training workflow and hyperparameters. Trained model checkpoints are not stored in the GitHub repository.
+
+## Final CDA Evaluation
+
+The final CDA checkpoints were evaluated using DisCo.
+English and Urdu evaluations used their respective templates.
+Urdu evaluations used `data/templates/v2`.
+
+For the English, Urdu, and English+Urdu CDA variants,
+matched controls were run using `src.disco.control`
+with random seeds 0–4.
+
+Hindi-only and Hindi+Urdu CDA checkpoints were evaluated
+on Urdu using the same Urdu template directory and
+five matched-control seeds.
+
+### Final Results
+
+| Model | Language | DisCo score | Mean gender effect | SD gender effect |
+|---|---|---:|---:|---:|
+| cda_en_full | en | 0.6134 | -0.0144 | 0.0209 |
+| cda_en_full | ur | 0.8337 | 0.0349 | 0.0139 |
+| cda_ur_full | en | 0.7337 | 0.0045 | 0.0181 |
+| cda_ur_full | ur | 0.5531 | 0.0163 | 0.0132 |
+| cda_en_ur_full | en | 0.6429 | 0.0051 | 0.0151 |
+| cda_en_ur_full | ur | 0.6990 | 0.0433 | 0.0216 |
+| cda_hi_full | ur | 0.6704 | 0.0380 | 0.0173 |
+| cda_hi_ur_full | ur | 0.5827 | 0.0286 | 0.0127 |
+
+### Interpretation
+
+- English-only CDA had the lowest English DisCo score
+  among the evaluated CDA variants.
+- Urdu-only CDA had the lowest Urdu DisCo score
+  among the evaluated CDA variants.
+- Hindi+Urdu CDA had a lower Urdu DisCo score
+  than Hindi-only CDA.
+- These are descriptive findings, not statistical proof
+  of a reduction in gender bias.
+- Gender-effect values are signed contrasts between
+  mixed-gender and same-gender name-pair controls.
+
+### Evaluation Artifacts
+
+- `final_cda_comparison.json`
+- `final_cda_comparison.csv`
+- `stream2_final_evaluation/` — 6 DisCo results and 30 controls
+- `stream2_hindi_final/` — 2 DisCo results and 10 controls
+
+### Outstanding Verification
+
+- Confirm exact Hindi training configuration and data counts
+  from the original training records.
+- Confirm Self-Debiasing control comparability before
+  combining it with CDA results.
+- Include baseline results in the final comparative analysis.
