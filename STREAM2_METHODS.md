@@ -21,7 +21,7 @@
 - Lower raw DisCo scores alone do not establish reduced gender bias.
 ## CDA Training Configuration
 
-The English, Urdu, and English+Urdu CDA models were fine-tuned from xlm-roberta-base using masked language modeling (MLM). The following hyperparameters are confirmed for these three models; Hindi training configurations require separate verification.
+The English, Urdu, and English+Urdu CDA models were fine-tuned from xlm-roberta-base using masked language modeling (MLM). The following hyperparameters are documented in the training notebooks for all five CDA variants. Training was configured for 500 optimizer steps per model rather than a fixed number of epochs. Hindi-only and Hindi+Urdu training used filtered counterfactual sentence pairs, with balanced language sampling in the combined setup. Exact filtered training-example counts remain to be verified.
 
 | Parameter | Value |
 |---|---|
@@ -52,9 +52,12 @@ Training was configured for 500 optimizer steps per model rather than a fixed nu
 
 ### Reproducibility
 
-The CDA training notebook is available at `notebooks/stream2_cda_training_recovered.ipynb`.
+CDA training notebooks are available at:
 
-The notebook documents the training workflow and hyperparameters. Trained model checkpoints are not stored in the GitHub repository.
+- `notebooks/stream2_cda_training_recovered.ipynb`
+- `notebooks/stream2_cda_hindi_training.ipynb`
+
+The notebooks document the training workflows and hyperparameters for all five CDA variants. Trained model checkpoints are not stored in the GitHub repository.
 
 ## Final CDA Evaluation
 
@@ -105,8 +108,7 @@ five matched-control seeds.
 
 ### Outstanding Verification
 
-- Confirm exact Hindi training configuration and data counts
-  from the original training records.
+- Confirm exact filtered training-example counts from the training logs.
 - Confirm Self-Debiasing control comparability before
   combining it with CDA results.
 - Include baseline results in the final comparative analysis.
