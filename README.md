@@ -17,7 +17,7 @@ Members: Eshal Faisal, Laiba Naeem, Abeeha Imran, Fatima Ul Samahat.
 
 ## Setup
 ```
-git clone <repo-url>
+git clone https://github.com/FatimaUlSamahat/nlp-gender-bias-urdu.git
 cd nlp-gender-bias-urdu
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -71,7 +71,8 @@ Score male-vs-male and female-vs-female with the same test. Gender effect = MF �
 - Same-gender comparisons already score 0.79-0.89, so most of the DisCo score is name-to-name variation, not gender.
 - Why: the authors' chi-square test gives p = 0 whenever a word appears in one top-3 list but not the other, so any difference in the top-3 counts as "biased".
 - Improving the Urdu templates (81% → 93% valid predictions) changed the score by less than 0.01, which is consistent with this.
-- Only one random split so far: needs seeds 1-4 before we rely on it (handed to Abeeha/Eshal). Debiasing results should also be run through the control.
+- This section reports the preliminary seed-0 controls. Final CDA evaluations use five matched-control seeds (0–4); see the Stream 2 final results below.
+- Final CDA and Self-Debiasing evaluations include same-gender control analyses; see the final results and methodology documentation.
 
 #### Urdu templates v2 (`data/templates/v2/`, see its README)
 - Rule: a template is acceptable if most top-3 guesses are real Urdu words of the intended kind; at most two revision rounds, then frozen.
@@ -110,7 +111,7 @@ Following the paper: English Wikipedia sentences → gender swap in English → 
 Notes:
 - Most original sentences are about men (Wikipedia skew); CDA balances this.
 - English swap issues: proper names broken (King Fahd → Queen Fahd, Duke → Duchess University, Conference on Women → Men, Muslim Brotherhood → Sisterhood); real people renamed (Mohammed bin Salman → Salma, Shahid Khan → Shazia Khan); surnames in our name list get swapped (Hussain); names not in our list stay unchanged, so some swapped sentences pair a male name with "she".
-- Hindi CDA data not made (run `python -m src.cda.translate --lang hi` if needed).
+- Hindi CDA data was subsequently prepared, and Hindi-only and Hindi+Urdu CDA models were trained and evaluated. See the Stream 2 final results below.
 
 #### Deviations from the paper (to state in the report)
 - Translator: NLLB instead of Bing.
@@ -120,3 +121,83 @@ Notes:
 - Hindi templates and all Urdu data are our own.
 - Library versions much newer than the authors' (torch 2.15, transformers 5.22); English score still matches (0.773 vs 0.78).
 
+---
+
+## Stream 2: Gender Bias Mitigation — Final Results
+
+We evaluated two gender-bias mitigation approaches using XLM-RoBERTa-base:
+
+1. **Counterfactual Data Augmentation (CDA):** Fine-tuning with gender-swapped sentence pairs.
+2. **Self-Debiasing:** Applying a decoding-time intervention without retraining the base model.
+
+### CDA Experiments
+
+Five CDA model variants were trained and evaluated:
+
+- `cda_en_full` — English CDA training
+- `cda_ur_full` — Urdu CDA training
+- `cda_en_ur_full` — English + Urdu CDA training
+- `cda_hi_full` — Hindi CDA training
+- `cda_hi_ur_full` — Hindi + Urdu CDA training
+
+### Final DisCo Results
+
+| Model | Evaluation language | DisCo score |
+|---|---|---:|
+| XLM-R baseline | English | 0.773 |
+| XLM-R baseline | Urdu v2 | 0.877 |
+| CDA English | English | 0.6134 |
+| CDA English | Urdu | 0.8337 |
+| CDA Urdu | English | 0.7337 |
+| CDA Urdu | Urdu | 0.5531 |
+| CDA English + Urdu | English | 0.6429 |
+| CDA English + Urdu | Urdu | 0.6990 |
+| CDA Hindi | Urdu | 0.6704 |
+| CDA Hindi + Urdu | Urdu | 0.5827 |
+
+These scores measure differences in model predictions across gendered names. Lower DisCo scores alone do not establish that gender bias has been eliminated.
+
+### Matched Same-Gender Controls
+
+Each final CDA evaluation was accompanied by five seeded matched-control runs (seeds 0–4).
+
+The gender-effect statistic was calculated as:
+
+`MF − (MM + FF) / 2`
+
+where MF compares male and female names, MM compares male names, and FF compares female names.
+
+The complete results, including mean gender effects and standard deviations, are available in:
+
+`results/stream2_final_comparison.csv`
+
+Baseline control results were generated under earlier evaluation conditions, so direct comparisons with the final matched controls require caution.
+
+### Reproducibility
+
+Training and evaluation notebooks:
+
+- `notebooks/stream2_cda_training_recovered.ipynb`
+- `notebooks/stream2_cda_hindi_training.ipynb`
+- `notebooks/stream2_self_debias_controls.ipynb`
+
+Supporting implementation:
+
+- `src/cda/` — CDA data preparation
+- `src/disco/control.py` — same-gender control evaluation
+- `src/disco/self_debias.py` — Self-Debiasing implementation
+
+Results and documentation:
+
+- `results/` — DisCo evaluations and matched-control JSON files
+- `results/stream2_final_comparison.csv` — final CDA comparison
+- `STREAM2_METHODS.md` — methodology, training configuration, results, and limitations
+
+### Limitations
+
+- DisCo is sensitive to name-to-name variation, not exclusively gender differences.
+- Urdu translation introduces noise and may not preserve every gender swap.
+- Name lists can encode cultural and religious associations.
+- Cross-language evaluation may be affected by differences in templates, scripts, and tokenization.
+- CDA and Self-Debiasing results should not be treated as directly comparable without confirming identical evaluation and control procedures.
+- The experiments do not establish that either method eliminates gender bias.

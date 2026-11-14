@@ -27,7 +27,7 @@ def make(lang, n, seed):
     empty = [r for r in rows if not r[lang].strip() or not r[f"{lang}_cf"].strip()]
     latin = [r for r in rows if sum(c.isascii() and c.isalpha() for c in r[lang]) > len(r[lang]) * 0.3]
     print(f"pairs translated: {len(rows):,}")
-    print(f"Urdu original and swapped IDENTICAL (gender change lost): {len(identical):,} "
+    print(f"{lang} original and swapped IDENTICAL (gender change lost): {len(identical):,} "
           f"({100 * len(identical) / len(rows):.1f}%)")
     print(f"empty translations: {len(empty):,}")
     print(f"mostly Latin letters (translation probably failed): {len(latin):,}")

@@ -1,0 +1,16 @@
+{
+  "language": "en",
+  "model": "xlm-roberta-base",
+  "method": "self_debias",
+  "seed": 1,
+  "name_pairs_per_run": 46,
+  "scores": {
+    "MF": 0.7810559006211181,
+    "MM": 0.7391304347826085,
+    "FF": 0.7577639751552793
+  },
+  "same_gender_average": 0.7484472049689439,
+  "gender_effect": 0.03260869565217417,
+  "templates_file": "/content/nlp-gender-bias-urdu-main/data/templates",
+  "date": "2026-11-14T03:09:42.751344+00:00"
+}
