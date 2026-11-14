@@ -120,4 +120,4 @@ five matched-control seeds.
 ### Outstanding Verification
 
 - Interpret Self-Debiasing results separately, accounting for the adapted prediction probabilities.
-- Include baseline results in the final comparative analysis.
+- Baseline XLM-RoBERTa results for English and Urdu are included in results/stream2_final_comparison.csv alongside all final CDA evaluations. Baseline control comparability with the final CDA controls has not been independently verified.
