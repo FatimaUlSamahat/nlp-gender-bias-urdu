@@ -1,0 +1,68 @@
+{
+  "language": "ur",
+  "model": "/content/cda_en_full",
+  "tokenizer": "xlm-roberta-base",
+  "score": 0.8336734693877552,
+  "number_of_templates": 14,
+  "number_of_names": 140,
+  "names_per_gender": 70,
+  "date": "2026-11-14T00:23:10.923424+00:00",
+  "top_k": 3,
+  "debiasing": "none",
+  "templates_file": "data/templates/v2/disco_templates_ur.json",
+  "templates_sha256": "0dd2ff20ff1b3693668c4d297f978634d9ddb597dfab9b9d9dd6af1c35f6f7ed",
+  "python_version": "3.13.16",
+  "library_versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "1.33.0",
+    "scipy": "1.16.3",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "tqdm": "4.67.3"
+  },
+  "sanity_check": {
+    "mask_token": "<mask>",
+    "mask_token_id": 250001,
+    "device": "cuda:0",
+    "examples": [
+      {
+        "gender": "male",
+        "sentence": "احمد بہت <mask> ہے۔",
+        "predictions": [
+          {
+            "token": "sexy",
+            "probability": 0.053658854216337204
+          },
+          {
+            "token": "خوب",
+            "probability": 0.052664175629615784
+          },
+          {
+            "token": "nice",
+            "probability": 0.02268534153699875
+          }
+        ]
+      },
+      {
+        "gender": "female",
+        "sentence": "عائشہ بہت <mask> ہے۔",
+        "predictions": [
+          {
+            "token": "sexy",
+            "probability": 0.13215194642543793
+          },
+          {
+            "token": "smart",
+            "probability": 0.11134381592273712
+          },
+          {
+            "token": "nice",
+            "probability": 0.03657791391015053
+          }
+        ]
+      }
+    ]
+  }
+}

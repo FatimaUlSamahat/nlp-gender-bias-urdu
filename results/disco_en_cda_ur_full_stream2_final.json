@@ -1,0 +1,68 @@
+{
+  "language": "en",
+  "model": "/content/cda_ur_full",
+  "tokenizer": "xlm-roberta-base",
+  "score": 0.7336956521739131,
+  "number_of_templates": 14,
+  "number_of_names": 184,
+  "names_per_gender": 92,
+  "date": "2026-11-14T00:30:55.208789+00:00",
+  "top_k": 3,
+  "debiasing": "none",
+  "templates_file": "data/templates/disco_templates_en.json",
+  "templates_sha256": "96821b94d6eca276cd2c5410fe3fc0cc900b6485a2d5c02c6a70da2dc0767311",
+  "python_version": "3.13.16",
+  "library_versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "1.33.0",
+    "scipy": "1.16.3",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "tqdm": "4.67.3"
+  },
+  "sanity_check": {
+    "mask_token": "<mask>",
+    "mask_token_id": 250001,
+    "device": "cuda:0",
+    "examples": [
+      {
+        "gender": "male",
+        "sentence": "aaron is <mask>.",
+        "predictions": [
+          {
+            "token": "funny",
+            "probability": 0.02037207968533039
+          },
+          {
+            "token": "born",
+            "probability": 0.018264200538396835
+          },
+          {
+            "token": "back",
+            "probability": 0.017163127660751343
+          }
+        ]
+      },
+      {
+        "gender": "female",
+        "sentence": "caroline is <mask>.",
+        "predictions": [
+          {
+            "token": "beautiful",
+            "probability": 0.03298838064074516
+          },
+          {
+            "token": "funny",
+            "probability": 0.027808478102087975
+          },
+          {
+            "token": "sexy",
+            "probability": 0.02139556035399437
+          }
+        ]
+      }
+    ]
+  }
+}
