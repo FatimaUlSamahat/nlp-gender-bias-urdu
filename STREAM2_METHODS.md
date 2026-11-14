@@ -15,8 +15,7 @@
 
 ## Important limitations
 - Historical CDA controls came from earlier checkpoints and remain archived separately. Fresh matched controls were subsequently run on the final CDA checkpoints for English and Urdu, seeds 0–4.
-- The Self-Debiasing controls used a different name-pairing procedure
-  and are not directly comparable to the CDA control effects.
+- Self-Debiasing controls use the same seeded MF/MM/FF name-pairing procedure, English and Urdu evaluation templates, top-k setting, chi-square test, and gender-effect formula as the standard DisCo controls. However, Self-Debiasing modifies and renormalizes token probabilities before evaluation. Results should therefore be interpreted as an adapted DisCo evaluation rather than an identical scoring implementation.
 - Trained CDA model weights are not included in this package.
 - Lower raw DisCo scores alone do not establish reduced gender bias.
 ## CDA Training Configuration
@@ -109,6 +108,5 @@ five matched-control seeds.
 ### Outstanding Verification
 
 - Confirm exact filtered training-example counts from the training logs.
-- Confirm Self-Debiasing control comparability before
-  combining it with CDA results.
+- Interpret Self-Debiasing results separately, accounting for the adapted prediction probabilities.
 - Include baseline results in the final comparative analysis.
