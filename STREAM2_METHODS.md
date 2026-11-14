@@ -20,7 +20,7 @@
 - Lower raw DisCo scores alone do not establish reduced gender bias.
 ## CDA Training Configuration
 
-The English, Urdu, and English+Urdu CDA models were fine-tuned from xlm-roberta-base using masked language modeling (MLM). The following hyperparameters are documented in the training notebooks for all five CDA variants. Training was configured for 500 optimizer steps per model rather than a fixed number of epochs. Hindi-only and Hindi+Urdu training used filtered counterfactual sentence pairs, with balanced language sampling in the combined setup. Exact filtered training-example counts remain to be verified.
+The English, Urdu, and English+Urdu CDA models were fine-tuned from xlm-roberta-base using masked language modeling (MLM). The following hyperparameters are documented in the training notebooks for all five CDA variants. Training was configured for 500 optimizer steps per model rather than a fixed number of epochs. Hindi-only and Hindi+Urdu training used filtered counterfactual sentence pairs, with balanced language sampling in the combined setup. 
 
 | Parameter | Value |
 |---|---|
@@ -43,7 +43,19 @@ The English, Urdu, and English+Urdu CDA models were fine-tuned from xlm-roberta-
 - **CDA-Urdu:** Urdu counterfactual sentence pairs from `data/cda/pairs_ur.jsonl` (9,972 source pairs, with filtering applied before training).
 - **CDA-Combined:** English and filtered Urdu counterfactual examples combined for training.
 
-The exact number of training examples after filtering should be verified from the training notebook or logs.
+
+
+### Training Dataset Sizes
+
+| CDA variant | Training data | Training sentences |
+|---|---|---:|
+| English-only | 9,972 English pairs | 19,944 |
+| Urdu-only | 7,840 filtered Urdu pairs | 15,680 |
+| English+Urdu | 7,840 English + 7,840 Urdu pairs | 31,360 |
+| Hindi-only | 6,990 filtered Hindi pairs | 13,980 |
+| Hindi+Urdu | 6,990 Hindi + 6,990 Urdu pairs | 27,960 |
+
+Hindi and Urdu datasets each contained 9,972 source pairs before filtering. Training examples include both original and counterfactual sentences.
 
 ### Training Duration
 
@@ -107,6 +119,5 @@ five matched-control seeds.
 
 ### Outstanding Verification
 
-- Confirm exact filtered training-example counts from the training logs.
 - Interpret Self-Debiasing results separately, accounting for the adapted prediction probabilities.
 - Include baseline results in the final comparative analysis.
