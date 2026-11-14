@@ -1,9 +1,11 @@
-model,language,disco_score,historical_mean_gender_effect,control_seeds,note
-Baseline XLM-R,en,0.773,-0.006056,5,Baseline evaluation and controls
-Baseline XLM-R,ur,0.877,0.052245,5,Baseline evaluation and controls
-CDA-English,en,0.613354,-0.014441,5,Historical controls; CDA scores from retrained checkpoints
-CDA-English,ur,0.833673,0.034898,5,Historical controls; CDA scores from retrained checkpoints
-CDA-Urdu,en,0.733696,0.002329,5,Historical controls; CDA scores from retrained checkpoints
-CDA-Urdu,ur,0.553061,0.054694,5,Historical controls; CDA scores from retrained checkpoints
-CDA-Combined,en,0.61413,0.005124,5,Historical controls; CDA scores from retrained checkpoints
-CDA-Combined,ur,0.613265,0.043265,5,Historical controls; CDA scores from retrained checkpoints
+model,language,disco_score,mean_gender_effect,std_gender_effect,control_seeds,note
+Baseline XLM-R,en,0.773,-0.006056,,5,Baseline controls; comparability to final CDA controls not yet verified
+Baseline XLM-R,ur,0.877,0.052245,,5,Urdu v2 baseline; comparability to final CDA controls not yet verified
+cda_en_full,en,0.613354,-0.014441,0.020917,5,Final checkpoint evaluation; matched controls seeds 0-4
+cda_en_full,ur,0.833673,0.034898,0.013943,5,Final checkpoint evaluation; matched controls seeds 0-4
+cda_ur_full,en,0.733696,0.004503,0.018137,5,Final checkpoint evaluation; matched controls seeds 0-4
+cda_ur_full,ur,0.553061,0.016327,0.013187,5,Final checkpoint evaluation; matched controls seeds 0-4
+cda_en_ur_full,en,0.642857,0.005124,0.015071,5,Final checkpoint evaluation; matched controls seeds 0-4
+cda_en_ur_full,ur,0.69898,0.043265,0.021593,5,Final checkpoint evaluation; matched controls seeds 0-4
+cda_hi_full,ur,0.670408,0.037959,0.017308,5,Final checkpoint evaluation; matched controls seeds 0-4
+cda_hi_ur_full,ur,0.582653,0.028571,0.012704,5,Final checkpoint evaluation; matched controls seeds 0-4
