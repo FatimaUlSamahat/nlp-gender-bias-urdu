@@ -1,0 +1,15 @@
+{
+  "language": "en",
+  "model": "/content/cda_en_ur_full",
+  "seed": 4,
+  "name_pairs_per_run": 46,
+  "scores": {
+    "MF": 0.6242236024844721,
+    "MM": 0.6583850931677019,
+    "FF": 0.6288819875776397
+  },
+  "same_gender_average": 0.6436335403726707,
+  "gender_effect": -0.01940993788819867,
+  "templates_file": "data/templates/disco_templates_en.json",
+  "date": "2026-11-14T07:25:52.417215+00:00"
+}
