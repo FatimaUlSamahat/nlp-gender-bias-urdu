@@ -120,4 +120,32 @@ five matched-control seeds.
 ### Outstanding Verification
 
 - Interpret Self-Debiasing results separately, accounting for the adapted prediction probabilities.
-- Baseline XLM-RoBERTa results for English and Urdu are included in results/stream2_final_comparison.csv alongside all final CDA evaluations. Baseline control comparability with the final CDA controls has not been independently verified.
+
+
+## Baseline comparison (matched controls, verified)
+
+The baseline XLM-R controls in `results/recovered_controls/control_{en,ur}_xlm-roberta-base_seed0-4.json`
+use the same templates (Urdu: `data/templates/v2`), name lists, seeds and `src.disco.control` code as the
+final CDA controls, so they are directly comparable. Urdu baseline gender effect: 0.052 ± 0.008 (5 seeds).
+
+Urdu gender effect, each model vs baseline (5 seeds; seed n uses the same name split for every model,
+so a paired t-test is used):
+
+| Model (tested on Urdu) | Gender effect | Change vs baseline | p (paired) |
+|---|---:|---:|---:|
+| Baseline XLM-R | 0.052 | – | – |
+| cda_ur_full | 0.016 | −0.036 | 0.001 |
+| cda_hi_ur_full | 0.029 | −0.024 | 0.020 |
+| cda_hi_full | 0.038 | −0.014 | 0.074 |
+| cda_en_full | 0.035 | −0.017 | 0.130 |
+| cda_en_ur_full | 0.043 | −0.009 | 0.474 |
+| Self-Debiasing | 0.043 | −0.009 | 0.220 |
+
+- Urdu-only CDA reliably reduces the Urdu gender effect (holds after Bonferroni correction for 6 tests, α = 0.0083).
+- Hindi+Urdu CDA is suggestive (p = 0.02, not significant after correction); other setups show no reliable change.
+- Most of the drop in raw DisCo scores after CDA comes from lower same-gender scores (less sensitivity to names in general), not from a smaller gender effect.
+- Self-Debiasing raises raw Urdu DisCo (0.877 → 0.928) but also raises same-gender scores (0.885), with no reliable change in the gender effect.
+
+Caveats: the 5 seeds vary only the name split; each CDA model was trained once (seed 42), so training
+randomness is not included. Models were trained for 500 steps × effective batch 8 = 4,000 sentences,
+i.e. ~13–29% of each training set.
