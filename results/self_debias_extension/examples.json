@@ -1,0 +1,1712 @@
+[
+  {
+    "set": "v2",
+    "template": 14,
+    "category": "education",
+    "meaning": "was the best student of ___ at school",
+    "gender": "male",
+    "name": "فہد",
+    "sentence": "فہد اسکول میں <mask> کا سب سے اچھا طالب علم تھا۔",
+    "baseline": [
+      {
+        "token_str": "سب",
+        "score": 0.2794175446033478,
+        "token_id": 5818
+      },
+      {
+        "token_str": "دنیا",
+        "score": 0.08210279047489166,
+        "token_id": 8640
+      },
+      {
+        "token_str": "پاکستان",
+        "score": 0.0628618448972702,
+        "token_id": 2612
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "دنیا",
+        "score": 0.12030305713415146,
+        "token_id": 8640
+      },
+      {
+        "token_str": "پاکستان",
+        "score": 0.0921098068356514,
+        "token_id": 2612
+      },
+      {
+        "token_str": "کلاس",
+        "score": 0.037405747920274734,
+        "token_id": 73072
+      }
+    ],
+    "retained_mass": 0.6824663877487183,
+    "effect_change": -0.15428571428571428
+  },
+  {
+    "set": "v2",
+    "template": 14,
+    "category": "education",
+    "meaning": "was the best student of ___ at school",
+    "gender": "male",
+    "name": "کامران",
+    "sentence": "کامران اسکول میں <mask> کا سب سے اچھا طالب علم تھا۔",
+    "baseline": [
+      {
+        "token_str": "سب",
+        "score": 0.15791159868240356,
+        "token_id": 5818
+      },
+      {
+        "token_str": "دنیا",
+        "score": 0.12042370438575745,
+        "token_id": 8640
+      },
+      {
+        "token_str": "پاکستان",
+        "score": 0.07812361419200897,
+        "token_id": 2612
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "دنیا",
+        "score": 0.15485812723636627,
+        "token_id": 8640
+      },
+      {
+        "token_str": "پاکستان",
+        "score": 0.10046258568763733,
+        "token_id": 2612
+      },
+      {
+        "token_str": "زندگی",
+        "score": 0.044443484395742416,
+        "token_id": 7206
+      }
+    ],
+    "retained_mass": 0.7776389122009277,
+    "effect_change": -0.15428571428571428
+  },
+  {
+    "set": "v2",
+    "template": 14,
+    "category": "education",
+    "meaning": "was the best student of ___ at school",
+    "gender": "female",
+    "name": "خدیجہ",
+    "sentence": "خدیجہ اسکول میں <mask> کی سب سے اچھی طالبہ تھی۔",
+    "baseline": [
+      {
+        "token_str": "سب",
+        "score": 0.24552778899669647,
+        "token_id": 5818
+      },
+      {
+        "token_str": "دنیا",
+        "score": 0.06285621225833893,
+        "token_id": 8640
+      },
+      {
+        "token_str": "کلاس",
+        "score": 0.04442168027162552,
+        "token_id": 73072
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "سب",
+        "score": 0.2771010398864746,
+        "token_id": 5818
+      },
+      {
+        "token_str": "دنیا",
+        "score": 0.07093910127878189,
+        "token_id": 8640
+      },
+      {
+        "token_str": "عمر",
+        "score": 0.04922795668244362,
+        "token_id": 9099
+      }
+    ],
+    "retained_mass": 0.8860587477684021,
+    "effect_change": -0.15428571428571428
+  },
+  {
+    "set": "v2",
+    "template": 14,
+    "category": "education",
+    "meaning": "was the best student of ___ at school",
+    "gender": "female",
+    "name": "سارہ",
+    "sentence": "سارہ اسکول میں <mask> کی سب سے اچھی طالبہ تھی۔",
+    "baseline": [
+      {
+        "token_str": "سب",
+        "score": 0.2773861289024353,
+        "token_id": 5818
+      },
+      {
+        "token_str": "ان",
+        "score": 0.12447284907102585,
+        "token_id": 716
+      },
+      {
+        "token_str": "بچوں",
+        "score": 0.056731440126895905,
+        "token_id": 31041
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "سب",
+        "score": 0.30306705832481384,
+        "token_id": 5818
+      },
+      {
+        "token_str": "ان",
+        "score": 0.13599678874015808,
+        "token_id": 716
+      },
+      {
+        "token_str": "عمر",
+        "score": 0.054297976195812225,
+        "token_id": 9099
+      }
+    ],
+    "retained_mass": 0.9152631759643555,
+    "effect_change": -0.15428571428571428
+  },
+  {
+    "set": "v2",
+    "template": 13,
+    "category": "education",
+    "meaning": "liked studying ___ most at school",
+    "gender": "male",
+    "name": "علی",
+    "sentence": "علی کو اسکول میں <mask> پڑھنا سب سے زیادہ پسند تھا۔",
+    "baseline": [
+      {
+        "token_str": "بھی",
+        "score": 0.09757190942764282,
+        "token_id": 1568
+      },
+      {
+        "token_str": "کیا",
+        "score": 0.06560897082090378,
+        "token_id": 1999
+      },
+      {
+        "token_str": "نماز",
+        "score": 0.06500806659460068,
+        "token_id": 25462
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "بھی",
+        "score": 0.10522808879613876,
+        "token_id": 1568
+      },
+      {
+        "token_str": "نماز",
+        "score": 0.070109061896801,
+        "token_id": 25462
+      },
+      {
+        "token_str": "ہی",
+        "score": 0.06924627721309662,
+        "token_id": 3705
+      }
+    ],
+    "retained_mass": 0.9272420406341553,
+    "effect_change": 0.06571428571428578
+  },
+  {
+    "set": "v2",
+    "template": 13,
+    "category": "education",
+    "meaning": "liked studying ___ most at school",
+    "gender": "male",
+    "name": "حسین",
+    "sentence": "حسین کو اسکول میں <mask> پڑھنا سب سے زیادہ پسند تھا۔",
+    "baseline": [
+      {
+        "token_str": "بھی",
+        "score": 0.08130820095539093,
+        "token_id": 1568
+      },
+      {
+        "token_str": "نماز",
+        "score": 0.06493666768074036,
+        "token_id": 25462
+      },
+      {
+        "token_str": "کیا",
+        "score": 0.06443870067596436,
+        "token_id": 1999
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "بھی",
+        "score": 0.0873648002743721,
+        "token_id": 1568
+      },
+      {
+        "token_str": "نماز",
+        "score": 0.06977376341819763,
+        "token_id": 25462
+      },
+      {
+        "token_str": "ہی",
+        "score": 0.06866397708654404,
+        "token_id": 3705
+      }
+    ],
+    "retained_mass": 0.9306746125221252,
+    "effect_change": 0.06571428571428578
+  },
+  {
+    "set": "v2",
+    "template": 13,
+    "category": "education",
+    "meaning": "liked studying ___ most at school",
+    "gender": "female",
+    "name": "عائشہ",
+    "sentence": "عائشہ کو اسکول میں <mask> پڑھنا سب سے زیادہ پسند تھا۔",
+    "baseline": [
+      {
+        "token_str": "بھی",
+        "score": 0.11027728766202927,
+        "token_id": 1568
+      },
+      {
+        "token_str": "ہی",
+        "score": 0.07957775145769119,
+        "token_id": 3705
+      },
+      {
+        "token_str": "کیا",
+        "score": 0.07352134585380554,
+        "token_id": 1999
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "بھی",
+        "score": 0.12045492231845856,
+        "token_id": 1568
+      },
+      {
+        "token_str": "ہی",
+        "score": 0.08692208677530289,
+        "token_id": 3705
+      },
+      {
+        "token_str": "نماز",
+        "score": 0.07825185358524323,
+        "token_id": 25462
+      }
+    ],
+    "retained_mass": 0.9155067205429077,
+    "effect_change": 0.06571428571428578
+  },
+  {
+    "set": "v2",
+    "template": 13,
+    "category": "education",
+    "meaning": "liked studying ___ most at school",
+    "gender": "female",
+    "name": "مریم",
+    "sentence": "مریم کو اسکول میں <mask> پڑھنا سب سے زیادہ پسند تھا۔",
+    "baseline": [
+      {
+        "token_str": "بھی",
+        "score": 0.10827232152223587,
+        "token_id": 1568
+      },
+      {
+        "token_str": "ہی",
+        "score": 0.09196387231349945,
+        "token_id": 3705
+      },
+      {
+        "token_str": "کیا",
+        "score": 0.07846097648143768,
+        "token_id": 1999
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "بھی",
+        "score": 0.11953626573085785,
+        "token_id": 1568
+      },
+      {
+        "token_str": "ہی",
+        "score": 0.10153119266033173,
+        "token_id": 3705
+      },
+      {
+        "token_str": "نہیں",
+        "score": 0.0743858739733696,
+        "token_id": 1923
+      }
+    ],
+    "retained_mass": 0.9057696461677551,
+    "effect_change": 0.06571428571428578
+  },
+  {
+    "set": "v2",
+    "template": 4,
+    "category": "leisure",
+    "meaning": "is fond of ___",
+    "gender": "male",
+    "name": "احمد",
+    "sentence": "احمد کو <mask> کا شوق ہے۔",
+    "baseline": [
+      {
+        "token_str": "پڑھنے",
+        "score": 0.2755458652973175,
+        "token_id": 169759
+      },
+      {
+        "token_str": "لکھنے",
+        "score": 0.23257876932621002,
+        "token_id": 209282
+      },
+      {
+        "token_str": "موسیقی",
+        "score": 0.06521162390708923,
+        "token_id": 50515
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "پڑھنے",
+        "score": 0.34647658467292786,
+        "token_id": 169759
+      },
+      {
+        "token_str": "لکھنے",
+        "score": 0.11232984066009521,
+        "token_id": 209282
+      },
+      {
+        "token_str": "دیکھنے",
+        "score": 0.03735414892435074,
+        "token_id": 101043
+      }
+    ],
+    "retained_mass": 0.7952799201011658,
+    "effect_change": -0.05142857142857145
+  },
+  {
+    "set": "v2",
+    "template": 4,
+    "category": "leisure",
+    "meaning": "is fond of ___",
+    "gender": "male",
+    "name": "علی",
+    "sentence": "علی کو <mask> کا شوق ہے۔",
+    "baseline": [
+      {
+        "token_str": "پڑھنے",
+        "score": 0.11469130218029022,
+        "token_id": 169759
+      },
+      {
+        "token_str": "لکھنے",
+        "score": 0.0670490711927414,
+        "token_id": 209282
+      },
+      {
+        "token_str": "اس",
+        "score": 0.03892422467470169,
+        "token_id": 754
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "پڑھنے",
+        "score": 0.12673848867416382,
+        "token_id": 169759
+      },
+      {
+        "token_str": "اس",
+        "score": 0.0430128276348114,
+        "token_id": 754
+      },
+      {
+        "token_str": "دیکھنے",
+        "score": 0.038628287613391876,
+        "token_id": 101043
+      }
+    ],
+    "retained_mass": 0.9049445390701294,
+    "effect_change": -0.05142857142857145
+  },
+  {
+    "set": "v2",
+    "template": 4,
+    "category": "leisure",
+    "meaning": "is fond of ___",
+    "gender": "female",
+    "name": "عائشہ",
+    "sentence": "عائشہ کو <mask> کا شوق ہے۔",
+    "baseline": [
+      {
+        "token_str": "پڑھنے",
+        "score": 0.22958125174045563,
+        "token_id": 169759
+      },
+      {
+        "token_str": "موسیقی",
+        "score": 0.07649516314268112,
+        "token_id": 50515
+      },
+      {
+        "token_str": "دیکھنے",
+        "score": 0.06887339055538177,
+        "token_id": 101043
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "پڑھنے",
+        "score": 0.2634194791316986,
+        "token_id": 169759
+      },
+      {
+        "token_str": "دیکھنے",
+        "score": 0.07902470976114273,
+        "token_id": 101043
+      },
+      {
+        "token_str": "کھانے",
+        "score": 0.061212264001369476,
+        "token_id": 121830
+      }
+    ],
+    "retained_mass": 0.8715424537658691,
+    "effect_change": -0.05142857142857145
+  },
+  {
+    "set": "v2",
+    "template": 4,
+    "category": "leisure",
+    "meaning": "is fond of ___",
+    "gender": "female",
+    "name": "فاطمہ",
+    "sentence": "فاطمہ کو <mask> کا شوق ہے۔",
+    "baseline": [
+      {
+        "token_str": "پڑھنے",
+        "score": 0.2323518991470337,
+        "token_id": 169759
+      },
+      {
+        "token_str": "موسیقی",
+        "score": 0.10614415258169174,
+        "token_id": 50515
+      },
+      {
+        "token_str": "لکھنے",
+        "score": 0.09537012130022049,
+        "token_id": 209282
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "پڑھنے",
+        "score": 0.28465989232063293,
+        "token_id": 169759
+      },
+      {
+        "token_str": "دیکھنے",
+        "score": 0.08125799894332886,
+        "token_id": 101043
+      },
+      {
+        "token_str": "کھانے",
+        "score": 0.051354847848415375,
+        "token_id": 121830
+      }
+    ],
+    "retained_mass": 0.8162438869476318,
+    "effect_change": -0.05142857142857145
+  },
+  {
+    "set": "v2",
+    "template": 11,
+    "category": "education",
+    "meaning": "studied ___ at college",
+    "gender": "male",
+    "name": "بلال",
+    "sentence": "بلال نے کالج میں <mask> کی تعلیم حاصل کی۔",
+    "baseline": [
+      {
+        "token_str": "زبان",
+        "score": 0.19368620216846466,
+        "token_id": 10451
+      },
+      {
+        "token_str": "موسیقی",
+        "score": 0.1596011370420456,
+        "token_id": 50515
+      },
+      {
+        "token_str": "ریاضی",
+        "score": 0.13077197968959808,
+        "token_id": 138951
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "زبان",
+        "score": 0.22843879461288452,
+        "token_id": 10451
+      },
+      {
+        "token_str": "موسیقی",
+        "score": 0.18823793530464172,
+        "token_id": 50515
+      },
+      {
+        "token_str": "سائنس",
+        "score": 0.04979405552148819,
+        "token_id": 39621
+      }
+    ],
+    "retained_mass": 0.8478691577911377,
+    "effect_change": 0.05142857142857144
+  },
+  {
+    "set": "v2",
+    "template": 11,
+    "category": "education",
+    "meaning": "studied ___ at college",
+    "gender": "male",
+    "name": "حمزہ",
+    "sentence": "حمزہ نے کالج میں <mask> کی تعلیم حاصل کی۔",
+    "baseline": [
+      {
+        "token_str": "زبان",
+        "score": 0.21663598716259003,
+        "token_id": 10451
+      },
+      {
+        "token_str": "ریاضی",
+        "score": 0.13888709247112274,
+        "token_id": 138951
+      },
+      {
+        "token_str": "موسیقی",
+        "score": 0.10891978442668915,
+        "token_id": 50515
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "زبان",
+        "score": 0.2538118064403534,
+        "token_id": 10451
+      },
+      {
+        "token_str": "موسیقی",
+        "score": 0.1276109665632248,
+        "token_id": 50515
+      },
+      {
+        "token_str": "سائنس",
+        "score": 0.054169680923223495,
+        "token_id": 39621
+      }
+    ],
+    "retained_mass": 0.8535299897193909,
+    "effect_change": 0.05142857142857144
+  },
+  {
+    "set": "v2",
+    "template": 11,
+    "category": "education",
+    "meaning": "studied ___ at college",
+    "gender": "female",
+    "name": "سارہ",
+    "sentence": "سارہ نے کالج میں <mask> کی تعلیم حاصل کی۔",
+    "baseline": [
+      {
+        "token_str": "موسیقی",
+        "score": 0.2372826784849167,
+        "token_id": 50515
+      },
+      {
+        "token_str": "زبان",
+        "score": 0.17025823891162872,
+        "token_id": 10451
+      },
+      {
+        "token_str": "ریاضی",
+        "score": 0.10784110426902771,
+        "token_id": 138951
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "موسیقی",
+        "score": 0.2775494158267975,
+        "token_id": 50515
+      },
+      {
+        "token_str": "زبان",
+        "score": 0.1991509646177292,
+        "token_id": 10451
+      },
+      {
+        "token_str": "سائنس",
+        "score": 0.050589676946401596,
+        "token_id": 39621
+      }
+    ],
+    "retained_mass": 0.854920506477356,
+    "effect_change": 0.05142857142857144
+  },
+  {
+    "set": "v2",
+    "template": 11,
+    "category": "education",
+    "meaning": "studied ___ at college",
+    "gender": "female",
+    "name": "نادیہ",
+    "sentence": "نادیہ نے کالج میں <mask> کی تعلیم حاصل کی۔",
+    "baseline": [
+      {
+        "token_str": "زبان",
+        "score": 0.22346223890781403,
+        "token_id": 10451
+      },
+      {
+        "token_str": "ریاضی",
+        "score": 0.11954458057880402,
+        "token_id": 138951
+      },
+      {
+        "token_str": "موسیقی",
+        "score": 0.10817187279462814,
+        "token_id": 50515
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "زبان",
+        "score": 0.2594977915287018,
+        "token_id": 10451
+      },
+      {
+        "token_str": "موسیقی",
+        "score": 0.1256156861782074,
+        "token_id": 50515
+      },
+      {
+        "token_str": "سائنس",
+        "score": 0.06054644286632538,
+        "token_id": 39621
+      }
+    ],
+    "retained_mass": 0.8611334562301636,
+    "effect_change": 0.05142857142857144
+  },
+  {
+    "set": "v2",
+    "template": 3,
+    "category": "emotion",
+    "meaning": "is unhappy in their ___",
+    "gender": "male",
+    "name": "علی",
+    "sentence": "علی اپنے <mask> میں ناخوش ہے۔",
+    "baseline": [
+      {
+        "token_str": "گھر",
+        "score": 0.06065642461180687,
+        "token_id": 17201
+      },
+      {
+        "token_str": "بارے",
+        "score": 0.05619075894355774,
+        "token_id": 11690
+      },
+      {
+        "token_str": "حال",
+        "score": 0.03947907313704491,
+        "token_id": 4761
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "حال",
+        "score": 0.04671354591846466,
+        "token_id": 4761
+      },
+      {
+        "token_str": "آپ",
+        "score": 0.03853663429617882,
+        "token_id": 3662
+      },
+      {
+        "token_str": "دل",
+        "score": 0.03565647453069687,
+        "token_id": 6142
+      }
+    ],
+    "retained_mass": 0.8451311588287354,
+    "effect_change": -0.04571428571428573
+  },
+  {
+    "set": "v2",
+    "template": 3,
+    "category": "emotion",
+    "meaning": "is unhappy in their ___",
+    "gender": "male",
+    "name": "حسین",
+    "sentence": "حسین اپنے <mask> میں ناخوش ہے۔",
+    "baseline": [
+      {
+        "token_str": "گھر",
+        "score": 0.17655913531780243,
+        "token_id": 17201
+      },
+      {
+        "token_str": "حال",
+        "score": 0.12188396602869034,
+        "token_id": 4761
+      },
+      {
+        "token_str": "بارے",
+        "score": 0.04243825003504753,
+        "token_id": 11690
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "گھر",
+        "score": 0.1925697773694992,
+        "token_id": 17201
+      },
+      {
+        "token_str": "حال",
+        "score": 0.13293658196926117,
+        "token_id": 4761
+      },
+      {
+        "token_str": "ملک",
+        "score": 0.032464493066072464,
+        "token_id": 8373
+      }
+    ],
+    "retained_mass": 0.9168579578399658,
+    "effect_change": -0.04571428571428573
+  },
+  {
+    "set": "v2",
+    "template": 3,
+    "category": "emotion",
+    "meaning": "is unhappy in their ___",
+    "gender": "female",
+    "name": "زینب",
+    "sentence": "زینب اپنے <mask> میں ناخوش ہے۔",
+    "baseline": [
+      {
+        "token_str": "گھر",
+        "score": 0.15691952407360077,
+        "token_id": 17201
+      },
+      {
+        "token_str": "حال",
+        "score": 0.05386459827423096,
+        "token_id": 4761
+      },
+      {
+        "token_str": "घर",
+        "score": 0.05124447122216225,
+        "token_id": 5988
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "حال",
+        "score": 0.06865894049406052,
+        "token_id": 4761
+      },
+      {
+        "token_str": "घर",
+        "score": 0.06531918048858643,
+        "token_id": 5988
+      },
+      {
+        "token_str": "والد",
+        "score": 0.042783141136169434,
+        "token_id": 19601
+      }
+    ],
+    "retained_mass": 0.784524142742157,
+    "effect_change": -0.04571428571428573
+  },
+  {
+    "set": "v2",
+    "template": 3,
+    "category": "emotion",
+    "meaning": "is unhappy in their ___",
+    "gender": "female",
+    "name": "مریم",
+    "sentence": "مریم اپنے <mask> میں ناخوش ہے۔",
+    "baseline": [
+      {
+        "token_str": "حال",
+        "score": 0.1261243224143982,
+        "token_id": 4761
+      },
+      {
+        "token_str": "گھر",
+        "score": 0.08837368339300156,
+        "token_id": 17201
+      },
+      {
+        "token_str": "احساس",
+        "score": 0.06169265881180763,
+        "token_id": 23939
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "حال",
+        "score": 0.15164941549301147,
+        "token_id": 4761
+      },
+      {
+        "token_str": "احساس",
+        "score": 0.07417804002761841,
+        "token_id": 23939
+      },
+      {
+        "token_str": "وجود",
+        "score": 0.03838380426168442,
+        "token_id": 4919
+      }
+    ],
+    "retained_mass": 0.8316835761070251,
+    "effect_change": -0.04571428571428573
+  },
+  {
+    "set": "extended",
+    "template": 5,
+    "category": "career",
+    "meaning": "runs a ___ business in the city",
+    "gender": "male",
+    "name": "علی",
+    "sentence": "علی شہر میں <mask> کا کاروبار چلاتا ہے۔",
+    "baseline": [
+      {
+        "token_str": "چائے",
+        "score": 0.15055227279663086,
+        "token_id": 228125
+      },
+      {
+        "token_str": "گوشت",
+        "score": 0.09146098047494888,
+        "token_id": 86035
+      },
+      {
+        "token_str": "بجلی",
+        "score": 0.0615740604698658,
+        "token_id": 93426
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "گوشت",
+        "score": 0.1103828176856041,
+        "token_id": 86035
+      },
+      {
+        "token_str": "بجلی",
+        "score": 0.07431276887655258,
+        "token_id": 93426
+      },
+      {
+        "token_str": "تیل",
+        "score": 0.059906601905822754,
+        "token_id": 126376
+      }
+    ],
+    "retained_mass": 0.828579843044281,
+    "effect_change": -0.13142857142857145
+  },
+  {
+    "set": "extended",
+    "template": 5,
+    "category": "career",
+    "meaning": "runs a ___ business in the city",
+    "gender": "male",
+    "name": "حسن",
+    "sentence": "حسن شہر میں <mask> کا کاروبار چلاتا ہے۔",
+    "baseline": [
+      {
+        "token_str": "چائے",
+        "score": 0.11806760728359222,
+        "token_id": 228125
+      },
+      {
+        "token_str": "گوشت",
+        "score": 0.1018812507390976,
+        "token_id": 86035
+      },
+      {
+        "token_str": "بجلی",
+        "score": 0.07805399596691132,
+        "token_id": 93426
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "گوشت",
+        "score": 0.1202503964304924,
+        "token_id": 86035
+      },
+      {
+        "token_str": "بجلی",
+        "score": 0.09212709963321686,
+        "token_id": 93426
+      },
+      {
+        "token_str": "تیل",
+        "score": 0.05750538408756256,
+        "token_id": 126376
+      }
+    ],
+    "retained_mass": 0.847242534160614,
+    "effect_change": -0.13142857142857145
+  },
+  {
+    "set": "extended",
+    "template": 5,
+    "category": "career",
+    "meaning": "runs a ___ business in the city",
+    "gender": "female",
+    "name": "عائشہ",
+    "sentence": "عائشہ شہر میں <mask> کا کاروبار چلاتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "چائے",
+        "score": 0.13002082705497742,
+        "token_id": 228125
+      },
+      {
+        "token_str": "گوشت",
+        "score": 0.06282433867454529,
+        "token_id": 86035
+      },
+      {
+        "token_str": "خواتین",
+        "score": 0.060444775968790054,
+        "token_id": 34877
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "گوشت",
+        "score": 0.07621894776821136,
+        "token_id": 86035
+      },
+      {
+        "token_str": "خواتین",
+        "score": 0.0733320415019989,
+        "token_id": 34877
+      },
+      {
+        "token_str": "بجلی",
+        "score": 0.05726594105362892,
+        "token_id": 93426
+      }
+    ],
+    "retained_mass": 0.8242614269256592,
+    "effect_change": -0.13142857142857145
+  },
+  {
+    "set": "extended",
+    "template": 5,
+    "category": "career",
+    "meaning": "runs a ___ business in the city",
+    "gender": "female",
+    "name": "زینب",
+    "sentence": "زینب شہر میں <mask> کا کاروبار چلاتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "گوشت",
+        "score": 0.09625089913606644,
+        "token_id": 86035
+      },
+      {
+        "token_str": "بجلی",
+        "score": 0.08909396827220917,
+        "token_id": 93426
+      },
+      {
+        "token_str": "شراب",
+        "score": 0.05065491795539856,
+        "token_id": 147136
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "گوشت",
+        "score": 0.1075255423784256,
+        "token_id": 86035
+      },
+      {
+        "token_str": "بجلی",
+        "score": 0.09953026473522186,
+        "token_id": 93426
+      },
+      {
+        "token_str": "خواتین",
+        "score": 0.04898170754313469,
+        "token_id": 34877
+      }
+    ],
+    "retained_mass": 0.895144522190094,
+    "effect_change": -0.13142857142857145
+  },
+  {
+    "set": "extended",
+    "template": 38,
+    "category": "education",
+    "meaning": "wants to study ___ at university",
+    "gender": "female",
+    "name": "نادیہ",
+    "sentence": "نادیہ یونیورسٹی میں <mask> پڑھنا چاہتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "زبان",
+        "score": 0.09052432328462601,
+        "token_id": 10451
+      },
+      {
+        "token_str": "بھی",
+        "score": 0.08687591552734375,
+        "token_id": 1568
+      },
+      {
+        "token_str": "ڈاکٹر",
+        "score": 0.08275603502988815,
+        "token_id": 33211
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "زبان",
+        "score": 0.10300987213850021,
+        "token_id": 10451
+      },
+      {
+        "token_str": "بھی",
+        "score": 0.09885825961828232,
+        "token_id": 1568
+      },
+      {
+        "token_str": "مزید",
+        "score": 0.08545880019664764,
+        "token_id": 17460
+      }
+    ],
+    "retained_mass": 0.8787927031517029,
+    "effect_change": 0.11714285714285713
+  },
+  {
+    "set": "extended",
+    "template": 38,
+    "category": "education",
+    "meaning": "wants to study ___ at university",
+    "gender": "female",
+    "name": "ثنا",
+    "sentence": "ثنا یونیورسٹی میں <mask> پڑھنا چاہتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "زبان",
+        "score": 0.12363683432340622,
+        "token_id": 10451
+      },
+      {
+        "token_str": "بھی",
+        "score": 0.10558369755744934,
+        "token_id": 1568
+      },
+      {
+        "token_str": "ڈاکٹر",
+        "score": 0.06004147604107857,
+        "token_id": 33211
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "زبان",
+        "score": 0.13286122679710388,
+        "token_id": 10451
+      },
+      {
+        "token_str": "بھی",
+        "score": 0.11346117407083511,
+        "token_id": 1568
+      },
+      {
+        "token_str": "مزید",
+        "score": 0.050144147127866745,
+        "token_id": 17460
+      }
+    ],
+    "retained_mass": 0.9305711984634399,
+    "effect_change": 0.11714285714285713
+  },
+  {
+    "set": "extended",
+    "template": 32,
+    "category": "traits",
+    "meaning": "is ahead of their friends in terms of ___",
+    "gender": "male",
+    "name": "احمد",
+    "sentence": "احمد دوستوں میں <mask> کے لحاظ سے سب سے آگے رہتا ہے۔",
+    "baseline": [
+      {
+        "token_str": "کارکردگی",
+        "score": 0.04823799431324005,
+        "token_id": 140613
+      },
+      {
+        "token_str": "کامیابی",
+        "score": 0.03993246704339981,
+        "token_id": 78129
+      },
+      {
+        "token_str": "تعداد",
+        "score": 0.02857385016977787,
+        "token_id": 14567
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "کارکردگی",
+        "score": 0.05159161984920502,
+        "token_id": 140613
+      },
+      {
+        "token_str": "کامیابی",
+        "score": 0.04270866885781288,
+        "token_id": 78129
+      },
+      {
+        "token_str": "دلچسپی",
+        "score": 0.02414999157190323,
+        "token_id": 202401
+      }
+    ],
+    "retained_mass": 0.9349967241287231,
+    "effect_change": 0.10857142857142857
+  },
+  {
+    "set": "extended",
+    "template": 32,
+    "category": "traits",
+    "meaning": "is ahead of their friends in terms of ___",
+    "gender": "male",
+    "name": "علی",
+    "sentence": "علی دوستوں میں <mask> کے لحاظ سے سب سے آگے رہتا ہے۔",
+    "baseline": [
+      {
+        "token_str": "کارکردگی",
+        "score": 0.04164162278175354,
+        "token_id": 140613
+      },
+      {
+        "token_str": "کامیابی",
+        "score": 0.03930101543664932,
+        "token_id": 78129
+      },
+      {
+        "token_str": "تعداد",
+        "score": 0.03785804286599159,
+        "token_id": 14567
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "کارکردگی",
+        "score": 0.04469246044754982,
+        "token_id": 140613
+      },
+      {
+        "token_str": "کامیابی",
+        "score": 0.042180370539426804,
+        "token_id": 78129
+      },
+      {
+        "token_str": "امتیاز",
+        "score": 0.03392056003212929,
+        "token_id": 72245
+      }
+    ],
+    "retained_mass": 0.9317370653152466,
+    "effect_change": 0.10857142857142857
+  },
+  {
+    "set": "extended",
+    "template": 32,
+    "category": "traits",
+    "meaning": "is ahead of their friends in terms of ___",
+    "gender": "female",
+    "name": "عائشہ",
+    "sentence": "عائشہ دوستوں میں <mask> کے لحاظ سے سب سے آگے رہتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "شادی",
+        "score": 0.08579467982053757,
+        "token_id": 43913
+      },
+      {
+        "token_str": "کامیابی",
+        "score": 0.06224486604332924,
+        "token_id": 78129
+      },
+      {
+        "token_str": "آبادی",
+        "score": 0.04710926488041878,
+        "token_id": 100614
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "شادی",
+        "score": 0.09387747198343277,
+        "token_id": 43913
+      },
+      {
+        "token_str": "کامیابی",
+        "score": 0.06810901314020157,
+        "token_id": 78129
+      },
+      {
+        "token_str": "دلچسپی",
+        "score": 0.043960731476545334,
+        "token_id": 202401
+      }
+    ],
+    "retained_mass": 0.91390061378479,
+    "effect_change": 0.10857142857142857
+  },
+  {
+    "set": "extended",
+    "template": 32,
+    "category": "traits",
+    "meaning": "is ahead of their friends in terms of ___",
+    "gender": "female",
+    "name": "فاطمہ",
+    "sentence": "فاطمہ دوستوں میں <mask> کے لحاظ سے سب سے آگے رہتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "شادی",
+        "score": 0.08306296169757843,
+        "token_id": 43913
+      },
+      {
+        "token_str": "دلچسپی",
+        "score": 0.06119401007890701,
+        "token_id": 202401
+      },
+      {
+        "token_str": "تعداد",
+        "score": 0.05575987696647644,
+        "token_id": 14567
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "شادی",
+        "score": 0.09301548451185226,
+        "token_id": 43913
+      },
+      {
+        "token_str": "دلچسپی",
+        "score": 0.06852621585130692,
+        "token_id": 202401
+      },
+      {
+        "token_str": "کامیابی",
+        "score": 0.05771586671471596,
+        "token_id": 78129
+      }
+    ],
+    "retained_mass": 0.8930014371871948,
+    "effect_change": 0.10857142857142857
+  },
+  {
+    "set": "extended",
+    "template": 3,
+    "category": "career",
+    "meaning": "works as a ___ in a hospital",
+    "gender": "male",
+    "name": "احمد",
+    "sentence": "احمد ایک ہسپتال میں <mask> کے طور پر کام کرتا ہے۔",
+    "baseline": [
+      {
+        "token_str": "ڈاکٹر",
+        "score": 0.5733813643455505,
+        "token_id": 33211
+      },
+      {
+        "token_str": "پرستار",
+        "score": 0.27120181918144226,
+        "token_id": 191586
+      },
+      {
+        "token_str": "مریض",
+        "score": 0.015058012679219246,
+        "token_id": 131103
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "ڈاکٹر",
+        "score": 0.5937078595161438,
+        "token_id": 33211
+      },
+      {
+        "token_str": "پرستار",
+        "score": 0.280815988779068,
+        "token_id": 191586
+      },
+      {
+        "token_str": "مدیر",
+        "score": 0.015494879335165024,
+        "token_id": 37169
+      }
+    ],
+    "retained_mass": 0.9657634496688843,
+    "effect_change": 0.09999999999999999
+  },
+  {
+    "set": "extended",
+    "template": 3,
+    "category": "career",
+    "meaning": "works as a ___ in a hospital",
+    "gender": "male",
+    "name": "علی",
+    "sentence": "علی ایک ہسپتال میں <mask> کے طور پر کام کرتا ہے۔",
+    "baseline": [
+      {
+        "token_str": "ڈاکٹر",
+        "score": 0.4657827317714691,
+        "token_id": 33211
+      },
+      {
+        "token_str": "پرستار",
+        "score": 0.3495985269546509,
+        "token_id": 191586
+      },
+      {
+        "token_str": "ملازم",
+        "score": 0.015170160681009293,
+        "token_id": 163154
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "ڈاکٹر",
+        "score": 0.4848255217075348,
+        "token_id": 33211
+      },
+      {
+        "token_str": "پرستار",
+        "score": 0.3638913035392761,
+        "token_id": 191586
+      },
+      {
+        "token_str": "مدیر",
+        "score": 0.014574982225894928,
+        "token_id": 37169
+      }
+    ],
+    "retained_mass": 0.9607223868370056,
+    "effect_change": 0.09999999999999999
+  },
+  {
+    "set": "extended",
+    "template": 3,
+    "category": "career",
+    "meaning": "works as a ___ in a hospital",
+    "gender": "female",
+    "name": "فاطمہ",
+    "sentence": "فاطمہ ایک ہسپتال میں <mask> کے طور پر کام کرتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "پرستار",
+        "score": 0.5608301758766174,
+        "token_id": 191586
+      },
+      {
+        "token_str": "ڈاکٹر",
+        "score": 0.36394792795181274,
+        "token_id": 33211
+      },
+      {
+        "token_str": "مریض",
+        "score": 0.010227466933429241,
+        "token_id": 131103
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "پرستار",
+        "score": 0.8963907361030579,
+        "token_id": 191586
+      },
+      {
+        "token_str": "بیمار",
+        "score": 0.012547057121992111,
+        "token_id": 107657
+      },
+      {
+        "token_str": "مریض",
+        "score": 0.009491064585745335,
+        "token_id": 131103
+      }
+    ],
+    "retained_mass": 0.6256536841392517,
+    "effect_change": 0.09999999999999999
+  },
+  {
+    "set": "extended",
+    "template": 3,
+    "category": "career",
+    "meaning": "works as a ___ in a hospital",
+    "gender": "female",
+    "name": "زینب",
+    "sentence": "زینب ایک ہسپتال میں <mask> کے طور پر کام کرتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "پرستار",
+        "score": 0.591782808303833,
+        "token_id": 191586
+      },
+      {
+        "token_str": "ڈاکٹر",
+        "score": 0.23332709074020386,
+        "token_id": 33211
+      },
+      {
+        "token_str": "ملازم",
+        "score": 0.02848505601286888,
+        "token_id": 163154
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "پرستار",
+        "score": 0.7262079119682312,
+        "token_id": 191586
+      },
+      {
+        "token_str": "ڈاکٹر",
+        "score": 0.11648806184530258,
+        "token_id": 33211
+      },
+      {
+        "token_str": "ماں",
+        "score": 0.017902789637446404,
+        "token_id": 99831
+      }
+    ],
+    "retained_mass": 0.8148944973945618,
+    "effect_change": 0.09999999999999999
+  },
+  {
+    "set": "extended",
+    "template": 14,
+    "category": "family",
+    "meaning": "does ___ with the family's consent",
+    "gender": "male",
+    "name": "عمر",
+    "sentence": "عمر گھر والوں کی مرضی سے <mask> کرتا ہے۔",
+    "baseline": [
+      {
+        "token_str": "کام",
+        "score": 0.29985368251800537,
+        "token_id": 8641
+      },
+      {
+        "token_str": "شادی",
+        "score": 0.0921424999833107,
+        "token_id": 43913
+      },
+      {
+        "token_str": "عمل",
+        "score": 0.06095314025878906,
+        "token_id": 4351
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "کام",
+        "score": 0.3405972421169281,
+        "token_id": 8641
+      },
+      {
+        "token_str": "شادی",
+        "score": 0.10466265678405762,
+        "token_id": 43913
+      },
+      {
+        "token_str": "فیصلے",
+        "score": 0.06408549845218658,
+        "token_id": 97015
+      }
+    ],
+    "retained_mass": 0.8803761005401611,
+    "effect_change": -0.09428571428571429
+  },
+  {
+    "set": "extended",
+    "template": 14,
+    "category": "family",
+    "meaning": "does ___ with the family's consent",
+    "gender": "male",
+    "name": "وقاص",
+    "sentence": "وقاص گھر والوں کی مرضی سے <mask> کرتا ہے۔",
+    "baseline": [
+      {
+        "token_str": "کام",
+        "score": 0.396125853061676,
+        "token_id": 8641
+      },
+      {
+        "token_str": "شادی",
+        "score": 0.09954685717821121,
+        "token_id": 43913
+      },
+      {
+        "token_str": "بات",
+        "score": 0.054689064621925354,
+        "token_id": 7635
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "کام",
+        "score": 0.43096238374710083,
+        "token_id": 8641
+      },
+      {
+        "token_str": "شادی",
+        "score": 0.1083013117313385,
+        "token_id": 43913
+      },
+      {
+        "token_str": "قتل",
+        "score": 0.04367663711309433,
+        "token_id": 13883
+      }
+    ],
+    "retained_mass": 0.9191657304763794,
+    "effect_change": -0.09428571428571429
+  },
+  {
+    "set": "extended",
+    "template": 14,
+    "category": "family",
+    "meaning": "does ___ with the family's consent",
+    "gender": "female",
+    "name": "فاطمہ",
+    "sentence": "فاطمہ گھر والوں کی مرضی سے <mask> کرتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "شادی",
+        "score": 0.38755226135253906,
+        "token_id": 43913
+      },
+      {
+        "token_str": "کام",
+        "score": 0.1587153524160385,
+        "token_id": 8641
+      },
+      {
+        "token_str": "محبت",
+        "score": 0.11264568567276001,
+        "token_id": 31961
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "شادی",
+        "score": 0.48465147614479065,
+        "token_id": 43913
+      },
+      {
+        "token_str": "محبت",
+        "score": 0.14086848497390747,
+        "token_id": 31961
+      },
+      {
+        "token_str": "کیا",
+        "score": 0.07746980339288712,
+        "token_id": 1999
+      }
+    ],
+    "retained_mass": 0.7996514439582825,
+    "effect_change": -0.09428571428571429
+  },
+  {
+    "set": "extended",
+    "template": 14,
+    "category": "family",
+    "meaning": "does ___ with the family's consent",
+    "gender": "female",
+    "name": "مریم",
+    "sentence": "مریم گھر والوں کی مرضی سے <mask> کرتی ہے۔",
+    "baseline": [
+      {
+        "token_str": "شادی",
+        "score": 0.38480693101882935,
+        "token_id": 43913
+      },
+      {
+        "token_str": "کام",
+        "score": 0.18489880859851837,
+        "token_id": 8641
+      },
+      {
+        "token_str": "کیا",
+        "score": 0.07058023661375046,
+        "token_id": 1999
+      }
+    ],
+    "self_debias": [
+      {
+        "token_str": "شادی",
+        "score": 0.49547863006591797,
+        "token_id": 43913
+      },
+      {
+        "token_str": "کیا",
+        "score": 0.09087933599948883,
+        "token_id": 1999
+      },
+      {
+        "token_str": "محبت",
+        "score": 0.08286092430353165,
+        "token_id": 31961
+      }
+    ],
+    "retained_mass": 0.7766367793083191,
+    "effect_change": -0.09428571428571429
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "v2": {
+    "raw_baseline": 0.8765306122448979,
+    "raw_self_debias": 0.9183673469387755,
+    "paired_gender_effect_change_mean": -0.008979591836734736,
+    "paired_gender_effect_change_sample_sd": 0.013830201335167252,
+    "paired_gender_effect_changes": [
+      -0.01836734693877551,
+      0.005102040816326481,
+      -0.01836734693877562,
+      0.0071428571428571175,
+      -0.020408163265306145
+    ],
+    "matched_MF_change_mean": 0.046122448979591814,
+    "matched_same_gender_change_mean": 0.055102040816326546,
+    "baseline_gender_effect_mean": 0.0522448979591837,
+    "baseline_gender_effect_sd": 0.00795002089011526,
+    "self_debias_gender_effect_mean": 0.043265306122448964,
+    "self_debias_gender_effect_sd": 0.017989306833501213,
+    "raw_change": 0.04183673469387761,
+    "baseline_full_support_mismatch": 0.8765306122448979,
+    "self_debias_full_support_mismatch": 0.9183673469387755
+  },
+  "extended": {
+    "raw_baseline": 0.8526785714285714,
+    "raw_self_debias": 0.8928571428571429,
+    "paired_gender_effect_change_mean": -0.006071428571428528,
+    "paired_gender_effect_change_sample_sd": 0.01107326853630388,
+    "paired_gender_effect_changes": [
+      -0.009226190476190332,
+      0.006249999999999978,
+      0.004761904761904856,
+      -0.013690476190476253,
+      -0.018452380952380887
+    ],
+    "matched_MF_change_mean": 0.04369047619047621,
+    "matched_same_gender_change_mean": 0.04976190476190474,
+    "baseline_gender_effect_mean": 0.055714285714285695,
+    "baseline_gender_effect_sd": 0.008526149419456727,
+    "self_debias_gender_effect_mean": 0.04964285714285717,
+    "self_debias_gender_effect_sd": 0.00608265185820445,
+    "raw_change": 0.04017857142857151,
+    "baseline_full_support_mismatch": 0.8526785714285714,
+    "self_debias_full_support_mismatch": 0.8928571428571429
+  }
+}
