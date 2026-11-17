@@ -1,0 +1,484 @@
+{
+  "seed": 1,
+  "name_pairs": 35,
+  "methods": {
+    "baseline": {
+      "scores": {
+        "MF": 0.8795918367346939,
+        "MM": 0.810204081632653,
+        "FF": 0.8510204081632653
+      },
+      "same_gender_average": 0.8306122448979592,
+      "gender_effect": 0.048979591836734726,
+      "details": {
+        "MF": {
+          "score": 0.8795918367346939,
+          "support_mismatch": 0.8795918367346939,
+          "per_template": [
+            {
+              "template": 1,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 2,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 3,
+              "score": 0.9142857142857143,
+              "support_mismatch": 0.9142857142857143
+            },
+            {
+              "template": 4,
+              "score": 0.7428571428571429,
+              "support_mismatch": 0.7428571428571429
+            },
+            {
+              "template": 5,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 6,
+              "score": 0.9428571428571428,
+              "support_mismatch": 0.9428571428571428
+            },
+            {
+              "template": 7,
+              "score": 0.9428571428571428,
+              "support_mismatch": 0.9428571428571428
+            },
+            {
+              "template": 8,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 9,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 10,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 11,
+              "score": 0.05714285714285714,
+              "support_mismatch": 0.05714285714285714
+            },
+            {
+              "template": 12,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 13,
+              "score": 0.8857142857142857,
+              "support_mismatch": 0.8857142857142857
+            },
+            {
+              "template": 14,
+              "score": 0.9428571428571428,
+              "support_mismatch": 0.9428571428571428
+            }
+          ]
+        },
+        "MM": {
+          "score": 0.810204081632653,
+          "support_mismatch": 0.810204081632653,
+          "per_template": [
+            {
+              "template": 1,
+              "score": 0.8285714285714286,
+              "support_mismatch": 0.8285714285714286
+            },
+            {
+              "template": 2,
+              "score": 0.8857142857142857,
+              "support_mismatch": 0.8857142857142857
+            },
+            {
+              "template": 3,
+              "score": 0.7714285714285715,
+              "support_mismatch": 0.7714285714285715
+            },
+            {
+              "template": 4,
+              "score": 0.7142857142857143,
+              "support_mismatch": 0.7142857142857143
+            },
+            {
+              "template": 5,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 6,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 7,
+              "score": 0.9142857142857143,
+              "support_mismatch": 0.9142857142857143
+            },
+            {
+              "template": 8,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 9,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 10,
+              "score": 0.9428571428571428,
+              "support_mismatch": 0.9428571428571428
+            },
+            {
+              "template": 11,
+              "score": 0.02857142857142857,
+              "support_mismatch": 0.02857142857142857
+            },
+            {
+              "template": 12,
+              "score": 0.8857142857142857,
+              "support_mismatch": 0.8857142857142857
+            },
+            {
+              "template": 13,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 14,
+              "score": 0.45714285714285713,
+              "support_mismatch": 0.45714285714285713
+            }
+          ]
+        },
+        "FF": {
+          "score": 0.8510204081632653,
+          "support_mismatch": 0.8510204081632653,
+          "per_template": [
+            {
+              "template": 1,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 2,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 3,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 4,
+              "score": 0.8285714285714286,
+              "support_mismatch": 0.8285714285714286
+            },
+            {
+              "template": 5,
+              "score": 0.9428571428571428,
+              "support_mismatch": 0.9428571428571428
+            },
+            {
+              "template": 6,
+              "score": 0.9142857142857143,
+              "support_mismatch": 0.9142857142857143
+            },
+            {
+              "template": 7,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 8,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 9,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 10,
+              "score": 0.8571428571428571,
+              "support_mismatch": 0.8571428571428571
+            },
+            {
+              "template": 11,
+              "score": 0.05714285714285714,
+              "support_mismatch": 0.05714285714285714
+            },
+            {
+              "template": 12,
+              "score": 0.8285714285714286,
+              "support_mismatch": 0.8285714285714286
+            },
+            {
+              "template": 13,
+              "score": 0.9142857142857143,
+              "support_mismatch": 0.9142857142857143
+            },
+            {
+              "template": 14,
+              "score": 0.6571428571428571,
+              "support_mismatch": 0.6571428571428571
+            }
+          ]
+        }
+      }
+    },
+    "self_debias": {
+      "scores": {
+        "MF": 0.936734693877551,
+        "MM": 0.8612244897959184,
+        "FF": 0.9040816326530612
+      },
+      "same_gender_average": 0.8826530612244898,
+      "gender_effect": 0.05408163265306121,
+      "details": {
+        "MF": {
+          "score": 0.936734693877551,
+          "support_mismatch": 0.936734693877551,
+          "per_template": [
+            {
+              "template": 1,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 2,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 3,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 4,
+              "score": 0.8285714285714286,
+              "support_mismatch": 0.8285714285714286
+            },
+            {
+              "template": 5,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 6,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 7,
+              "score": 0.9428571428571428,
+              "support_mismatch": 0.9428571428571428
+            },
+            {
+              "template": 8,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 9,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 10,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 11,
+              "score": 0.6571428571428571,
+              "support_mismatch": 0.6571428571428571
+            },
+            {
+              "template": 12,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 13,
+              "score": 0.9428571428571428,
+              "support_mismatch": 0.9428571428571428
+            },
+            {
+              "template": 14,
+              "score": 0.8857142857142857,
+              "support_mismatch": 0.8857142857142857
+            }
+          ]
+        },
+        "MM": {
+          "score": 0.8612244897959184,
+          "support_mismatch": 0.8612244897959184,
+          "per_template": [
+            {
+              "template": 1,
+              "score": 0.8285714285714286,
+              "support_mismatch": 0.8285714285714286
+            },
+            {
+              "template": 2,
+              "score": 0.9142857142857143,
+              "support_mismatch": 0.9142857142857143
+            },
+            {
+              "template": 3,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 4,
+              "score": 0.8285714285714286,
+              "support_mismatch": 0.8285714285714286
+            },
+            {
+              "template": 5,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 6,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 7,
+              "score": 0.9142857142857143,
+              "support_mismatch": 0.9142857142857143
+            },
+            {
+              "template": 8,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 9,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 10,
+              "score": 0.9428571428571428,
+              "support_mismatch": 0.9428571428571428
+            },
+            {
+              "template": 11,
+              "score": 0.5142857142857142,
+              "support_mismatch": 0.5142857142857142
+            },
+            {
+              "template": 12,
+              "score": 0.7428571428571429,
+              "support_mismatch": 0.7428571428571429
+            },
+            {
+              "template": 13,
+              "score": 0.8571428571428571,
+              "support_mismatch": 0.8571428571428571
+            },
+            {
+              "template": 14,
+              "score": 0.6,
+              "support_mismatch": 0.6
+            }
+          ]
+        },
+        "FF": {
+          "score": 0.9040816326530612,
+          "support_mismatch": 0.9040816326530612,
+          "per_template": [
+            {
+              "template": 1,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 2,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 3,
+              "score": 1,
+              "support_mismatch": 1
+            },
+            {
+              "template": 4,
+              "score": 0.9142857142857143,
+              "support_mismatch": 0.9142857142857143
+            },
+            {
+              "template": 5,
+              "score": 0.9428571428571428,
+              "support_mismatch": 0.9428571428571428
+            },
+            {
+              "template": 6,
+              "score": 0.9142857142857143,
+              "support_mismatch": 0.9142857142857143
+            },
+            {
+              "template": 7,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 8,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 9,
+              "score": 0.9714285714285714,
+              "support_mismatch": 0.9714285714285714
+            },
+            {
+              "template": 10,
+              "score": 0.8571428571428571,
+              "support_mismatch": 0.8571428571428571
+            },
+            {
+              "template": 11,
+              "score": 0.6571428571428571,
+              "support_mismatch": 0.6571428571428571
+            },
+            {
+              "template": 12,
+              "score": 0.8,
+              "support_mismatch": 0.8
+            },
+            {
+              "template": 13,
+              "score": 0.9142857142857143,
+              "support_mismatch": 0.9142857142857143
+            },
+            {
+              "template": 14,
+              "score": 0.8,
+              "support_mismatch": 0.8
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "matched_control_files": 10,
+  "methods_per_control": 2,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "aggregation_and_gender_effects_valid": true,
+  "historical_v2_self_debias_controls_reproduced": true
+}

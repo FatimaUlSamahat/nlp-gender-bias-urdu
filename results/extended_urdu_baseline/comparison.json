@@ -1,0 +1,240 @@
+{
+  "formula": "MF - (MM + FF) / 2",
+  "extended_baseline": 0.8526785714285715,
+  "v2_baseline": 0.876530612244898,
+  "baseline_difference": -0.023852040816326525,
+  "extended_gender_effect_mean": 0.0555952380952381,
+  "extended_gender_effect_sample_sd": 0.008450494423941699,
+  "v2_gender_effect_mean": 0.052244897959183634,
+  "v2_gender_effect_sample_sd": 0.007950020890115213,
+  "controls": [
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "templates_file": "data/templates/extended/disco_templates_ur.json",
+      "templates_sha256": "b94e8b35168bc0f5d226cb5f422e0853dc398d1469816f56fb1fdb492867c320",
+      "names_sha256": "eff8987d68d823f0ea4f59fad3d10ea8c56ffd73fce096af5c631356564763d0",
+      "number_of_templates": 48,
+      "top_k": 3,
+      "python_version": "3.13.5",
+      "library_versions": {
+        "torch": "2.14.0",
+        "transformers": "5.21.0",
+        "scipy": "1.18.0",
+        "numpy": "2.5.2",
+        "pandas": "3.0.5",
+        "tokenizers": "0.23.2",
+        "huggingface-hub": "1.32.0"
+      },
+      "git_commit": "fc3108baba24ef185c30d4cc6629e6d6b37e0cbb",
+      "seed": 0,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.8553571428571428,
+        "MM": 0.8041666666666667,
+        "FF": 0.7988095238095237
+      },
+      "same_gender_average": 0.8014880952380952,
+      "gender_effect": 0.05386904761904765,
+      "date": "2026-11-16T16:03:35.236432+00:00"
+    },
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "templates_file": "data/templates/extended/disco_templates_ur.json",
+      "templates_sha256": "b94e8b35168bc0f5d226cb5f422e0853dc398d1469816f56fb1fdb492867c320",
+      "names_sha256": "eff8987d68d823f0ea4f59fad3d10ea8c56ffd73fce096af5c631356564763d0",
+      "number_of_templates": 48,
+      "top_k": 3,
+      "python_version": "3.13.5",
+      "library_versions": {
+        "torch": "2.14.0",
+        "transformers": "5.21.0",
+        "scipy": "1.18.0",
+        "numpy": "2.5.2",
+        "pandas": "3.0.5",
+        "tokenizers": "0.23.2",
+        "huggingface-hub": "1.32.0"
+      },
+      "git_commit": "fc3108baba24ef185c30d4cc6629e6d6b37e0cbb",
+      "seed": 1,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.8464285714285715,
+        "MM": 0.7946428571428571,
+        "FF": 0.8047619047619049
+      },
+      "same_gender_average": 0.799702380952381,
+      "gender_effect": 0.04672619047619053,
+      "date": "2026-11-16T16:03:40.207491+00:00"
+    },
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "templates_file": "data/templates/extended/disco_templates_ur.json",
+      "templates_sha256": "b94e8b35168bc0f5d226cb5f422e0853dc398d1469816f56fb1fdb492867c320",
+      "names_sha256": "eff8987d68d823f0ea4f59fad3d10ea8c56ffd73fce096af5c631356564763d0",
+      "number_of_templates": 48,
+      "top_k": 3,
+      "python_version": "3.13.5",
+      "library_versions": {
+        "torch": "2.14.0",
+        "transformers": "5.21.0",
+        "scipy": "1.18.0",
+        "numpy": "2.5.2",
+        "pandas": "3.0.5",
+        "tokenizers": "0.23.2",
+        "huggingface-hub": "1.32.0"
+      },
+      "git_commit": "fc3108baba24ef185c30d4cc6629e6d6b37e0cbb",
+      "seed": 2,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.8583333333333334,
+        "MM": 0.813095238095238,
+        "FF": 0.8000000000000002
+      },
+      "same_gender_average": 0.8065476190476191,
+      "gender_effect": 0.051785714285714324,
+      "date": "2026-11-16T16:03:45.042471+00:00"
+    },
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "templates_file": "data/templates/extended/disco_templates_ur.json",
+      "templates_sha256": "b94e8b35168bc0f5d226cb5f422e0853dc398d1469816f56fb1fdb492867c320",
+      "names_sha256": "eff8987d68d823f0ea4f59fad3d10ea8c56ffd73fce096af5c631356564763d0",
+      "number_of_templates": 48,
+      "top_k": 3,
+      "python_version": "3.13.5",
+      "library_versions": {
+        "torch": "2.14.0",
+        "transformers": "5.21.0",
+        "scipy": "1.18.0",
+        "numpy": "2.5.2",
+        "pandas": "3.0.5",
+        "tokenizers": "0.23.2",
+        "huggingface-hub": "1.32.0"
+      },
+      "git_commit": "fc3108baba24ef185c30d4cc6629e6d6b37e0cbb",
+      "seed": 3,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.850595238095238,
+        "MM": 0.7880952380952381,
+        "FF": 0.8005952380952381
+      },
+      "same_gender_average": 0.794345238095238,
+      "gender_effect": 0.05624999999999991,
+      "date": "2026-11-16T16:03:50.110298+00:00"
+    },
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "templates_file": "data/templates/extended/disco_templates_ur.json",
+      "templates_sha256": "b94e8b35168bc0f5d226cb5f422e0853dc398d1469816f56fb1fdb492867c320",
+      "names_sha256": "eff8987d68d823f0ea4f59fad3d10ea8c56ffd73fce096af5c631356564763d0",
+      "number_of_templates": 48,
+      "top_k": 3,
+      "python_version": "3.13.5",
+      "library_versions": {
+        "torch": "2.14.0",
+        "transformers": "5.21.0",
+        "scipy": "1.18.0",
+        "numpy": "2.5.2",
+        "pandas": "3.0.5",
+        "tokenizers": "0.23.2",
+        "huggingface-hub": "1.32.0"
+      },
+      "git_commit": "fc3108baba24ef185c30d4cc6629e6d6b37e0cbb",
+      "seed": 4,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.8660714285714285,
+        "MM": 0.7999999999999998,
+        "FF": 0.793452380952381
+      },
+      "same_gender_average": 0.7967261904761904,
+      "gender_effect": 0.06934523809523807,
+      "date": "2026-11-16T16:03:56.741703+00:00"
+    }
+  ],
+  "v2_controls": [
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "seed": 0,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.8816326530612245,
+        "MM": 0.8244897959183674,
+        "FF": 0.8387755102040817
+      },
+      "same_gender_average": 0.8316326530612246,
+      "gender_effect": 0.04999999999999993,
+      "templates_file": "data/templates/v2/disco_templates_ur.json",
+      "date": "2026-11-11T02:16:36.969288+00:00"
+    },
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "seed": 1,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.8795918367346939,
+        "MM": 0.8102040816326531,
+        "FF": 0.8510204081632653
+      },
+      "same_gender_average": 0.8306122448979592,
+      "gender_effect": 0.048979591836734726,
+      "templates_file": "data/templates/v2/disco_templates_ur.json",
+      "date": "2026-11-11T02:17:54.316184+00:00"
+    },
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "seed": 2,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.8795918367346939,
+        "MM": 0.8326530612244898,
+        "FF": 0.8428571428571429
+      },
+      "same_gender_average": 0.8377551020408163,
+      "gender_effect": 0.04183673469387761,
+      "templates_file": "data/templates/v2/disco_templates_ur.json",
+      "date": "2026-11-11T02:19:10.110210+00:00"
+    },
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "seed": 3,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.8877551020408163,
+        "MM": 0.7877551020408164,
+        "FF": 0.8653061224489796
+      },
+      "same_gender_average": 0.8265306122448981,
+      "gender_effect": 0.06122448979591821,
+      "templates_file": "data/templates/v2/disco_templates_ur.json",
+      "date": "2026-11-11T02:20:25.424127+00:00"
+    },
+    {
+      "language": "ur",
+      "model": "xlm-roberta-base",
+      "seed": 4,
+      "name_pairs_per_run": 35,
+      "scores": {
+        "MF": 0.8816326530612245,
+        "MM": 0.8,
+        "FF": 0.8448979591836735
+      },
+      "same_gender_average": 0.8224489795918368,
+      "gender_effect": 0.05918367346938769,
+      "templates_file": "data/templates/v2/disco_templates_ur.json",
+      "date": "2026-11-11T02:21:40.983366+00:00"
+    }
+  ],
+  "caveat": "Historical v2 scores used different library versions. Seeds vary name splits only."
+}

@@ -11,3 +11,8 @@ checkpoints/
 .env
 .DS_Store
 *.zip
+
+# Local presentation build artifacts and evaluation logs
+.chart-data-*/
+report/.slide-build/
+results/*.log

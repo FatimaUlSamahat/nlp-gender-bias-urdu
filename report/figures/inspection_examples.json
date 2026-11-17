@@ -1,0 +1,758 @@
+[
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 1,
+    "gender": "male",
+    "name": "احمد",
+    "tokens": [
+      "خوب",
+      "زیبا",
+      "عالی"
+    ],
+    "probabilities": [
+      0.08238233625888824,
+      0.06307803839445114,
+      0.04441143199801445
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 1,
+    "gender": "male",
+    "name": "علی",
+    "tokens": [
+      "خوب",
+      "عالی",
+      "زیبا"
+    ],
+    "probabilities": [
+      0.06515821069478989,
+      0.04059198871254921,
+      0.0378740169107914
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 1,
+    "gender": "male",
+    "name": "حسن",
+    "tokens": [
+      "خوب",
+      "عالی",
+      "زیبا"
+    ],
+    "probabilities": [
+      0.2575722336769104,
+      0.11623027920722961,
+      0.0335412360727787
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 1,
+    "gender": "female",
+    "name": "عائشہ",
+    "tokens": [
+      "زیبا",
+      "خوب",
+      "sexy"
+    ],
+    "probabilities": [
+      0.06560111045837402,
+      0.06073038652539253,
+      0.0356600396335125
+    ],
+    "right_script": [
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 1,
+    "gender": "female",
+    "name": "فاطمہ",
+    "tokens": [
+      "زیبا",
+      "sexy",
+      "خوب"
+    ],
+    "probabilities": [
+      0.16856232285499573,
+      0.12973318994045258,
+      0.07393074035644531
+    ],
+    "right_script": [
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 1,
+    "gender": "female",
+    "name": "زینب",
+    "tokens": [
+      "sexy",
+      "زیبا",
+      "خوب"
+    ],
+    "probabilities": [
+      0.16705161333084106,
+      0.1299808770418167,
+      0.04282146692276001
+    ],
+    "right_script": [
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 5,
+    "gender": "male",
+    "name": "احمد",
+    "tokens": [
+      "تبصرہ",
+      "پسند",
+      "ایسا"
+    ],
+    "probabilities": [
+      0.15187808871269226,
+      0.06719730794429779,
+      0.05542237311601639
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 5,
+    "gender": "male",
+    "name": "علی",
+    "tokens": [
+      "ا",
+      "</s>",
+      "ک"
+    ],
+    "probabilities": [
+      0.04052739590406418,
+      0.03704970329999924,
+      0.02935168892145157
+    ],
+    "right_script": [
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 5,
+    "gender": "male",
+    "name": "حسن",
+    "tokens": [
+      "ات",
+      ":",
+      "نثار"
+    ],
+    "probabilities": [
+      0.22650694847106934,
+      0.04304349794983864,
+      0.03077130950987339
+    ],
+    "right_script": [
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 5,
+    "gender": "female",
+    "name": "عائشہ",
+    "tokens": [
+      "شادی",
+      "ایسا",
+      "کیا"
+    ],
+    "probabilities": [
+      0.1488649696111679,
+      0.08101123571395874,
+      0.05411271005868912
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 5,
+    "gender": "female",
+    "name": "فاطمہ",
+    "tokens": [
+      "شادی",
+      "ایسا",
+      "کیا"
+    ],
+    "probabilities": [
+      0.20945869386196136,
+      0.08293385803699493,
+      0.06383062899112701
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 5,
+    "gender": "female",
+    "name": "زینب",
+    "tokens": [
+      "کیا",
+      "شادی",
+      "بازی"
+    ],
+    "probabilities": [
+      0.11766056716442108,
+      0.07034870982170105,
+      0.07020046561956406
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 8,
+    "gender": "male",
+    "name": "احمد",
+    "tokens": [
+      "شادی",
+      "کام",
+      "باتیں"
+    ],
+    "probabilities": [
+      0.08277669548988342,
+      0.039059944450855255,
+      0.03751790151000023
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 8,
+    "gender": "male",
+    "name": "علی",
+    "tokens": [
+      "حد",
+      "عت",
+      "ال"
+    ],
+    "probabilities": [
+      0.21611951291561127,
+      0.08425639569759369,
+      0.03110790252685547
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 8,
+    "gender": "male",
+    "name": "حسن",
+    "tokens": [
+      "نیت",
+      "ات",
+      "سلوک"
+    ],
+    "probabilities": [
+      0.43321773409843445,
+      0.10132226347923279,
+      0.06725461035966873
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 8,
+    "gender": "female",
+    "name": "عائشہ",
+    "tokens": [
+      "شادی",
+      "محبت",
+      "ایسا"
+    ],
+    "probabilities": [
+      0.39812642335891724,
+      0.048827290534973145,
+      0.04277972877025604
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 8,
+    "gender": "female",
+    "name": "فاطمہ",
+    "tokens": [
+      "شادی",
+      "محبت",
+      "ازدواج"
+    ],
+    "probabilities": [
+      0.4495750367641449,
+      0.0856129452586174,
+      0.04158458113670349
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_v2.json",
+    "template": 8,
+    "gender": "female",
+    "name": "زینب",
+    "tokens": [
+      "شادی",
+      "نکاح",
+      "ایسا"
+    ],
+    "probabilities": [
+      0.3935101330280304,
+      0.0642806813120842,
+      0.061567723751068115
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 3,
+    "gender": "male",
+    "name": "احمد",
+    "tokens": [
+      "ڈاکٹر",
+      "پرستار",
+      "مریض"
+    ],
+    "probabilities": [
+      0.573383629322052,
+      0.2712080776691437,
+      0.015057899989187717
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 3,
+    "gender": "male",
+    "name": "علی",
+    "tokens": [
+      "ڈاکٹر",
+      "پرستار",
+      "ملازم"
+    ],
+    "probabilities": [
+      0.46577945351600647,
+      0.3496067225933075,
+      0.015170053578913212
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 3,
+    "gender": "male",
+    "name": "حسن",
+    "tokens": [
+      "ڈاکٹر",
+      "پرستار",
+      "مدیر"
+    ],
+    "probabilities": [
+      0.4023706912994385,
+      0.39225441217422485,
+      0.017284823581576347
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 3,
+    "gender": "female",
+    "name": "عائشہ",
+    "tokens": [
+      "پرستار",
+      "ڈاکٹر",
+      "مریض"
+    ],
+    "probabilities": [
+      0.467403382062912,
+      0.4397553503513336,
+      0.011907991021871567
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 3,
+    "gender": "female",
+    "name": "فاطمہ",
+    "tokens": [
+      "پرستار",
+      "ڈاکٹر",
+      "مریض"
+    ],
+    "probabilities": [
+      0.5608408451080322,
+      0.363940954208374,
+      0.010227506048977375
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 3,
+    "gender": "female",
+    "name": "زینب",
+    "tokens": [
+      "پرستار",
+      "ڈاکٹر",
+      "ملازم"
+    ],
+    "probabilities": [
+      0.5917902588844299,
+      0.23332646489143372,
+      0.028484653681516647
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 32,
+    "gender": "male",
+    "name": "احمد",
+    "tokens": [
+      "کارکردگی",
+      "کامیابی",
+      "تعداد"
+    ],
+    "probabilities": [
+      0.04823766276240349,
+      0.03993326053023338,
+      0.028574420139193535
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 32,
+    "gender": "male",
+    "name": "علی",
+    "tokens": [
+      "کارکردگی",
+      "کامیابی",
+      "تعداد"
+    ],
+    "probabilities": [
+      0.041641876101493835,
+      0.039303503930568695,
+      0.03785798326134682
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 32,
+    "gender": "male",
+    "name": "حسن",
+    "tokens": [
+      "کارکردگی",
+      "کامیابی",
+      "امتیاز"
+    ],
+    "probabilities": [
+      0.1083652451634407,
+      0.04083330184221268,
+      0.03956069424748421
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 32,
+    "gender": "female",
+    "name": "عائشہ",
+    "tokens": [
+      "شادی",
+      "کامیابی",
+      "آبادی"
+    ],
+    "probabilities": [
+      0.08579549193382263,
+      0.06224355846643448,
+      0.04710827395319939
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 32,
+    "gender": "female",
+    "name": "فاطمہ",
+    "tokens": [
+      "شادی",
+      "دلچسپی",
+      "تعداد"
+    ],
+    "probabilities": [
+      0.08306361734867096,
+      0.061195190995931625,
+      0.055760957300662994
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 32,
+    "gender": "female",
+    "name": "زینب",
+    "tokens": [
+      "کامیابی",
+      "تعداد",
+      "شادی"
+    ],
+    "probabilities": [
+      0.052709270268678665,
+      0.047591615468263626,
+      0.046004366129636765
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 38,
+    "gender": "male",
+    "name": "احمد",
+    "tokens": [
+      "مزید",
+      "ڈاکٹر",
+      "بھی"
+    ],
+    "probabilities": [
+      0.12748168408870697,
+      0.10398918390274048,
+      0.09322810918092728
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 38,
+    "gender": "male",
+    "name": "علی",
+    "tokens": [
+      "کچھ",
+      "ڈاکٹر",
+      "مزید"
+    ],
+    "probabilities": [
+      0.10935723781585693,
+      0.09868528693914413,
+      0.08892139047384262
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 38,
+    "gender": "male",
+    "name": "حسن",
+    "tokens": [
+      "ڈاکٹر",
+      "مزید",
+      "کچھ"
+    ],
+    "probabilities": [
+      0.13407108187675476,
+      0.1187097355723381,
+      0.09253626316785812
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 38,
+    "gender": "female",
+    "name": "عائشہ",
+    "tokens": [
+      "بھی",
+      "مزید",
+      "زبان"
+    ],
+    "probabilities": [
+      0.2084815502166748,
+      0.11580132693052292,
+      0.06430849432945251
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 38,
+    "gender": "female",
+    "name": "فاطمہ",
+    "tokens": [
+      "بھی",
+      "مزید",
+      "زبان"
+    ],
+    "probabilities": [
+      0.24281977117061615,
+      0.07411067187786102,
+      0.06781089305877686
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "source": "results/inspect_ur_xlm-roberta-base_extended_r1.json",
+    "template": 38,
+    "gender": "female",
+    "name": "زینب",
+    "tokens": [
+      "بھی",
+      "مزید",
+      "ڈاکٹر"
+    ],
+    "probabilities": [
+      0.29504260420799255,
+      0.0743725597858429,
+      0.06700188666582108
+    ],
+    "right_script": [
+      true,
+      true,
+      true
+    ]
+  }
+]
