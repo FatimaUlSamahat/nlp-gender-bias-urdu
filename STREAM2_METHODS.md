@@ -117,10 +117,6 @@ five matched-control seeds.
 - `stream2_final_evaluation/` — 6 DisCo results and 30 controls
 - `stream2_hindi_final/` — 2 DisCo results and 10 controls
 
-### Outstanding Verification
-
-- Interpret Self-Debiasing results separately, accounting for the adapted prediction probabilities.
-
 
 ## Baseline comparison (matched controls, verified)
 
@@ -141,11 +137,9 @@ so a paired t-test is used):
 | cda_en_ur_full | 0.043 | −0.009 | 0.474 |
 | Self-Debiasing | 0.043 | −0.009 | 0.220 |
 
-- Urdu-only CDA reliably reduces the Urdu gender effect (holds after Bonferroni correction for 6 tests, α = 0.0083).
-- Hindi+Urdu CDA is suggestive (p = 0.02, not significant after correction); other setups show no reliable change.
-- Most of the drop in raw DisCo scores after CDA comes from lower same-gender scores (less sensitivity to names in general), not from a smaller gender effect.
-- Self-Debiasing raises raw Urdu DisCo (0.877 → 0.928) but also raises same-gender scores (0.885), with no reliable change in the gender effect.
+- Urdu-only CDA shows a lower Urdu gender effect (p = 0.001, below the Bonferroni-corrected threshold of 0.0083 for six tests).
+- Hindi+Urdu CDA is suggestive (p = 0.020, not significant after correction); other setups show no statistically reliable change under this test.
+- Much of the drop in raw DisCo scores after CDA comes from lower same-gender scores, indicating less sensitivity to name differences in general.
+- Self-Debiasing raises raw Urdu DisCo (0.877 → 0.9184), while the reported same-gender score is 0.885; the gender-effect change is not statistically significant.
 
-Caveats: the 5 seeds vary only the name split; each CDA model was trained once (seed 42), so training
-randomness is not included. Models were trained for 500 steps × effective batch 8 = 4,000 sentences,
-i.e. ~13–29% of each training set.
+Caveats: The five seeds vary only the name split; each CDA model was trained once (seed 42), so training randomness is not included. Models were configured for 500 optimizer steps with effective batch size 8 (4,000 training-example presentations), approximately 13–29% of each training dataset.
