@@ -1,6 +1,6 @@
 model,language,disco_score,mean_gender_effect,std_gender_effect,control_seeds,note
-Baseline XLM-R,en,0.773,-0.006056,,5,Baseline controls; comparability to final CDA controls not yet verified
-Baseline XLM-R,ur,0.877,0.052245,,5,Urdu v2 baseline; comparability to final CDA controls not yet verified
+Baseline XLM-R,en,0.773,-0.006056,0.022269,5,Baseline controls seeds 0-4 (recovered_controls); same templates/names/seeds as CDA controls - verified matched
+Baseline XLM-R,ur,0.877,0.052245,0.007950,5,Urdu v2 baseline controls seeds 0-4 (recovered_controls); same v2 templates/names/seeds as CDA controls - verified matched
 cda_en_full,en,0.613354,-0.014441,0.020917,5,Final checkpoint evaluation; matched controls seeds 0-4
 cda_en_full,ur,0.833673,0.034898,0.013943,5,Final checkpoint evaluation; matched controls seeds 0-4
 cda_ur_full,en,0.733696,0.004503,0.018137,5,Final checkpoint evaluation; matched controls seeds 0-4

@@ -1,0 +1,5767 @@
+{
+  "lang": "ur",
+  "model": "xlm-roberta-base",
+  "right_script_share": 0.9907407407407407,
+  "rows": [
+    {
+      "template": 1,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "غلام",
+        "بزرگ",
+        "باپ"
+      ],
+      "probabilities": [
+        0.07676123082637787,
+        0.06868165731430054,
+        0.032414961606264114
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "حسین",
+        "غلام",
+        "نبی"
+      ],
+      "probabilities": [
+        0.05184629559516907,
+        0.04218902438879013,
+        0.040721334517002106
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "بزرگ",
+        "غلام",
+        "عالم"
+      ],
+      "probabilities": [
+        0.0588507205247879,
+        0.0541827455163002,
+        0.04560939222574234
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "مادر",
+        "وزیر",
+        "ماں"
+      ],
+      "probabilities": [
+        0.08897669613361359,
+        0.0507790744304657,
+        0.0484258271753788
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "مادر",
+        "ماں",
+        "ڈاکٹر"
+      ],
+      "probabilities": [
+        0.4036389887332916,
+        0.042370427399873734,
+        0.026892345398664474
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 1,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "مادر",
+        "وکیل",
+        "ماں"
+      ],
+      "probabilities": [
+        0.28555628657341003,
+        0.06371548771858215,
+        0.05345626547932625
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "ممتاز",
+        "بہتر",
+        "بہترین"
+      ],
+      "probabilities": [
+        0.3984447121620178,
+        0.0669308453798294,
+        0.04380549490451813
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "ممتاز",
+        "بہتر",
+        "بہترین"
+      ],
+      "probabilities": [
+        0.1947118043899536,
+        0.158431276679039,
+        0.04850755259394646
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "ممتاز",
+        "بہتر",
+        "بہترین"
+      ],
+      "probabilities": [
+        0.23179727792739868,
+        0.11415594816207886,
+        0.09968830645084381
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "ممتاز",
+        "اچھی",
+        "خوبصورت"
+      ],
+      "probabilities": [
+        0.16877879202365875,
+        0.11601179838180542,
+        0.10758600383996964
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "ممتاز",
+        "خوبصورت",
+        "اچھی"
+      ],
+      "probabilities": [
+        0.311670184135437,
+        0.13197097182273865,
+        0.12071271240711212
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 2,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "ممتاز",
+        "اچھی",
+        "خوبصورت"
+      ],
+      "probabilities": [
+        0.18894930183887482,
+        0.186029851436615,
+        0.08324626833200455
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "ڈاکٹر",
+        "پرستار",
+        "مریض"
+      ],
+      "probabilities": [
+        0.573383629322052,
+        0.2712080776691437,
+        0.015057899989187717
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "ڈاکٹر",
+        "پرستار",
+        "ملازم"
+      ],
+      "probabilities": [
+        0.46577945351600647,
+        0.3496067225933075,
+        0.015170053578913212
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "ڈاکٹر",
+        "پرستار",
+        "مدیر"
+      ],
+      "probabilities": [
+        0.4023706912994385,
+        0.39225441217422485,
+        0.017284823581576347
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "پرستار",
+        "ڈاکٹر",
+        "مریض"
+      ],
+      "probabilities": [
+        0.467403382062912,
+        0.4397553503513336,
+        0.011907991021871567
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "پرستار",
+        "ڈاکٹر",
+        "مریض"
+      ],
+      "probabilities": [
+        0.5608408451080322,
+        0.363940954208374,
+        0.010227506048977375
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 3,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "پرستار",
+        "ڈاکٹر",
+        "ملازم"
+      ],
+      "probabilities": [
+        0.5917902588844299,
+        0.23332646489143372,
+        0.028484653681516647
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "صحت",
+        "زراعت",
+        "تعلیم"
+      ],
+      "probabilities": [
+        0.12917761504650116,
+        0.10724776238203049,
+        0.06401345878839493
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "م",
+        "صحت",
+        "تعلیم"
+      ],
+      "probabilities": [
+        0.09140831232070923,
+        0.06875137984752655,
+        0.04132877290248871
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "تعلیم",
+        "ات",
+        "بصری"
+      ],
+      "probabilities": [
+        0.067669577896595,
+        0.06692765653133392,
+        0.03818241134285927
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "صحت",
+        "زراعت",
+        "تعلیم"
+      ],
+      "probabilities": [
+        0.22810640931129456,
+        0.1425347775220871,
+        0.1189197450876236
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "صحت",
+        "تعلیم",
+        "موسیقی"
+      ],
+      "probabilities": [
+        0.29047974944114685,
+        0.22387616336345673,
+        0.061353713274002075
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 4,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "حقوق",
+        "میڈیا",
+        "صحت"
+      ],
+      "probabilities": [
+        0.08651867508888245,
+        0.0792916938662529,
+        0.07704941183328629
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "چائے",
+        "گوشت",
+        "بجلی"
+      ],
+      "probabilities": [
+        0.19492104649543762,
+        0.08928051590919495,
+        0.06330066919326782
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "چائے",
+        "گوشت",
+        "بجلی"
+      ],
+      "probabilities": [
+        0.15054908394813538,
+        0.09146009385585785,
+        0.06157440319657326
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "چائے",
+        "گوشت",
+        "بجلی"
+      ],
+      "probabilities": [
+        0.11806466430425644,
+        0.10188570618629456,
+        0.07805176079273224
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "چائے",
+        "گوشت",
+        "خواتین"
+      ],
+      "probabilities": [
+        0.13002458214759827,
+        0.06282351166009903,
+        0.06044744327664375
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "چائے",
+        "گوشت",
+        "زعفران"
+      ],
+      "probabilities": [
+        0.15020401775836945,
+        0.06001589074730873,
+        0.03656863048672676
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 5,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "گوشت",
+        "بجلی",
+        "شراب"
+      ],
+      "probabilities": [
+        0.09625415503978729,
+        0.08909188210964203,
+        0.05065489187836647
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "کھانے",
+        "تفریح",
+        "شادی"
+      ],
+      "probabilities": [
+        0.14386044442653656,
+        0.09429129213094711,
+        0.08736801147460938
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "شام",
+        "کھانے",
+        "شادی"
+      ],
+      "probabilities": [
+        0.13576899468898773,
+        0.09798229485750198,
+        0.0961124449968338
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "شام",
+        "تفریح",
+        "کھانے"
+      ],
+      "probabilities": [
+        0.13019953668117523,
+        0.1082538366317749,
+        0.09485352784395218
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "کھانے",
+        "شام",
+        "شادی"
+      ],
+      "probabilities": [
+        0.20733542740345,
+        0.14377766847610474,
+        0.09852851927280426
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "کھانے",
+        "شام",
+        "شادی"
+      ],
+      "probabilities": [
+        0.13548941910266876,
+        0.12232653796672821,
+        0.11012732237577438
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 6,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "شام",
+        "شادی",
+        "تفریح"
+      ],
+      "probabilities": [
+        0.19596877694129944,
+        0.1713448166847229,
+        0.10629751533269882
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "آباد",
+        "آباد",
+        "پور"
+      ],
+      "probabilities": [
+        0.7084699869155884,
+        0.14333388209342957,
+        0.007296686060726643
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "آباد",
+        "گڑھ",
+        "پور"
+      ],
+      "probabilities": [
+        0.4853439927101135,
+        0.11362851411104202,
+        0.028630776330828667
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "آباد",
+        "آباد",
+        "پور"
+      ],
+      "probabilities": [
+        0.9222798347473145,
+        0.033540643751621246,
+        0.0037830763030797243
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "آباد",
+        "گجرات",
+        "پنجاب"
+      ],
+      "probabilities": [
+        0.20309016108512878,
+        0.07389158010482788,
+        0.05863528698682785
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "سوات",
+        "آباد",
+        "پشاور"
+      ],
+      "probabilities": [
+        0.14330309629440308,
+        0.11802999675273895,
+        0.055866897106170654
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 7,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "آباد",
+        "ضلع",
+        "شہر"
+      ],
+      "probabilities": [
+        0.4210861623287201,
+        0.036024123430252075,
+        0.029951414093375206
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "وکیل",
+        "شاعر",
+        "دوست"
+      ],
+      "probabilities": [
+        0.11076046526432037,
+        0.057667966932058334,
+        0.039806101471185684
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "وزیر",
+        "صدر",
+        "مالک"
+      ],
+      "probabilities": [
+        0.06551331281661987,
+        0.060093630105257034,
+        0.041826359927654266
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "صدر",
+        "وزیر",
+        "وکیل"
+      ],
+      "probabilities": [
+        0.17439214885234833,
+        0.08850549906492233,
+        0.0436309352517128
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "وکیل",
+        "صدر",
+        "ماڈل"
+      ],
+      "probabilities": [
+        0.12836168706417084,
+        0.056457847356796265,
+        0.04192103073000908
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "وزیر",
+        "صدر",
+        "خاتون"
+      ],
+      "probabilities": [
+        0.10166576504707336,
+        0.09740246832370758,
+        0.06433466076850891
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 8,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "ماں",
+        "محافظ",
+        "سلطان"
+      ],
+      "probabilities": [
+        0.045925073325634,
+        0.04046817496418953,
+        0.034082818776369095
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "اپنی",
+        "قومی",
+        "کرکٹ"
+      ],
+      "probabilities": [
+        0.40634849667549133,
+        0.1051344946026802,
+        0.06801783293485641
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "اپنی",
+        "قومی",
+        "پاکستانی"
+      ],
+      "probabilities": [
+        0.33760929107666016,
+        0.21144545078277588,
+        0.0603497177362442
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "اپنی",
+        "قومی",
+        "نوجوان"
+      ],
+      "probabilities": [
+        0.43297651410102844,
+        0.1046898290514946,
+        0.056365516036748886
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "اپنی",
+        "قومی",
+        "کرکٹ"
+      ],
+      "probabilities": [
+        0.3646891713142395,
+        0.12323205173015594,
+        0.09916830062866211
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "اپنی",
+        "کرکٹ",
+        "قومی"
+      ],
+      "probabilities": [
+        0.38508477807044983,
+        0.0881965160369873,
+        0.07797223329544067
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 9,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "اپنی",
+        "نوجوان",
+        "قومی"
+      ],
+      "probabilities": [
+        0.4180563688278198,
+        0.1178831234574318,
+        0.0650009959936142
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "ماں",
+        "وکیل",
+        "وزیراعظم"
+      ],
+      "probabilities": [
+        0.039434295147657394,
+        0.03710279241204262,
+        0.03404003381729126
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "وزیراعظم",
+        "علی",
+        "وزیر"
+      ],
+      "probabilities": [
+        0.07117341458797455,
+        0.05086573213338852,
+        0.03176352009177208
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "حسن",
+        "بیٹا",
+        "بادشاہ"
+      ],
+      "probabilities": [
+        0.6055763363838196,
+        0.014719007536768913,
+        0.01165649201720953
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "ماں",
+        "عائشہ",
+        "بیوی"
+      ],
+      "probabilities": [
+        0.20458349585533142,
+        0.054015401750802994,
+        0.030385779216885567
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "ماں",
+        "فاطمہ",
+        "خاتون"
+      ],
+      "probabilities": [
+        0.4143191874027252,
+        0.10023178905248642,
+        0.03764726221561432
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 10,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "ماں",
+        "زینب",
+        "بچی"
+      ],
+      "probabilities": [
+        0.43444329500198364,
+        0.053592558950185776,
+        0.04873072728514671
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "شادی",
+        "کیا",
+        "انتقال"
+      ],
+      "probabilities": [
+        0.3317358195781708,
+        0.20025232434272766,
+        0.05738769844174385
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "شادی",
+        "کیا",
+        "انتقال"
+      ],
+      "probabilities": [
+        0.39387959241867065,
+        0.13240404427051544,
+        0.037513475865125656
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "شادی",
+        "ایسا",
+        "کیا"
+      ],
+      "probabilities": [
+        0.3594328463077545,
+        0.07317769527435303,
+        0.0663166493177414
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "کیا",
+        "شادی",
+        "نکاح"
+      ],
+      "probabilities": [
+        0.44762399792671204,
+        0.4016794264316559,
+        0.015218713320791721
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "شادی",
+        "کیا",
+        "نکاح"
+      ],
+      "probabilities": [
+        0.6147526502609253,
+        0.19663670659065247,
+        0.027346359565854073
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 11,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "کیا",
+        "شادی",
+        "نکاح"
+      ],
+      "probabilities": [
+        0.5123223066329956,
+        0.35626423358917236,
+        0.013974031433463097
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بچوں",
+        "حفاظت",
+        "زندگی"
+      ],
+      "probabilities": [
+        0.06756648421287537,
+        0.03487098217010498,
+        0.029967809095978737
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "معاونت",
+        "بچوں",
+        "حفاظت"
+      ],
+      "probabilities": [
+        0.04911016300320625,
+        0.04644055292010307,
+        0.04007688909769058
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "حفاظت",
+        "صحت",
+        "ریاست"
+      ],
+      "probabilities": [
+        0.066034696996212,
+        0.03794991225004196,
+        0.03551219776272774
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "معاونت",
+        "بچوں",
+        "حفاظت"
+      ],
+      "probabilities": [
+        0.050310052931308746,
+        0.04101615399122238,
+        0.03970617800951004
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "معاونت",
+        "حفاظت",
+        "بچوں"
+      ],
+      "probabilities": [
+        0.07046318054199219,
+        0.05373167246580124,
+        0.05129968374967575
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 12,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "امن",
+        "بچوں",
+        "حفاظت"
+      ],
+      "probabilities": [
+        0.06946273148059845,
+        0.05788373202085495,
+        0.05190366879105568
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "مصرف",
+        "استعمال",
+        "استفاده"
+      ],
+      "probabilities": [
+        0.20800061523914337,
+        0.1773330271244049,
+        0.044693198055028915
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "استعمال",
+        "مصرف",
+        "عمل"
+      ],
+      "probabilities": [
+        0.2574423551559448,
+        0.20446477830410004,
+        0.05784688517451286
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "عمل",
+        "تقویت",
+        "ثابت"
+      ],
+      "probabilities": [
+        0.07339180260896683,
+        0.04351838678121567,
+        0.043058328330516815
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "میل",
+        "ورزش",
+        "کیا"
+      ],
+      "probabilities": [
+        0.11526547372341156,
+        0.03332136198878288,
+        0.02913978323340416
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "ورزش",
+        "حمام",
+        "میل"
+      ],
+      "probabilities": [
+        0.21318486332893372,
+        0.0311114601790905,
+        0.02453675866127014
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 13,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "کام",
+        "کیا",
+        "محنت"
+      ],
+      "probabilities": [
+        0.06899454444646835,
+        0.056252021342515945,
+        0.030232571065425873
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "کام",
+        "شادی",
+        "کیا"
+      ],
+      "probabilities": [
+        0.6319454312324524,
+        0.06453414261341095,
+        0.022610360756516457
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "کام",
+        "شادی",
+        "محبت"
+      ],
+      "probabilities": [
+        0.5166494250297546,
+        0.1340484768152237,
+        0.038775619119405746
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "کام",
+        "عمل",
+        "محبت"
+      ],
+      "probabilities": [
+        0.6337077617645264,
+        0.08634833246469498,
+        0.04987117275595665
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "شادی",
+        "کام",
+        "کیا"
+      ],
+      "probabilities": [
+        0.28665173053741455,
+        0.2726769745349884,
+        0.06987766921520233
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "شادی",
+        "کام",
+        "محبت"
+      ],
+      "probabilities": [
+        0.3875531554222107,
+        0.1587199568748474,
+        0.11264466494321823
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 14,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "قتل",
+        "شادی",
+        "کیا"
+      ],
+      "probabilities": [
+        0.2746495306491852,
+        0.20901568233966827,
+        0.1397373080253601
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 15,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "فلم",
+        "کھانا",
+        "گھر"
+      ],
+      "probabilities": [
+        0.06713743507862091,
+        0.06210903450846672,
+        0.051031842827796936
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 15,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "کھانا",
+        "گھر",
+        "فلم"
+      ],
+      "probabilities": [
+        0.05811736360192299,
+        0.03153295814990997,
+        0.03088780865073204
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 15,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "بہتر",
+        "اچھا",
+        "حسن"
+      ],
+      "probabilities": [
+        0.1592325121164322,
+        0.09582818299531937,
+        0.04052098095417023
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 15,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "ماں",
+        "گھر",
+        "مہمان"
+      ],
+      "probabilities": [
+        0.08937259763479233,
+        0.05921788141131401,
+        0.023008186370134354
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 15,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "ماں",
+        "گھر",
+        "دعا"
+      ],
+      "probabilities": [
+        0.111879862844944,
+        0.07033760845661163,
+        0.03188813105225563
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 15,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "گھر",
+        "نشانہ",
+        "قربانی"
+      ],
+      "probabilities": [
+        0.06406769156455994,
+        0.04106789082288742,
+        0.0370112806558609
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 16,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "کام",
+        "انتظام",
+        "سامان"
+      ],
+      "probabilities": [
+        0.14232800900936127,
+        0.07952538877725601,
+        0.047676097601652145
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 16,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "کام",
+        "انتظام",
+        "سامان"
+      ],
+      "probabilities": [
+        0.29615357518196106,
+        0.1394422948360443,
+        0.03525640070438385
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 16,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "انتظام",
+        "کام",
+        "انتخاب"
+      ],
+      "probabilities": [
+        0.17270736396312714,
+        0.1494475156068802,
+        0.04359718784689903
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 16,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "انتظام",
+        "کام",
+        "رخ"
+      ],
+      "probabilities": [
+        0.3458907902240753,
+        0.1223592534661293,
+        0.043785594403743744
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 16,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "انتظام",
+        "کام",
+        "انتخاب"
+      ],
+      "probabilities": [
+        0.41509583592414856,
+        0.08255036175251007,
+        0.043691236525774
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 16,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "انتظام",
+        "کام",
+        "رخ"
+      ],
+      "probabilities": [
+        0.14836089313030243,
+        0.144978865981102,
+        0.03719489276409149
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 17,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بچوں",
+        "لوگوں",
+        "پانی"
+      ],
+      "probabilities": [
+        0.08622003346681595,
+        0.07124970108270645,
+        0.04281589388847351
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 17,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "بچوں",
+        "مسائل",
+        "لوگوں"
+      ],
+      "probabilities": [
+        0.07606149464845657,
+        0.0757112205028534,
+        0.056542862206697464
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 17,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "لوگوں",
+        "مسائل",
+        "بچوں"
+      ],
+      "probabilities": [
+        0.06239708513021469,
+        0.04255809634923935,
+        0.037366464734077454
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 17,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "بچوں",
+        "لوگوں",
+        "مسائل"
+      ],
+      "probabilities": [
+        0.0740099623799324,
+        0.06378694623708725,
+        0.04698459059000015
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 17,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "بچوں",
+        "لوگوں",
+        "مسائل"
+      ],
+      "probabilities": [
+        0.10123515129089355,
+        0.05180971324443817,
+        0.0506105050444603
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 17,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "بچوں",
+        "امن",
+        "لوگوں"
+      ],
+      "probabilities": [
+        0.13990546762943268,
+        0.061775092035532,
+        0.05520041286945343
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 18,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "گھر",
+        "اسے",
+        "سامان"
+      ],
+      "probabilities": [
+        0.4593222737312317,
+        0.06041591241955757,
+        0.046443864703178406
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 18,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "گھر",
+        "اسے",
+        "خود"
+      ],
+      "probabilities": [
+        0.4028904438018799,
+        0.07111845910549164,
+        0.030259577557444572
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 18,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "گھر",
+        "کام",
+        "زندگی"
+      ],
+      "probabilities": [
+        0.13471783697605133,
+        0.095730260014534,
+        0.08271688967943192
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 18,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "گھر",
+        "کام",
+        "زندگی"
+      ],
+      "probabilities": [
+        0.6124908924102783,
+        0.04870773106813431,
+        0.041716318577528
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 18,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "گھر",
+        "زندگی",
+        "کام"
+      ],
+      "probabilities": [
+        0.6339163780212402,
+        0.0592009611427784,
+        0.03251960873603821
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 18,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "گھر",
+        "زندگی",
+        "فرائض"
+      ],
+      "probabilities": [
+        0.5794283151626587,
+        0.04495837166905403,
+        0.03670515492558479
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 19,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "آپ",
+        "ان",
+        "اللہ"
+      ],
+      "probabilities": [
+        0.1003338098526001,
+        0.0657932385802269,
+        0.05013655871152878
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 19,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "آپ",
+        "اللہ",
+        "علی"
+      ],
+      "probabilities": [
+        0.10206267237663269,
+        0.07257842272520065,
+        0.06422074884176254
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 19,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "حسن",
+        "ان",
+        "آپ"
+      ],
+      "probabilities": [
+        0.14311301708221436,
+        0.06894828379154205,
+        0.06551041454076767
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 19,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "اسلام",
+        "اللہ",
+        "لوگوں"
+      ],
+      "probabilities": [
+        0.13694407045841217,
+        0.13617101311683655,
+        0.05931762605905533
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 19,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "اسلام",
+        "اللہ",
+        "دنیا"
+      ],
+      "probabilities": [
+        0.14827300608158112,
+        0.1304328441619873,
+        0.05264979973435402
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 19,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "زینب",
+        "دنیا",
+        "اسلام"
+      ],
+      "probabilities": [
+        0.07981429994106293,
+        0.07114282995462418,
+        0.0687231719493866
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 20,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "لکھنے",
+        "پڑھنے",
+        "بیان"
+      ],
+      "probabilities": [
+        0.1807289719581604,
+        0.17083226144313812,
+        0.07896879315376282
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 20,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "بیان",
+        "پڑھنے",
+        "لکھنے"
+      ],
+      "probabilities": [
+        0.08983726054430008,
+        0.08827559649944305,
+        0.06646103411912918
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 20,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "لکھنے",
+        "پڑھنے",
+        "نقل"
+      ],
+      "probabilities": [
+        0.11596378684043884,
+        0.10051921755075455,
+        0.09050858020782471
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 20,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "نکاح",
+        "پڑھنے",
+        "بیان"
+      ],
+      "probabilities": [
+        0.10812944918870926,
+        0.10218527913093567,
+        0.05328409746289253
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 20,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "پڑھنے",
+        "نکاح",
+        "بیان"
+      ],
+      "probabilities": [
+        0.10235445946455002,
+        0.07038335502147675,
+        0.06765681505203247
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 20,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "شادی",
+        "قتل",
+        "پڑھنے"
+      ],
+      "probabilities": [
+        0.15045246481895447,
+        0.139226496219635,
+        0.11008135229349136
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 21,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "لباس",
+        "چادر",
+        "حجاب"
+      ],
+      "probabilities": [
+        0.3706621527671814,
+        0.2161426544189453,
+        0.02693130448460579
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 21,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "لباس",
+        "چادر",
+        "حجاب"
+      ],
+      "probabilities": [
+        0.35545796155929565,
+        0.16090957820415497,
+        0.05362928658723831
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 21,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "لباس",
+        "چادر",
+        "حجاب"
+      ],
+      "probabilities": [
+        0.415934294462204,
+        0.14805270731449127,
+        0.05697237327694893
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 21,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "لباس",
+        "چادر",
+        "حجاب"
+      ],
+      "probabilities": [
+        0.3752233386039734,
+        0.18622010946273804,
+        0.04641507565975189
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 21,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "لباس",
+        "چادر",
+        "حجاب"
+      ],
+      "probabilities": [
+        0.3397577106952667,
+        0.1564175933599472,
+        0.050178248435258865
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 21,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "لباس",
+        "چادر",
+        "حجاب"
+      ],
+      "probabilities": [
+        0.4815655052661896,
+        0.13647165894508362,
+        0.04899069666862488
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 22,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "محبوب",
+        "مسلمان",
+        "امیر"
+      ],
+      "probabilities": [
+        0.05205954611301422,
+        0.03131433203816414,
+        0.02575601078569889
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 22,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "علی",
+        "پیر",
+        "امیر"
+      ],
+      "probabilities": [
+        0.1753557324409485,
+        0.027948200702667236,
+        0.027470853179693222
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 22,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "حسن",
+        "محبوب",
+        "مضبوط"
+      ],
+      "probabilities": [
+        0.4796300232410431,
+        0.060352593660354614,
+        0.029309898614883423
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 22,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "خوبصورت",
+        "بیوی",
+        "خاتون"
+      ],
+      "probabilities": [
+        0.11024579405784607,
+        0.07353764772415161,
+        0.050189655274152756
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 22,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "فاطمہ",
+        "خاتون",
+        "خوبصورت"
+      ],
+      "probabilities": [
+        0.1062207967042923,
+        0.0876251831650734,
+        0.07372337579727173
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 22,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "قاتل",
+        "ماں",
+        "مظلوم"
+      ],
+      "probabilities": [
+        0.13668005168437958,
+        0.1086636558175087,
+        0.08771631866693497
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 23,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "احمد",
+        "علی",
+        "محمد"
+      ],
+      "probabilities": [
+        0.8708528876304626,
+        0.005886705592274666,
+        0.004574551712721586
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 23,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "علی",
+        "گاؤں",
+        "حسن"
+      ],
+      "probabilities": [
+        0.6776036620140076,
+        0.011121142655611038,
+        0.004748510662466288
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 23,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "حسن",
+        "الحسن",
+        "علی"
+      ],
+      "probabilities": [
+        0.8158850073814392,
+        0.009258166886866093,
+        0.004860840272158384
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 23,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "عائشہ",
+        "فاطمہ",
+        "خاتون"
+      ],
+      "probabilities": [
+        0.4258755147457123,
+        0.025890523567795753,
+        0.01354476623237133
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 23,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "فاطمہ",
+        "خاتون",
+        "عائشہ"
+      ],
+      "probabilities": [
+        0.6113104224205017,
+        0.021268708631396294,
+        0.01703696884214878
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 23,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "زینب",
+        "ماں",
+        "فاطمہ"
+      ],
+      "probabilities": [
+        0.3916137218475342,
+        0.02735123597085476,
+        0.01395808532834053
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 24,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "تبدیلی",
+        "پیپلزپارٹی",
+        "کامیابی"
+      ],
+      "probabilities": [
+        0.0991935282945633,
+        0.058365609496831894,
+        0.057451967149972916
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 24,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "تبدیلی",
+        "نوازشریف",
+        "پیپلزپارٹی"
+      ],
+      "probabilities": [
+        0.08653441816568375,
+        0.06817083805799484,
+        0.06567389518022537
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 24,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "تبدیلی",
+        "کامیابی",
+        "نوازشریف"
+      ],
+      "probabilities": [
+        0.05852321535348892,
+        0.05802925303578377,
+        0.05551614239811897
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 24,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "تبدیلی",
+        "اصلاحات",
+        "خواتین"
+      ],
+      "probabilities": [
+        0.08891160786151886,
+        0.07105328142642975,
+        0.06577222794294357
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 24,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "خواتین",
+        "جمہوریت",
+        "کامیابی"
+      ],
+      "probabilities": [
+        0.1059020385146141,
+        0.06587331742048264,
+        0.046800535172224045
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 24,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "کامیابی",
+        "شرکت",
+        "انصاف"
+      ],
+      "probabilities": [
+        0.12110871821641922,
+        0.07487351447343826,
+        0.041857726871967316
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 25,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "कार",
+        "گھر",
+        "زمین"
+      ],
+      "probabilities": [
+        0.06849836558103561,
+        0.0572144091129303,
+        0.04549921676516533
+      ],
+      "right_script": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 25,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "कार",
+        "घर",
+        "گھر"
+      ],
+      "probabilities": [
+        0.07276275753974915,
+        0.05984250828623772,
+        0.05402423441410065
+      ],
+      "right_script": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 25,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "مال",
+        "لباس",
+        "حقوق"
+      ],
+      "probabilities": [
+        0.0703895166516304,
+        0.042614810168743134,
+        0.03476978465914726
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 25,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "خانه",
+        "گھر",
+        "घर"
+      ],
+      "probabilities": [
+        0.08814665675163269,
+        0.07879863679409027,
+        0.0620892234146595
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 25,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "خانه",
+        "لباس",
+        "منزل"
+      ],
+      "probabilities": [
+        0.1399785429239273,
+        0.07256452739238739,
+        0.06151169538497925
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 25,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "خانه",
+        "لباس",
+        "घर"
+      ],
+      "probabilities": [
+        0.11185909807682037,
+        0.08209926635026932,
+        0.0666055753827095
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 26,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بچے",
+        "ماں",
+        "اس"
+      ],
+      "probabilities": [
+        0.09069394320249557,
+        0.05165456607937813,
+        0.04649098962545395
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 26,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "ماں",
+        "اس",
+        "باپ"
+      ],
+      "probabilities": [
+        0.057655952870845795,
+        0.05027978494763374,
+        0.035315435379743576
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 26,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "اس",
+        "نماز",
+        "اجازت"
+      ],
+      "probabilities": [
+        0.05221012234687805,
+        0.03339619189500809,
+        0.030417904257774353
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 26,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "بچے",
+        "اجازت",
+        "اس"
+      ],
+      "probabilities": [
+        0.05631585046648979,
+        0.055750276893377304,
+        0.055118001997470856
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 26,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "اس",
+        "ماں",
+        "بچے"
+      ],
+      "probabilities": [
+        0.0727914497256279,
+        0.0609772689640522,
+        0.0463547445833683
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 26,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "اجازت",
+        "والدین",
+        "ماں"
+      ],
+      "probabilities": [
+        0.0689970925450325,
+        0.06009797751903534,
+        0.05925726890563965
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 27,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "یاد",
+        "زندہ",
+        "باقی"
+      ],
+      "probabilities": [
+        0.15876320004463196,
+        0.1433912068605423,
+        0.12483257055282593
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 27,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "یاد",
+        "ہمیشہ",
+        "باقی"
+      ],
+      "probabilities": [
+        0.05495388060808182,
+        0.052377283573150635,
+        0.04705172777175903
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 27,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "باقی",
+        "زندہ",
+        "یاد"
+      ],
+      "probabilities": [
+        0.1396777629852295,
+        0.10634801536798477,
+        0.0734683945775032
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 27,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "زندہ",
+        "زنده",
+        "یاد"
+      ],
+      "probabilities": [
+        0.48020368814468384,
+        0.11201924085617065,
+        0.028396356850862503
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 27,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "زندہ",
+        "زنده",
+        "یاد"
+      ],
+      "probabilities": [
+        0.41822272539138794,
+        0.10861199349164963,
+        0.041043542325496674
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 27,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "زندہ",
+        "زنده",
+        "باقی"
+      ],
+      "probabilities": [
+        0.6368539929389954,
+        0.06254012137651443,
+        0.03372718393802643
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 28,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "خوب",
+        "بد",
+        "خوش"
+      ],
+      "probabilities": [
+        0.3525519371032715,
+        0.1257057934999466,
+        0.1040421575307846
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 28,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "خوب",
+        "بد",
+        "خوش"
+      ],
+      "probabilities": [
+        0.2884844243526459,
+        0.12290170788764954,
+        0.08593744039535522
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 28,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "خوب",
+        "بد",
+        "خوش"
+      ],
+      "probabilities": [
+        0.46243298053741455,
+        0.08249007910490036,
+        0.05406056344509125
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 28,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "خوش",
+        "خوب",
+        "بد"
+      ],
+      "probabilities": [
+        0.3136882483959198,
+        0.2362447828054428,
+        0.1174127459526062
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 28,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "خوش",
+        "خوب",
+        "بد"
+      ],
+      "probabilities": [
+        0.32356321811676025,
+        0.26797330379486084,
+        0.07688936591148376
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 28,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "بد",
+        "خوب",
+        "دور"
+      ],
+      "probabilities": [
+        0.3589250147342682,
+        0.11555691063404083,
+        0.07698424905538559
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 29,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "واضح",
+        "سوار",
+        "</s>"
+      ],
+      "probabilities": [
+        0.032989438623189926,
+        0.02327209897339344,
+        0.018129965290427208
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 29,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "سوار",
+        "واضح",
+        "قائم"
+      ],
+      "probabilities": [
+        0.03145547956228256,
+        0.025304805487394333,
+        0.019096478819847107
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 29,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "واضح",
+        "ختم",
+        "</s>"
+      ],
+      "probabilities": [
+        0.06705453991889954,
+        0.06188911199569702,
+        0.02950660139322281
+      ],
+      "right_script": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template": 29,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "مجبور",
+        "مشغول",
+        "راضی"
+      ],
+      "probabilities": [
+        0.058017972856760025,
+        0.05070098116993904,
+        0.04637521877884865
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 29,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "مجبور",
+        "راضی",
+        "خاموش"
+      ],
+      "probabilities": [
+        0.049305956810712814,
+        0.04563971236348152,
+        0.03500613197684288
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 29,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "خاموش",
+        "مجبور",
+        "خراب"
+      ],
+      "probabilities": [
+        0.053381286561489105,
+        0.039393939077854156,
+        0.02484298124909401
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 30,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بڑا",
+        "اچھا",
+        "خوب"
+      ],
+      "probabilities": [
+        0.14092545211315155,
+        0.0713968425989151,
+        0.06444215029478073
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 30,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "بڑا",
+        "محبوب",
+        "رحیم"
+      ],
+      "probabilities": [
+        0.17030203342437744,
+        0.06494162976741791,
+        0.04372132942080498
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 30,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "خوب",
+        "بلند",
+        "بڑا"
+      ],
+      "probabilities": [
+        0.08053172379732132,
+        0.06004893407225609,
+        0.0569443479180336
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 30,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "خوبصورت",
+        "زیبا",
+        "خوب"
+      ],
+      "probabilities": [
+        0.17735031247138977,
+        0.08274278789758682,
+        0.05960216745734215
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 30,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "خوبصورت",
+        "زیبا",
+        "خوب"
+      ],
+      "probabilities": [
+        0.24833299219608307,
+        0.10397017002105713,
+        0.046205878257751465
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 30,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "خوبصورت",
+        "معصوم",
+        "زیبا"
+      ],
+      "probabilities": [
+        0.14552748203277588,
+        0.09520507603883743,
+        0.08338598161935806
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 31,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "اس",
+        "آبادی",
+        "ہونے"
+      ],
+      "probabilities": [
+        0.09495621174573898,
+        0.07791333645582199,
+        0.07047857344150543
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 31,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "آبادی",
+        "اس",
+        "وجود"
+      ],
+      "probabilities": [
+        0.11328435689210892,
+        0.05778168514370918,
+        0.05544571578502655
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 31,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "اس",
+        "حسن",
+        "وجود"
+      ],
+      "probabilities": [
+        0.14244690537452698,
+        0.05749648064374924,
+        0.051938191056251526
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 31,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "آبادی",
+        "زندگی",
+        "ہونے"
+      ],
+      "probabilities": [
+        0.10379831492900848,
+        0.08980905264616013,
+        0.054154325276613235
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 31,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "اس",
+        "وجود",
+        "زندگی"
+      ],
+      "probabilities": [
+        0.10331916064023972,
+        0.09835118800401688,
+        0.08137565851211548
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 31,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "اس",
+        "وجود",
+        "زندگی"
+      ],
+      "probabilities": [
+        0.24119433760643005,
+        0.06592830270528793,
+        0.06166186183691025
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 32,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "کارکردگی",
+        "کامیابی",
+        "تعداد"
+      ],
+      "probabilities": [
+        0.04823766276240349,
+        0.03993326053023338,
+        0.028574420139193535
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 32,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "کارکردگی",
+        "کامیابی",
+        "تعداد"
+      ],
+      "probabilities": [
+        0.041641876101493835,
+        0.039303503930568695,
+        0.03785798326134682
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 32,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "کارکردگی",
+        "کامیابی",
+        "امتیاز"
+      ],
+      "probabilities": [
+        0.1083652451634407,
+        0.04083330184221268,
+        0.03956069424748421
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 32,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "شادی",
+        "کامیابی",
+        "آبادی"
+      ],
+      "probabilities": [
+        0.08579549193382263,
+        0.06224355846643448,
+        0.04710827395319939
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 32,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "شادی",
+        "دلچسپی",
+        "تعداد"
+      ],
+      "probabilities": [
+        0.08306361734867096,
+        0.061195190995931625,
+        0.055760957300662994
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 32,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "کامیابی",
+        "تعداد",
+        "شادی"
+      ],
+      "probabilities": [
+        0.052709270268678665,
+        0.047591615468263626,
+        0.046004366129636765
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 33,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بیوی",
+        "خدا",
+        "مجھ"
+      ],
+      "probabilities": [
+        0.051841069012880325,
+        0.04535461217164993,
+        0.042921070009469986
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 33,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "خدا",
+        "موت",
+        "بیوی"
+      ],
+      "probabilities": [
+        0.06440176069736481,
+        0.05366537347435951,
+        0.037309154868125916
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 33,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "خدا",
+        "اللہ",
+        "محبت"
+      ],
+      "probabilities": [
+        0.233104407787323,
+        0.06784423440694809,
+        0.051216401159763336
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 33,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "زینب",
+        "طلاق",
+        "شادی"
+      ],
+      "probabilities": [
+        0.06490759551525116,
+        0.03146578371524811,
+        0.031093860045075417
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 33,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "خدا",
+        "شیطان",
+        "زینب"
+      ],
+      "probabilities": [
+        0.13335905969142914,
+        0.06446215510368347,
+        0.037171319127082825
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 33,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "زینب",
+        "خدا",
+        "باپ"
+      ],
+      "probabilities": [
+        0.12370961159467697,
+        0.08798398822546005,
+        0.03883173689246178
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 34,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بچوں",
+        "لوگوں",
+        "دوستوں"
+      ],
+      "probabilities": [
+        0.05559086427092552,
+        0.052873652428388596,
+        0.05260688066482544
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 34,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "افراد",
+        "لوگوں",
+        "واقعات"
+      ],
+      "probabilities": [
+        0.05033506825566292,
+        0.041210051625967026,
+        0.03787233680486679
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 34,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "لوگوں",
+        "افراد",
+        "الناس"
+      ],
+      "probabilities": [
+        0.22021998465061188,
+        0.08420213311910629,
+        0.03911343589425087
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 34,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "لوگوں",
+        "خواتین",
+        "اوقات"
+      ],
+      "probabilities": [
+        0.08969367295503616,
+        0.04813132435083389,
+        0.03836997598409653
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 34,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "لوگوں",
+        "واقعات",
+        "اوقات"
+      ],
+      "probabilities": [
+        0.11429107189178467,
+        0.07247427105903625,
+        0.05167069658637047
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 34,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "لوگوں",
+        "واقعات",
+        "بچوں"
+      ],
+      "probabilities": [
+        0.2036716639995575,
+        0.09026540070772171,
+        0.08674415946006775
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 35,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بچوں",
+        "شادی",
+        "آپ"
+      ],
+      "probabilities": [
+        0.053315501660108566,
+        0.04061463847756386,
+        0.04038490727543831
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 35,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "اس",
+        "شادی",
+        "ان"
+      ],
+      "probabilities": [
+        0.06790845096111298,
+        0.05227558687329292,
+        0.027422741055488586
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 35,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "اس",
+        "خوشی",
+        "زندگی"
+      ],
+      "probabilities": [
+        0.07040941715240479,
+        0.03377378731966019,
+        0.03213951736688614
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 35,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "شادی",
+        "بچوں",
+        "شوہر"
+      ],
+      "probabilities": [
+        0.128709077835083,
+        0.10253912955522537,
+        0.05527183786034584
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 35,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "بچوں",
+        "شوہر",
+        "اس"
+      ],
+      "probabilities": [
+        0.10882142186164856,
+        0.07900521904230118,
+        0.06755715608596802
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 35,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "بچوں",
+        "اس",
+        "والدین"
+      ],
+      "probabilities": [
+        0.15622805058956146,
+        0.09361207485198975,
+        0.06172740086913109
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 36,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "کو",
+        "اسے",
+        "مجھے"
+      ],
+      "probabilities": [
+        0.6011616587638855,
+        0.22501076757907867,
+        0.036510854959487915
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 36,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "کو",
+        "اسے",
+        "را"
+      ],
+      "probabilities": [
+        0.7648666501045227,
+        0.09394244849681854,
+        0.0346003882586956
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 36,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "کو",
+        "اسے",
+        "ا"
+      ],
+      "probabilities": [
+        0.629267692565918,
+        0.04425034672021866,
+        0.03995124250650406
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 36,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "اسے",
+        "کو",
+        "انہیں"
+      ],
+      "probabilities": [
+        0.800070583820343,
+        0.0801282748579979,
+        0.03711245208978653
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 36,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "اسے",
+        "کو",
+        "انھیں"
+      ],
+      "probabilities": [
+        0.8357798457145691,
+        0.05523047596216202,
+        0.03426749259233475
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 36,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "اسے",
+        "کو",
+        "انھیں"
+      ],
+      "probabilities": [
+        0.7131902575492859,
+        0.15956036746501923,
+        0.049820784479379654
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 37,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بیماری",
+        "گرمی",
+        "مسائل"
+      ],
+      "probabilities": [
+        0.3383752703666687,
+        0.09402042627334595,
+        0.05328812450170517
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 37,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "بیماری",
+        "گرمی",
+        "صحت"
+      ],
+      "probabilities": [
+        0.3612987697124481,
+        0.0803615003824234,
+        0.06403336673974991
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 37,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "بیماری",
+        "گرمی",
+        "مسائل"
+      ],
+      "probabilities": [
+        0.26339787244796753,
+        0.09710735827684402,
+        0.06895510852336884
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 37,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "بیماری",
+        "مسائل",
+        "صحت"
+      ],
+      "probabilities": [
+        0.2690446674823761,
+        0.11188657581806183,
+        0.09635810554027557
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 37,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "بیماری",
+        "مسائل",
+        "صحت"
+      ],
+      "probabilities": [
+        0.36442381143569946,
+        0.1064879521727562,
+        0.04280679300427437
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 37,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "بیماری",
+        "مسائل",
+        "غربت"
+      ],
+      "probabilities": [
+        0.17566733062267303,
+        0.0854744091629982,
+        0.07566952705383301
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 38,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "مزید",
+        "ڈاکٹر",
+        "بھی"
+      ],
+      "probabilities": [
+        0.12748168408870697,
+        0.10398918390274048,
+        0.09322810918092728
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 38,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "کچھ",
+        "ڈاکٹر",
+        "مزید"
+      ],
+      "probabilities": [
+        0.10935723781585693,
+        0.09868528693914413,
+        0.08892139047384262
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 38,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "ڈاکٹر",
+        "مزید",
+        "کچھ"
+      ],
+      "probabilities": [
+        0.13407108187675476,
+        0.1187097355723381,
+        0.09253626316785812
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 38,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "بھی",
+        "مزید",
+        "زبان"
+      ],
+      "probabilities": [
+        0.2084815502166748,
+        0.11580132693052292,
+        0.06430849432945251
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 38,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "بھی",
+        "مزید",
+        "زبان"
+      ],
+      "probabilities": [
+        0.24281977117061615,
+        0.07411067187786102,
+        0.06781089305877686
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 38,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "بھی",
+        "مزید",
+        "ڈاکٹر"
+      ],
+      "probabilities": [
+        0.29504260420799255,
+        0.0743725597858429,
+        0.06700188666582108
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 39,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "لندن",
+        "زبان",
+        "اردو"
+      ],
+      "probabilities": [
+        0.06049684062600136,
+        0.04614328593015671,
+        0.03479120507836342
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 39,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "لندن",
+        "زبان",
+        "اردو"
+      ],
+      "probabilities": [
+        0.07254897803068161,
+        0.04601442068815231,
+        0.035612981766462326
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 39,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "لندن",
+        "زبان",
+        "اردو"
+      ],
+      "probabilities": [
+        0.09132101386785507,
+        0.03171562775969505,
+        0.02757604420185089
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 39,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "لندن",
+        "زبان",
+        "اخبار"
+      ],
+      "probabilities": [
+        0.06485500186681747,
+        0.050877511501312256,
+        0.04559934884309769
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 39,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "لندن",
+        "زبان",
+        "اردو"
+      ],
+      "probabilities": [
+        0.07331351190805435,
+        0.05549447610974312,
+        0.045365896075963974
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 39,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "لندن",
+        "لبنان",
+        "اردو"
+      ],
+      "probabilities": [
+        0.08488697558641434,
+        0.04691983386874199,
+        0.03836400806903839
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 40,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بھی",
+        "ہی",
+        "اردو"
+      ],
+      "probabilities": [
+        0.6310499310493469,
+        0.05236896127462387,
+        0.019728954881429672
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 40,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "بھی",
+        "ہی",
+        "اردو"
+      ],
+      "probabilities": [
+        0.6459843516349792,
+        0.05002223700284958,
+        0.014295519329607487
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 40,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "بھی",
+        "ہی",
+        "اردو"
+      ],
+      "probabilities": [
+        0.6557459235191345,
+        0.06719699501991272,
+        0.014047320000827312
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 40,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "بھی",
+        "زبان",
+        "اردو"
+      ],
+      "probabilities": [
+        0.20154793560504913,
+        0.09370596706867218,
+        0.07163012027740479
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 40,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "بھی",
+        "زبان",
+        "ہی"
+      ],
+      "probabilities": [
+        0.2771104574203491,
+        0.08899825066328049,
+        0.08635291457176208
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 40,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "بھی",
+        "ہی",
+        "زبان"
+      ],
+      "probabilities": [
+        0.33578112721443176,
+        0.05184177681803703,
+        0.04210496321320534
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 41,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "کامیابی",
+        "شادی",
+        "موسیقی"
+      ],
+      "probabilities": [
+        0.030397877097129822,
+        0.028344422578811646,
+        0.024488169699907303
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 41,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "شادی",
+        "کامیابی",
+        "تعلیم"
+      ],
+      "probabilities": [
+        0.065180204808712,
+        0.04270140081644058,
+        0.033462293446063995
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 41,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "کامیابی",
+        "شادی",
+        "زندگی"
+      ],
+      "probabilities": [
+        0.11886616796255112,
+        0.07044710218906403,
+        0.026545198634266853
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 41,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "شادی",
+        "کامیابی",
+        "تعلیم"
+      ],
+      "probabilities": [
+        0.14778663218021393,
+        0.036407411098480225,
+        0.03254898637533188
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 41,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "شادی",
+        "تعلیم",
+        "زندگی"
+      ],
+      "probabilities": [
+        0.15674348175525665,
+        0.04697306826710701,
+        0.03750395029783249
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 41,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "شادی",
+        "زندگی",
+        "تعلیم"
+      ],
+      "probabilities": [
+        0.10048641264438629,
+        0.04971497878432274,
+        0.04135075584053993
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 42,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "یہ",
+        "کیا",
+        "شامل"
+      ],
+      "probabilities": [
+        0.17169426381587982,
+        0.14646346867084503,
+        0.09954923391342163
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 42,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "شامل",
+        "یہ",
+        "تحریر"
+      ],
+      "probabilities": [
+        0.14723233878612518,
+        0.14052438735961914,
+        0.08702918887138367
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 42,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "شامل",
+        "تحریر",
+        "یہ"
+      ],
+      "probabilities": [
+        0.100540392100811,
+        0.07656358182430267,
+        0.06878132373094559
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 42,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "یہ",
+        "کیا",
+        "تحریر"
+      ],
+      "probabilities": [
+        0.3060990273952484,
+        0.12853220105171204,
+        0.0690702348947525
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 42,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "یہ",
+        "شامل",
+        "کیا"
+      ],
+      "probabilities": [
+        0.22651712596416473,
+        0.1056896224617958,
+        0.09668076783418655
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 42,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "یہ",
+        "کیا",
+        "شامل"
+      ],
+      "probabilities": [
+        0.24908071756362915,
+        0.15811830759048462,
+        0.057598795741796494
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 43,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "ریاضی",
+        "چر",
+        "سائنس"
+      ],
+      "probabilities": [
+        0.07476279139518738,
+        0.05404800921678543,
+        0.03956636041402817
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 43,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "چر",
+        "ریاضی",
+        "سائنس"
+      ],
+      "probabilities": [
+        0.0868898257613182,
+        0.08605067431926727,
+        0.04558764025568962
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 43,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "ریاضی",
+        "سائنس",
+        "زبان"
+      ],
+      "probabilities": [
+        0.12359387427568436,
+        0.05613219738006592,
+        0.03827241063117981
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 43,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "ریاضی",
+        "چر",
+        "سائنس"
+      ],
+      "probabilities": [
+        0.06617985665798187,
+        0.054829880595207214,
+        0.05203342065215111
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 43,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "ریاضی",
+        "سائنس",
+        "زبان"
+      ],
+      "probabilities": [
+        0.0891764834523201,
+        0.08574317395687103,
+        0.03970186039805412
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 43,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "ریاضی",
+        "سب",
+        "سائنس"
+      ],
+      "probabilities": [
+        0.06757278740406036,
+        0.04270077869296074,
+        0.029860595241189003
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 44,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بھی",
+        "ہی",
+        "نہیں"
+      ],
+      "probabilities": [
+        0.21713179349899292,
+        0.12106244266033173,
+        0.08675044029951096
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 44,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "بھی",
+        "ہی",
+        "کرکٹ"
+      ],
+      "probabilities": [
+        0.18113356828689575,
+        0.12031808495521545,
+        0.08624731004238129
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 44,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "بھی",
+        "ہی",
+        "نہیں"
+      ],
+      "probabilities": [
+        0.20312178134918213,
+        0.16617003083229065,
+        0.08105093985795975
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 44,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "بھی",
+        "ہی",
+        "نہیں"
+      ],
+      "probabilities": [
+        0.1426524519920349,
+        0.09437819570302963,
+        0.06379447132349014
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 44,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "بھی",
+        "ہی",
+        "نہیں"
+      ],
+      "probabilities": [
+        0.21077921986579895,
+        0.11617487668991089,
+        0.0672222450375557
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 44,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "بھی",
+        "کرکٹ",
+        "ہی"
+      ],
+      "probabilities": [
+        0.1898873895406723,
+        0.10802837461233139,
+        0.0922156348824501
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 45,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "خواب",
+        "TV",
+        "مجھے"
+      ],
+      "probabilities": [
+        0.3176986873149872,
+        0.03863823413848877,
+        0.030068079009652138
+      ],
+      "right_script": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "template": 45,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "خواب",
+        "بھی",
+        "خوب"
+      ],
+      "probabilities": [
+        0.2399398684501648,
+        0.06600278615951538,
+        0.025041036307811737
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 45,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "خواب",
+        "خوب",
+        "بھی"
+      ],
+      "probabilities": [
+        0.27722281217575073,
+        0.07252398878335953,
+        0.05336415767669678
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 45,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "خواب",
+        "بھی",
+        "خوب"
+      ],
+      "probabilities": [
+        0.35329726338386536,
+        0.045250002294778824,
+        0.026558618992567062
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 45,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "خواب",
+        "بھی",
+        "می"
+      ],
+      "probabilities": [
+        0.4064382314682007,
+        0.026677945628762245,
+        0.0257107000797987
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 45,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "خواب",
+        "می",
+        "بھی"
+      ],
+      "probabilities": [
+        0.45294439792633057,
+        0.05285564810037613,
+        0.021670078858733177
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 46,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "کام",
+        "شادی",
+        "محنت"
+      ],
+      "probabilities": [
+        0.23746471107006073,
+        0.067530058324337,
+        0.060190457850694656
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 46,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "شادی",
+        "پیش",
+        "کام"
+      ],
+      "probabilities": [
+        0.10755861550569534,
+        0.10539016127586365,
+        0.059724874794483185
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 46,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "پیش",
+        "کام",
+        "محسوس"
+      ],
+      "probabilities": [
+        0.1159263625741005,
+        0.11504790931940079,
+        0.036625370383262634
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 46,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "شادی",
+        "کیا",
+        "کام"
+      ],
+      "probabilities": [
+        0.35030078887939453,
+        0.06430516391992569,
+        0.051399946212768555
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 46,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "شادی",
+        "کام",
+        "محنت"
+      ],
+      "probabilities": [
+        0.47374796867370605,
+        0.059406545013189316,
+        0.026789193972945213
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 46,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "کیا",
+        "شادی",
+        "کام"
+      ],
+      "probabilities": [
+        0.28980353474617004,
+        0.16806359589099884,
+        0.05786449462175369
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 47,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "کیا",
+        "چلا",
+        "مل"
+      ],
+      "probabilities": [
+        0.2124868780374527,
+        0.17487631738185883,
+        0.052136946469545364
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 47,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "کیا",
+        "چلا",
+        "مل"
+      ],
+      "probabilities": [
+        0.2342727780342102,
+        0.0760723203420639,
+        0.07007522881031036
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 47,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "کیا",
+        "پایا",
+        "جانا"
+      ],
+      "probabilities": [
+        0.2684745192527771,
+        0.14816167950630188,
+        0.04022183641791344
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 47,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "مل",
+        "بیٹھ",
+        "لے"
+      ],
+      "probabilities": [
+        0.13191063702106476,
+        0.08888552337884903,
+        0.06880263239145279
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 47,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "مل",
+        "لے",
+        "رہ"
+      ],
+      "probabilities": [
+        0.11955028027296066,
+        0.07256874442100525,
+        0.06915134191513062
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 47,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "مل",
+        "بھاگ",
+        "لے"
+      ],
+      "probabilities": [
+        0.10741571336984634,
+        0.0830753818154335,
+        0.08277171105146408
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 48,
+      "gender": "male",
+      "name": "احمد",
+      "tokens": [
+        "بیدار",
+        "کام",
+        "باتیں"
+      ],
+      "probabilities": [
+        0.1086297333240509,
+        0.08539889007806778,
+        0.04209110513329506
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 48,
+      "gender": "male",
+      "name": "علی",
+      "tokens": [
+        "بیدار",
+        "خاموش",
+        "کام"
+      ],
+      "probabilities": [
+        0.4137948751449585,
+        0.04617903754115105,
+        0.021261680871248245
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 48,
+      "gender": "male",
+      "name": "حسن",
+      "tokens": [
+        "بیدار",
+        "خاموش",
+        "آرام"
+      ],
+      "probabilities": [
+        0.5939217209815979,
+        0.040786586701869965,
+        0.03801655024290085
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 48,
+      "gender": "female",
+      "name": "عائشہ",
+      "tokens": [
+        "بیدار",
+        "انتظار",
+        "خاموش"
+      ],
+      "probabilities": [
+        0.2379441261291504,
+        0.08944425731897354,
+        0.05661659315228462
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 48,
+      "gender": "female",
+      "name": "فاطمہ",
+      "tokens": [
+        "بیدار",
+        "انتظار",
+        "باتیں"
+      ],
+      "probabilities": [
+        0.1549137979745865,
+        0.11920183897018433,
+        0.04999817907810211
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template": 48,
+      "gender": "female",
+      "name": "زینب",
+      "tokens": [
+        "انتظار",
+        "بیدار",
+        "باتیں"
+      ],
+      "probabilities": [
+        0.16092564165592194,
+        0.14373867213726044,
+        0.04753252863883972
+      ],
+      "right_script": [
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}
