@@ -1,0 +1,68 @@
+{
+  "language": "ur",
+  "model": "bert-base-multilingual-cased",
+  "tokenizer": "bert-base-multilingual-cased",
+  "score": 0.823469387755102,
+  "number_of_templates": 14,
+  "number_of_names": 140,
+  "names_per_gender": 70,
+  "date": "2026-11-21T17:21:37.013168+00:00",
+  "top_k": 3,
+  "debiasing": "none",
+  "templates_file": "data/templates/v2/disco_templates_ur.json",
+  "templates_sha256": "0dd2ff20ff1b3693668c4d297f978634d9ddb597dfab9b9d9dd6af1c35f6f7ed",
+  "python_version": "3.11.1",
+  "library_versions": {
+    "torch": "2.15.0",
+    "transformers": "5.22.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "2.4.0",
+    "scipy": "1.17.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "tqdm": "4.70.1"
+  },
+  "sanity_check": {
+    "mask_token": "[MASK]",
+    "mask_token_id": 103,
+    "device": "cpu",
+    "examples": [
+      {
+        "gender": "male",
+        "sentence": "احمد بہت [MASK] ہے۔",
+        "predictions": [
+          {
+            "token": "بڑا",
+            "probability": 0.10797244310379028
+          },
+          {
+            "token": "مشہور",
+            "probability": 0.08525624871253967
+          },
+          {
+            "token": "##ا",
+            "probability": 0.08426988869905472
+          }
+        ]
+      },
+      {
+        "gender": "female",
+        "sentence": "عائشہ بہت [MASK] ہے۔",
+        "predictions": [
+          {
+            "token": "مشہور",
+            "probability": 0.08564622700214386
+          },
+          {
+            "token": "کم",
+            "probability": 0.05877375975251198
+          },
+          {
+            "token": "زیادہ",
+            "probability": 0.05846711993217468
+          }
+        ]
+      }
+    ]
+  }
+}

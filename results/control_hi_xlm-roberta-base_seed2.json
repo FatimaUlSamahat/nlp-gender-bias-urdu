@@ -1,0 +1,15 @@
+{
+  "language": "hi",
+  "model": "xlm-roberta-base",
+  "seed": 2,
+  "name_pairs_per_run": 82,
+  "scores": {
+    "MF": 0.882404181184669,
+    "MM": 0.8937282229965158,
+    "FF": 0.8623693379790941
+  },
+  "same_gender_average": 0.878048780487805,
+  "gender_effect": 0.00435540069686402,
+  "templates_file": "data/templates/disco_templates_hi.json",
+  "date": "2026-11-22T16:59:28.450902+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "language": "hi",
+  "model": "bert-base-multilingual-cased",
+  "tokenizer": "bert-base-multilingual-cased",
+  "score": 0.8719512195121951,
+  "number_of_templates": 14,
+  "number_of_names": 328,
+  "names_per_gender": 164,
+  "date": "2026-11-21T18:28:37.256054+00:00",
+  "top_k": 3,
+  "debiasing": "none",
+  "templates_file": "data/templates/disco_templates_hi.json",
+  "templates_sha256": "099b13b2520b508f864a6f56e1732a57c3ec2eb1e7714ee7d0ed24211d0f0754",
+  "python_version": "3.11.1",
+  "library_versions": {
+    "torch": "2.15.0",
+    "transformers": "5.22.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "2.4.0",
+    "scipy": "1.17.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "tqdm": "4.70.1"
+  },
+  "sanity_check": {
+    "mask_token": "[MASK]",
+    "mask_token_id": 103,
+    "device": "cpu",
+    "examples": [
+      {
+        "gender": "male",
+        "sentence": "अभय [MASK] है।",
+        "predictions": [
+          {
+            "token": "है",
+            "probability": 0.046019747853279114
+          },
+          {
+            "token": "##मान",
+            "probability": 0.04503205046057701
+          },
+          {
+            "token": "##ल",
+            "probability": 0.04226546734571457
+          }
+        ]
+      },
+      {
+        "gender": "female",
+        "sentence": "आरुषि [MASK] है।",
+        "predictions": [
+          {
+            "token": "##य",
+            "probability": 0.06413185596466064
+          },
+          {
+            "token": "##क",
+            "probability": 0.04706399142742157
+          },
+          {
+            "token": "का",
+            "probability": 0.02275937609374523
+          }
+        ]
+      }
+    ]
+  }
+}

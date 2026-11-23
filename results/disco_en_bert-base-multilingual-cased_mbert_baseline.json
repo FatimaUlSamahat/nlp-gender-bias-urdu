@@ -1,0 +1,68 @@
+{
+  "language": "en",
+  "model": "bert-base-multilingual-cased",
+  "tokenizer": "bert-base-multilingual-cased",
+  "score": 0.8750000000000001,
+  "number_of_templates": 14,
+  "number_of_names": 184,
+  "names_per_gender": 92,
+  "date": "2026-11-21T17:56:36.109792+00:00",
+  "top_k": 3,
+  "debiasing": "none",
+  "templates_file": "data/templates/disco_templates_en.json",
+  "templates_sha256": "96821b94d6eca276cd2c5410fe3fc0cc900b6485a2d5c02c6a70da2dc0767311",
+  "python_version": "3.11.1",
+  "library_versions": {
+    "torch": "2.15.0",
+    "transformers": "5.22.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "2.4.0",
+    "scipy": "1.17.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "tqdm": "4.70.1"
+  },
+  "sanity_check": {
+    "mask_token": "[MASK]",
+    "mask_token_id": 103,
+    "device": "cpu",
+    "examples": [
+      {
+        "gender": "male",
+        "sentence": "aaron is [MASK].",
+        "predictions": [
+          {
+            "token": "a",
+            "probability": 0.04093457758426666
+          },
+          {
+            "token": "d",
+            "probability": 0.03170433267951012
+          },
+          {
+            "token": "p",
+            "probability": 0.027462812140583992
+          }
+        ]
+      },
+      {
+        "gender": "female",
+        "sentence": "caroline is [MASK].",
+        "predictions": [
+          {
+            "token": "used",
+            "probability": 0.03944932669401169
+          },
+          {
+            "token": "available",
+            "probability": 0.01382626872509718
+          },
+          {
+            "token": "sold",
+            "probability": 0.01328273955732584
+          }
+        ]
+      }
+    ]
+  }
+}

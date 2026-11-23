@@ -1,0 +1,15 @@
+{
+  "language": "ur",
+  "model": "ai4bharat/IndicBERTv2-MLM-only",
+  "seed": 0,
+  "name_pairs_per_run": 35,
+  "scores": {
+    "MF": 0.6122448979591837,
+    "MM": 0.5918367346938774,
+    "FF": 0.5
+  },
+  "same_gender_average": 0.5459183673469388,
+  "gender_effect": 0.06632653061224492,
+  "templates_file": "data/templates/v2/disco_templates_ur.json",
+  "date": "2026-11-21T22:48:14.978962+00:00"
+}

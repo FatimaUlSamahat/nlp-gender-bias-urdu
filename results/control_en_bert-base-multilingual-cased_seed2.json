@@ -1,0 +1,15 @@
+{
+  "language": "en",
+  "model": "bert-base-multilingual-cased",
+  "seed": 2,
+  "name_pairs_per_run": 46,
+  "scores": {
+    "MF": 0.8633540372670806,
+    "MM": 0.8618012422360248,
+    "FF": 0.8602484472049691
+  },
+  "same_gender_average": 0.8610248447204969,
+  "gender_effect": 0.0023291925465837027,
+  "templates_file": "data/templates/disco_templates_en.json",
+  "date": "2026-11-21T21:05:32.618005+00:00"
+}

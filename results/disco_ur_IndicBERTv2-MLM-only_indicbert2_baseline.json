@@ -1,0 +1,68 @@
+{
+  "language": "ur",
+  "model": "ai4bharat/IndicBERTv2-MLM-only",
+  "tokenizer": "ai4bharat/IndicBERTv2-MLM-only",
+  "score": 0.6061224489795919,
+  "number_of_templates": 14,
+  "number_of_names": 140,
+  "names_per_gender": 70,
+  "date": "2026-11-21T18:48:50.511561+00:00",
+  "top_k": 3,
+  "debiasing": "none",
+  "templates_file": "data/templates/v2/disco_templates_ur.json",
+  "templates_sha256": "0dd2ff20ff1b3693668c4d297f978634d9ddb597dfab9b9d9dd6af1c35f6f7ed",
+  "python_version": "3.11.1",
+  "library_versions": {
+    "torch": "2.15.0",
+    "transformers": "5.22.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "2.4.0",
+    "scipy": "1.17.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "tqdm": "4.70.1"
+  },
+  "sanity_check": {
+    "mask_token": "[MASK]",
+    "mask_token_id": 4,
+    "device": "cpu",
+    "examples": [
+      {
+        "gender": "male",
+        "sentence": "احمد بہت [MASK] ہے۔",
+        "predictions": [
+          {
+            "token": "اچھا",
+            "probability": 0.30836308002471924
+          },
+          {
+            "token": "خوبصورت",
+            "probability": 0.14765891432762146
+          },
+          {
+            "token": "خوش",
+            "probability": 0.03771985322237015
+          }
+        ]
+      },
+      {
+        "gender": "female",
+        "sentence": "عائشہ بہت [MASK] ہے۔",
+        "predictions": [
+          {
+            "token": "خوبصورت",
+            "probability": 0.42969247698783875
+          },
+          {
+            "token": "اچھی",
+            "probability": 0.1801101565361023
+          },
+          {
+            "token": "خوش",
+            "probability": 0.0492527149617672
+          }
+        ]
+      }
+    ]
+  }
+}
